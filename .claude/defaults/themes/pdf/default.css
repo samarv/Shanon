@@ -1,0 +1,162 @@
+/* Shannon Default PDF Theme */
+/* Clean, professional styling for markdown-to-PDF conversion */
+
+:root {
+  --text-color: #1a1a1a;
+  --bg-color: #ffffff;
+  --accent-color: #3b82f6;
+  --muted-color: #6b7280;
+  --border-color: #e5e7eb;
+  --code-bg: #f3f4f6;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--text-color);
+  background: var(--bg-color);
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 0.75in 1in;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 24pt;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 18pt;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+h4 {
+  font-size: 12pt;
+  color: var(--muted-color);
+}
+
+p {
+  margin: 0.75em 0;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0.75em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code */
+code {
+  font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+  font-size: 0.9em;
+  background: var(--code-bg);
+  padding: 0.15em 0.3em;
+  border-radius: 3px;
+}
+
+pre {
+  background: var(--code-bg);
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+th, td {
+  padding: 0.5em 0.75em;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+th {
+  background: var(--code-bg);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid var(--accent-color);
+  background: var(--code-bg);
+  color: var(--muted-color);
+}
+
+blockquote p {
+  margin: 0.5em 0;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Print-specific */
+@media print {
+  body {
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  pre, blockquote, table {
+    page-break-inside: avoid;
+  }
+}

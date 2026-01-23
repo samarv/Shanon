@@ -1,0 +1,182 @@
+/*
+ * Minimal PDF Stylesheet
+ * Clean, simple, distraction-free document styling
+ * Perfect for quick exports and drafts
+ */
+
+/* ============================================
+   PAGE SETUP
+   ============================================ */
+
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+/* ============================================
+   BASE TYPOGRAPHY
+   ============================================ */
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: #333333;
+}
+
+/* ============================================
+   HEADINGS
+   ============================================ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 20pt;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 13pt;
+}
+
+h4, h5, h6 {
+    font-size: 11pt;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 10pt;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: 600;
+    background-color: #f0f0f0;
+}
+
+/* ============================================
+   CODE
+   ============================================ */
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    background-color: #f5f5f5;
+    padding: 0.1em 0.3em;
+}
+
+pre {
+    background-color: #f5f5f5;
+    padding: 1em;
+    font-size: 9pt;
+    overflow-x: auto;
+    border: 1px solid #e0e0e0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+/* ============================================
+   BLOCKQUOTES
+   ============================================ */
+
+blockquote {
+    border-left: 2px solid #999999;
+    margin: 1em 0;
+    padding-left: 1em;
+    color: #555555;
+    font-style: italic;
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+
+ul, ol {
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+}
+
+li {
+    margin: 0.2em 0;
+}
+
+/* ============================================
+   HORIZONTAL RULE
+   ============================================ */
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 2em 0;
+}
+
+/* ============================================
+   IMAGES
+   ============================================ */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+.toc {
+    border: 1px solid #cccccc;
+    padding: 1em;
+    margin: 1em 0;
+    background: none;
+}
+
+.toc ul {
+    list-style-type: none;
+}
+
+.toc a {
+    color: #333333;
+}
+
+/* ============================================
+   PRINT
+   ============================================ */
+
+@media print {
+    body {
+        font-size: 10pt;
+    }
+}

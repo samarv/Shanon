@@ -1,0 +1,489 @@
+/*
+ * Default PDF Stylesheet for Markdown to PDF Converter
+ * Clean, professional styling for document generation
+ */
+
+/* ============================================
+   PAGE SETUP
+   ============================================ */
+
+@page {
+    size: A4;
+    margin: 2.5cm;
+}
+
+@page :first {
+    margin-top: 3cm;
+}
+
+/* ============================================
+   BASE TYPOGRAPHY
+   ============================================ */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #1a1a1a;
+    max-width: 100%;
+    hyphens: auto;
+}
+
+/* ============================================
+   HEADINGS
+   ============================================ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    page-break-after: avoid;
+    orphans: 3;
+    widows: 3;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #1D91D0;
+    border-bottom: 2px solid #1D91D0;
+    padding-bottom: 0.3em;
+    page-break-before: always;
+    margin-top: 0;
+}
+
+h1:first-of-type {
+    page-break-before: avoid;
+}
+
+h2 {
+    font-size: 18pt;
+    color: #2c2c2c;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 14pt;
+    color: #3c3c3c;
+}
+
+h4 {
+    font-size: 12pt;
+    color: #4c4c4c;
+}
+
+h5 {
+    font-size: 11pt;
+    color: #5c5c5c;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 10pt;
+    color: #666666;
+    font-style: italic;
+}
+
+/* ============================================
+   PARAGRAPHS & TEXT
+   ============================================ */
+
+p {
+    margin: 0.8em 0;
+    orphans: 3;
+    widows: 3;
+    text-align: justify;
+}
+
+strong, b {
+    font-weight: 600;
+}
+
+em, i {
+    font-style: italic;
+}
+
+mark {
+    background-color: #fff3cd;
+    padding: 0.1em 0.2em;
+}
+
+small {
+    font-size: 0.85em;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+a {
+    color: #1D91D0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Show URL after link in print */
+a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666666;
+    word-break: break-all;
+}
+
+/* Don't show URL for internal links */
+a[href^="#"]:after {
+    content: none;
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+
+ul, ol {
+    margin: 0.5em 0;
+    padding-left: 2em;
+}
+
+li {
+    margin: 0.3em 0;
+}
+
+li > ul, li > ol {
+    margin: 0.2em 0;
+}
+
+/* Task lists */
+ul.task-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li.task-list-item {
+    position: relative;
+    padding-left: 1.5em;
+}
+
+li.task-list-item::before {
+    content: "☐";
+    position: absolute;
+    left: 0;
+}
+
+li.task-list-item.checked::before {
+    content: "☑";
+    color: #2AD0A9;
+}
+
+/* Definition lists */
+dl {
+    margin: 1em 0;
+}
+
+dt {
+    font-weight: 600;
+    margin-top: 0.8em;
+    color: #2c2c2c;
+}
+
+dd {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    color: #4c4c4c;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 10pt;
+    page-break-inside: avoid;
+}
+
+th, td {
+    border: 1px solid #d0d0d0;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #2c2c2c;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Table caption */
+table caption {
+    font-style: italic;
+    color: #666666;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+/* ============================================
+   CODE
+   ============================================ */
+
+code {
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Consolas', monospace;
+    font-size: 9pt;
+    background-color: #f5f5f5;
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+}
+
+pre {
+    background-color: #f8f8f8;
+    padding: 1em 1.2em;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    overflow-x: auto;
+    font-size: 9pt;
+    line-height: 1.45;
+    page-break-inside: avoid;
+    margin: 1em 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* Syntax highlighting placeholder */
+.code-highlight {
+    background-color: #f8f8f8;
+}
+
+/* ============================================
+   BLOCKQUOTES
+   ============================================ */
+
+blockquote {
+    border-left: 4px solid #1D91D0;
+    margin: 1.5em 0;
+    padding: 0.8em 1.2em;
+    background-color: #f8f9fa;
+    color: #4c4c4c;
+    font-style: italic;
+}
+
+blockquote p {
+    margin: 0.3em 0;
+    text-align: left;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #666666;
+    font-style: normal;
+}
+
+blockquote cite::before {
+    content: "— ";
+}
+
+/* Nested blockquotes */
+blockquote blockquote {
+    border-left-color: #999999;
+    margin: 0.8em 0;
+}
+
+/* ============================================
+   HORIZONTAL RULES
+   ============================================ */
+
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 2.5em 0;
+}
+
+/* ============================================
+   IMAGES
+   ============================================ */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    page-break-inside: avoid;
+}
+
+figure {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666666;
+    margin-top: 0.5em;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+.toc {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 1.2em 1.5em;
+    margin: 2em 0;
+    page-break-after: always;
+}
+
+.toc-title {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 0.8em;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 0.3em;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.toc > ul > li {
+    margin: 0.5em 0;
+}
+
+.toc ul ul {
+    padding-left: 1.5em;
+}
+
+.toc ul ul li {
+    margin: 0.3em 0;
+}
+
+.toc a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.toc a:hover {
+    color: #1D91D0;
+}
+
+.toc a:after {
+    content: none;
+}
+
+/* ============================================
+   FOOTNOTES
+   ============================================ */
+
+.footnote {
+    font-size: 9pt;
+    color: #666666;
+}
+
+.footnote-ref {
+    font-size: 0.75em;
+    vertical-align: super;
+    color: #1D91D0;
+}
+
+.footnotes {
+    margin-top: 3em;
+    padding-top: 1em;
+    border-top: 1px solid #e0e0e0;
+    font-size: 9pt;
+}
+
+.footnotes ol {
+    padding-left: 1.5em;
+}
+
+.footnotes li {
+    margin: 0.5em 0;
+}
+
+/* ============================================
+   ALERTS & CALLOUTS
+   ============================================ */
+
+.alert {
+    padding: 1em 1.2em;
+    margin: 1.5em 0;
+    border-radius: 5px;
+    border-left: 4px solid;
+}
+
+.alert-info {
+    background-color: #e7f3ff;
+    border-left-color: #1D91D0;
+}
+
+.alert-success {
+    background-color: #e6f7f2;
+    border-left-color: #2AD0A9;
+}
+
+.alert-warning {
+    background-color: #fff8e6;
+    border-left-color: #F09D4F;
+}
+
+.alert-danger {
+    background-color: #ffebe6;
+    border-left-color: #F2510A;
+}
+
+/* ============================================
+   PRINT OPTIMIZATIONS
+   ============================================ */
+
+@media print {
+    body {
+        font-size: 10pt;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+
+    table, pre, blockquote, figure {
+        page-break-inside: avoid;
+    }
+
+    img {
+        page-break-inside: avoid;
+        page-break-before: auto;
+        page-break-after: auto;
+    }
+
+    /* Avoid widows/orphans */
+    p, li {
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* Don't break inside these elements */
+    tr, dt, dd {
+        page-break-inside: avoid;
+    }
+}

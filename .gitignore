@@ -1,0 +1,40 @@
+# Personal context (contains private info)
+.claude/CLAUDE.local.md
+
+# Content packs (users add their own)
+content/*
+!content/README.md
+
+# Initiative work products (user-specific)
+Initiatives/*
+!Initiatives/README.md
+
+# Output folder
+Output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Node
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

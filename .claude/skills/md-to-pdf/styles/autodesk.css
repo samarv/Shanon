@@ -1,0 +1,373 @@
+/*
+ * Autodesk Brand PDF Stylesheet
+ * Uses Autodesk brand colors and typography
+ * 
+ * Brand Colors:
+ *   Primary Blue:    #1D91D0
+ *   Orange Accent:   #F09D4F
+ *   Red-Orange:      #F2510A
+ *   Teal Success:    #2AD0A9
+ *   Yellow Warning:  #FFFE00
+ */
+
+/* ============================================
+   PAGE SETUP - AUTODESK BRANDED
+   ============================================ */
+
+@page {
+    size: A4;
+    margin: 2cm 2.5cm;
+    
+    @top-left {
+        content: "AUTODESK";
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #1D91D0;
+        letter-spacing: 0.1em;
+    }
+}
+
+@page :first {
+    margin-top: 3cm;
+    
+    @top-left {
+        content: none;
+    }
+}
+
+/* ============================================
+   BASE TYPOGRAPHY - AUTODESK STYLE
+   ============================================ */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #2c2c2c;
+}
+
+/* ============================================
+   HEADINGS - AUTODESK COLORS
+   ============================================ */
+
+h1 {
+    font-size: 28pt;
+    font-weight: 300;
+    color: #1D91D0;
+    border-bottom: 3px solid #1D91D0;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.8em;
+    page-break-before: always;
+    margin-top: 0;
+    letter-spacing: -0.02em;
+}
+
+h1:first-of-type {
+    page-break-before: avoid;
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 500;
+    color: #1a1a1a;
+    border-bottom: 2px solid #F09D4F;
+    padding-bottom: 0.2em;
+    margin-top: 1.8em;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-top: 1.5em;
+}
+
+h4 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 10pt;
+}
+
+h5 {
+    font-size: 11pt;
+    font-weight: 500;
+    color: #666666;
+}
+
+/* ============================================
+   LINKS - AUTODESK BLUE
+   ============================================ */
+
+a {
+    color: #1D91D0;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    border-bottom-color: #1D91D0;
+}
+
+/* ============================================
+   TABLES - AUTODESK STYLE
+   ============================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 9.5pt;
+}
+
+th {
+    background: linear-gradient(180deg, #1D91D0 0%, #1a82bd 100%);
+    color: white;
+    font-weight: 500;
+    padding: 10px 12px;
+    text-align: left;
+    border: none;
+}
+
+td {
+    border: 1px solid #e0e0e0;
+    padding: 10px 12px;
+    border-top: none;
+}
+
+tr:nth-child(even) td {
+    background-color: #f8f9fa;
+}
+
+tr:first-child td {
+    border-top: 1px solid #e0e0e0;
+}
+
+/* ============================================
+   CODE - CLEAN STYLE
+   ============================================ */
+
+code {
+    font-family: 'SF Mono', Monaco, 'Fira Mono', monospace;
+    font-size: 9pt;
+    background-color: #f0f4f8;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    color: #1D91D0;
+}
+
+pre {
+    background-color: #1a1a2e;
+    color: #e8e8e8;
+    padding: 1.2em 1.5em;
+    border-radius: 6px;
+    font-size: 9pt;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+}
+
+/* ============================================
+   BLOCKQUOTES - AUTODESK ACCENT
+   ============================================ */
+
+blockquote {
+    border-left: 4px solid #F09D4F;
+    margin: 1.5em 0;
+    padding: 0.8em 1.2em;
+    background-color: #fff9f3;
+    font-style: italic;
+    color: #4c4c4c;
+}
+
+blockquote p {
+    margin: 0.3em 0;
+}
+
+/* ============================================
+   CALLOUT BOXES - AUTODESK COLORS
+   ============================================ */
+
+/* Info - Blue */
+.callout-info, blockquote.info {
+    border-left-color: #1D91D0;
+    background-color: #e8f4fc;
+}
+
+/* Success - Teal */
+.callout-success, blockquote.success {
+    border-left-color: #2AD0A9;
+    background-color: #e6f9f4;
+}
+
+/* Warning - Orange */
+.callout-warning, blockquote.warning {
+    border-left-color: #F09D4F;
+    background-color: #fff8f0;
+}
+
+/* Danger - Red-Orange */
+.callout-danger, blockquote.danger {
+    border-left-color: #F2510A;
+    background-color: #fff0eb;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+.toc {
+    background-color: #f8f9fa;
+    border: none;
+    border-left: 4px solid #1D91D0;
+    padding: 1.5em 2em;
+    margin: 2em 0;
+}
+
+.toc a {
+    color: #2c2c2c;
+}
+
+.toc a:hover {
+    color: #1D91D0;
+}
+
+/* ============================================
+   SPECIAL ELEMENTS
+   ============================================ */
+
+/* Highlighted key metrics */
+.metric {
+    display: inline-block;
+    background: linear-gradient(135deg, #1D91D0 0%, #2AD0A9 100%);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+/* Status badges */
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    font-size: 0.8em;
+    font-weight: 500;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.badge-success {
+    background-color: #2AD0A9;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #F09D4F;
+    color: white;
+}
+
+.badge-danger {
+    background-color: #F2510A;
+    color: white;
+}
+
+.badge-info {
+    background-color: #1D91D0;
+    color: white;
+}
+
+/* ============================================
+   LISTS - AUTODESK STYLE
+   ============================================ */
+
+ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+ul > li::before {
+    content: "▸";
+    color: #1D91D0;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul ul > li::before {
+    content: "–";
+    color: #F09D4F;
+}
+
+ol {
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol > li::before {
+    content: counter(item) ".";
+    color: #1D91D0;
+    font-weight: 600;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.5em;
+}
+
+/* ============================================
+   HR - AUTODESK GRADIENT
+   ============================================ */
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #1D91D0 0%, #F09D4F 50%, #2AD0A9 100%);
+    margin: 2.5em 0;
+}
+
+/* ============================================
+   FOOTER NOTES
+   ============================================ */
+
+.footnotes {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 2px solid #1D91D0;
+    font-size: 9pt;
+    color: #666666;
+}
+
+/* ============================================
+   PRINT OPTIMIZATIONS
+   ============================================ */
+
+@media print {
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    table, pre, blockquote {
+        page-break-inside: avoid;
+    }
+    
+    /* Ensure colors print */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
