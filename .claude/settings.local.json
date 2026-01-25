@@ -8,7 +8,9 @@
       "Bash(/c/Windows/py:*)",
       "Bash(PYTHONIOENCODING=utf-8 /c/Windows/py:*)",
       "Bash(git push:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(gh auth:*)",
+      "Bash(git config:*)"
     ]
   }
 }
