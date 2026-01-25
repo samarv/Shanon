@@ -1,623 +1,381 @@
 # Shannon
 
-**350+ proven PM frameworks from the best product leaders—applied automatically to your work.**
+**The PM frameworks you already know—applied to your work automatically.**
 
 ---
 
-## Work Like the Best PMs Work
+## The Problem I Had
 
-You're using generic AI. It doesn't know the difference between a PRD and a pitch deck. You explain Radical Candor every time you draft feedback. Your OKRs lack the rigor of Marty Cagan's empowered teams. Your positioning doesn't follow April Dunford's playbook.
+I was explaining the same frameworks to AI every single day.
 
-**Shannon changes this.**
+"Use April Dunford's positioning method." "Apply Shreyas Doshi's LNO prioritization." "Follow the CRAFT email structure." Every conversation started from zero. Generic AI doesn't know the difference between a Working Backwards PRD and a pitch deck. It doesn't know that Radical Candor feedback requires both caring personally and challenging directly.
 
-It's an AI system pre-loaded with 350+ frameworks from product leaders you already follow:
-- **Shreyas Doshi** - First principles thinking, LNO prioritization
-- **April Dunford** - Obviously Awesome positioning
-- **Teresa Torres** - Opportunity Solution Trees, continuous discovery
-- **Marty Cagan** - Empowered product teams
-- **Kim Scott** - Radical Candor feedback
-- **Ryan Singer** - Shape Up pitches
-- **Geoffrey Moore** - Crossing the Chasm strategy
-- **Lenny Rachitsky** - Growth frameworks, retention mechanics
-- **Elena Verna** - PLG flywheels, activation optimization
-- Plus 100+ more frameworks from top PMs, founders, and growth leaders
+**I was re-teaching proven methodologies to a tool that should already know them.**
 
-When you draft an email, **CRAFT method** applies. When you create a PRD, **Working Backwards PR/FAQ** structures it. When you prioritize tasks, **LNO framework** categorizes them. When you position your product, **April Dunford's 5-step process** guides you.
+Worse: My outputs were inconsistent. Sometimes I'd remember to apply a framework. Most times I wouldn't. The quality of my work depended on whether I had the mental energy to prompt-engineer that day.
 
-**No more explaining frameworks to AI. No more generic advice.**
-
-Your outputs improve. Stakeholders notice. You're applying proven methodologies—automatically.
+So I built Shannon—a PM system that knows 350+ frameworks from the product leaders I already follow, and applies them without me asking.
 
 ---
 
-## Shannon in Action
+## What Shannon Does
 
-### Draft Strategic Emails → CRAFT Method Activates
+Shannon is AI pre-loaded with proven PM methodologies. When you draft an email, **CRAFT method** structures it. When you create a PRD, **Working Backwards PR/FAQ** guides you. When you position a product, **April Dunford's 5-step process** applies automatically.
 
-**You:** "Draft an email to my VP about the Q1 roadmap change"
+You tell Shannon: **"Use the appropriate skill"** and it selects the right framework for your work.
 
-**Shannon:**
-```
-Applying CRAFT method (Sam Lessin framework) for executive communication...
+**No more explaining methodologies. No more inconsistent outputs.**
 
-Subject: Q1 Roadmap Shift: Analytics Over Social
+Your work improves. You notice it first. Then stakeholders start asking what changed.
 
-Sarah,
+---
 
-**Catch:** Our activation data shows 73% of new users churn before 
-completing their first report. Analytics is the bottleneck.
+## Who This Is For
 
-**Reasoning:** Cutting social sharing (3 eng-weeks) to double-down 
-on guided analytics. Trade-off: Social moves to Q2, but we reduce 
-churn by 50% and unlock enterprise deals.
+You're a product leader. You've read the books—*Inspired*, *Continuous Discovery Habits*, *Obviously Awesome*, *Empowered*. You follow Shreyas Doshi, Teresa Torres, Lenny Rachitsky, Elena Verna.
 
-**Ask:** Your approval to communicate at Friday's all-hands.
+**You know good product work when you see it.** You just can't produce it consistently under pressure.
 
-**Follow-up:** If approved, I'll update eng team by EOD and draft 
-messaging for your review Thursday.
+Shannon raises your floor. The "quick email to your VP" becomes CRAFT-structured and executive-ready. The "rough positioning doc" follows April Dunford's playbook without you forcing it. The feedback you give your designer applies Radical Candor principles naturally.
 
-**Timebox:** Need go/no-go by Wednesday EOD to stay on schedule.
-```
+**Single-player value first:** Shannon makes *your* work better immediately. Later, you can elevate your entire team. But it starts with you producing consistently excellent output.
 
-✓ Executive-ready, structured, actionable—first draft.
+---
 
-### Create PRDs → Working Backwards PR/FAQ
+## Shannon in 30 Seconds
 
-**You:** "Create a PRD for collaboration features"
+**You:** "Use the appropriate skill to draft an email to my CEO about delaying the Q2 launch"
 
 **Shannon:**
 ```
-Using Amazon's Working Backwards framework. First, let me ask one 
-eigenquestion to unlock clarity:
+Applying CRAFT method for executive communication...
 
-"Is this real-time collaboration (like Figma) or async review 
-(like Google Docs comments)?"
+Subject: Q2 Launch → Q3 (Customer Research Gap)
 
-[You answer: async review]
+Maya,
 
-Perfect. Writing the PR/FAQ now...
+**Catch:** We have 47 signups but zero validated use cases. 
+If we launch now, we're guessing.
 
-# Press Release: Analytics Sharing & Feedback (Q1 2026)
+**Reasoning:** Delaying 6 weeks to run discovery sprints with 
+10 target customers. Trade-off: Q2 revenue miss, but we avoid 
+building the wrong thing.
 
-Analytics Platform announces async collaboration...
-[Full PR/FAQ with customer benefits, FAQs, success metrics]
+**Ask:** Your approval to communicate the shift at Friday's 
+all-hands.
+
+**Follow-up:** If approved, I'll have revised roadmap and 
+customer research plan on your desk Wednesday.
+
+**Timebox:** Need go/no-go by EOD Tuesday to keep eng team 
+aligned.
 ```
 
-✓ Customer-centric, validated approach before building.
+✓ Executive-ready. First draft. No second-guessing.
 
-### Prioritize Work → LNO Framework
+---
 
-**You:** "I have 15 tasks. What should I focus on?"
+## How It Works
 
-**Shannon:**
+### 1. Core Quality Standards (Always On)
+
+Shannon applies product leadership rigor to every output:
+- **First principles:** Start with "why" before "what"
+- **Trade-off clarity:** Make every decision's cost explicit
+- **Outcome focus:** Measure by impact, not activity
+- **Stakeholder clarity:** Every output has a clear next action
+
+You get the "senior PM review" automatically.
+
+### 2. 350+ Proven Frameworks (On-Demand)
+
+Shannon knows methodologies from the PMs you already learn from:
+
+**Strategy & Planning:**
+- Three Pillar Strategy (vision, bets, roadmap)
+- Opportunity Solution Trees (Teresa Torres)
+- Jobs-to-be-Done Analysis
+- OKRs with Radical Focus 
+
+**Execution & Delivery:**
+- Shape Up Pitches (Ryan Singer/Basecamp)
+- Working Backwards PR/FAQ (Amazon)
+- Now/Next/Later Roadmapping
+- Trade-off Sliders
+
+**Product-Led Growth:**
+- PLG Activation Funnels 
+- First Mile Experience (Lazy/Vain/Selfish)
+- Retention Mechanics & Habit Loops
+- North Star Metric Frameworks
+
+**Communication:**
+- CRAFT Method (Concise Executive Emails)
+- Radical Candor Feedback 
+- Strategic Narrative Framework
+- Eigenquestions 
+**Go-to-Market:**
+- Product Positioning 
+- Crossing the Chasm 
+- Category Design
+- Beachhead Market Selection
+
+**Discovery & Research:**
+- Continuous Discovery Habits (Teresa Torres)
+- Customer Interview Best Practices
+- Hypothesis-Driven Validation
+- Jobs-to-be-Done Research
+
+*Full list: [Browse 350+ skills](.claude/skills/)*
+
+**The key:** You don't choose frameworks manually. You tell Shannon **"use the appropriate skill"** and it selects the right methodology for your request.
+
+### 3. Personal Context Layer
+
+Shannon learns your context once (2-minute setup):
+- Your name, role, product
+- Your team structure and stakeholders
+- Communication preferences
+- Company terminology
+
+Stored in `.claude/CLAUDE.local.md` (gitignored for privacy).
+
+Every response uses your context. No re-explaining who your CEO is or what product you work on.
+
+### 4. Living Initiative Memory
+
+Each major project gets its own folder with a `CLAUDE.md` brain that Shannon maintains automatically:
+
 ```
-Applying LNO framework (Lenny Rachitsky):
-
-🚀 LEVERAGE (Do first - 20% effort, 80% impact)
-- L1: Finalize enterprise PRD (unblocks 8 eng-weeks)
-- L2: Demo to VP (unblocks $1.2M in deals)
-- L3: Resolve permissions blocker (3 deals waiting)
-
-⚖️ NEUTRAL (Important but not urgent)
-- N1: Update Q2 roadmap draft
-- N2: Review designer mockups
-[...]
-
-🔻 OVERHEAD (Delegate or defer)
-- O1: Reorganize Confluence docs → Defer to Q2
-- O2: Update 47 Jira tickets → Delegate or skip
+Initiatives/
+└── enterprise-tier/
+    ├── CLAUDE.md          # Auto-maintained: decisions, timeline, blockers
+    ├── prd.md
+    ├── positioning.md
+    └── research/
 ```
 
-✓ Clear priorities based on Q1 objective.
+**What Shannon tracks:**
+- Decisions made and why
+- Trade-offs accepted
+- Documents created
+- Current blockers
+- Open questions
 
-### Position Product → April Dunford's Method
+Three weeks later: *"Why did we decide on async instead of real-time collaboration?"*
 
-**You:** "Help me position our analytics tool against Tableau"
+Shannon reads `CLAUDE.md` and tells you exactly why—with the original reasoning, trade-offs, and data.
 
-**Shannon:**
-```
-Using April Dunford's Obviously Awesome framework:
+**You never lose context. You never rehash decisions.**
 
-1. **Competitive Alternatives:** What customers use today
-   - Tableau (enterprise BI)
-   - Excel + manual reporting
-   - Do nothing (status quo)
+---
 
-2. **Unique Attributes:** What you have that they don't
-   - Real-time collaboration
-   - No SQL required
-   - Native integrations with your stack
+## Real Examples
 
-3. **Value (translation):** Why those attributes matter
-   - Teams align faster (real-time)
-   - Marketers self-serve (no SQL)
-   - Automated data refresh (native integrations)
+### Draft a PRD → Working Backwards
+**You:** "Use the appropriate skill to create a PRD for enterprise SSO"  
+**Shannon:** Applies Amazon's PR/FAQ format—starts with customer benefit, asks clarifying questions, then writes customer-centric documentation before features.
 
-4. **Target Segment:** Who cares most about this value
-   - Mid-market SaaS companies (50-500 employees)
-   - Marketing/Ops teams (non-technical)
-   - Needs: Fast decisions, no data team dependency
+### Prioritize Tasks → LNO Framework
+**You:** "Use the appropriate skill—I have 18 tasks, what should I focus on?"  
+**Shannon:** Applies Shreyas Doshi's LNO framework—categorizes into Leverage (outsized impact), Neutral (important but not urgent), and Overhead (delegate or kill). Clear priorities based on impact.
 
-5. **Market Category:** Context that makes your value obvious
-   - "Collaborative Analytics for Non-Technical Teams"
-   - NOT "Business Intelligence" (too enterprise)
-
-Your positioning: "The Figma of Analytics—Real-time collaboration 
-for teams who don't speak SQL."
-```
-
-✓ Differentiated positioning that wins deals.
+### Position Your Product → April Dunford
+**You:** "Use the appropriate skill to position our API analytics tool against Datadog"  
+**Shannon:** Walks through Obviously Awesome's 5 steps—competitive alternatives, unique attributes, value translation, target segment, market category. Produces differentiated positioning statement.
 
 ### Give Feedback → Radical Candor
-
-**You:** "Help me give feedback to Sarah about missed deadlines"
-
-**Shannon:**
-```
-Applying Radical Candor (Kim Scott framework):
-
-You need to Care Personally + Challenge Directly. Avoid Ruinous 
-Empathy (being nice but not helpful).
-
-**Script:**
-
-"Sarah, can we talk about the Q4 timeline? [Care: show you value her]
-
-You've missed 3 sprint commitments this quarter. This impacts the 
-team's ability to hit our OKR. [Challenge: be direct about impact]
-
-I want to understand what's blocking you and how I can help. 
-[Care: genuinely interested in helping]
-
-Is it capacity? Unclear requirements? Something else? Let's figure 
-this out together so next quarter is different." 
-[Challenge + Care: accountability with support]
-```
-
-✓ Respectful but direct—builds trust while solving problems.
+**You:** "Use the appropriate skill to give feedback about John missing sprint commitments"  
+**Shannon:** Applies Kim Scott's Radical Candor—balances caring personally with challenging directly. Creates script that's direct but respectful, builds trust while solving problems.
 
 ---
 
 ## Quick Start
 
 ```bash
-# 1. Clone and open
+# 1. Clone and open in Cursor
 git clone https://github.com/samarv/shannon.git shannon
 cd shannon
 cursor .
 
-# 2. Make your first request 
-"Draft an email using CRAFT method about Q1 priorities based on attached context"
+# 2. Create your personal context file
+cp .claude/CLAUDE.local.example.md .claude/CLAUDE.local.md
+# Edit with your name, role, product, team (2 minutes)
 
-# 3. Shannon guides you through 2-min setup
-# Done. Frameworks activate automatically.
+# 3. Make your first request
+"Use the appropriate skill to draft an email about Q1 roadmap 
+priorities to my leadership team"
+
+# Done. Shannon selects the right framework and applies it.
 ```
 
 ---
 
-## How It Works
+## Customizing Shannon for Your Company
 
-Shannon layers proven methodologies onto AI:
+Shannon ships with 350+ universal PM frameworks. But your company has its own SOPs, templates, and standards.
 
-### 1. Core Methodology (Always Active)
-- **Quality Gates:** 5-step validation before any output (Shreyas Doshi standards)
-- **First Principles:** Start with "why" before "what" or "how"
-- **Trade-off Analysis:** Make every decision explicit
-- **Outcome Focus:** Measure success by results, not outputs
+**Shannon is fully customizable:**
 
-### 2. 350+ Skills (Auto-Activate)
+### Add Your Company's Content
 
-**Product Strategy:**
-- Three Pillar Strategy (vision, bets, roadmap)
-- Opportunity Solution Trees (Teresa Torres)
-- Jobs-to-be-Done Analysis
-- North Star Metrics
+Create a `content/` folder with:
+- **Templates**: Your PRD template, roadmap format, OKR structure
+- **Brand Voice**: Your company's writing style and terminology
+- **Org Data**: Colleague names, team structure, stakeholder map
+- **Quality Standards**: Your company's definition of "good enough"
 
-**Execution:**
-- Shape Up Pitches (Ryan Singer/Basecamp)
-- Working Backwards PR/FAQ (Amazon)
-- Now/Next/Later Roadmapping
-- OKR Frameworks (Radical Focus)
+Shannon discovers and applies these automatically. Company content *extends* core frameworks—it doesn't replace them.
 
-**Growth:**
-- PLG Activation Funnels (Elena Verna)
-- First Mile Experience (lazy/vain/selfish)
-- Retention Mechanics
-- Growth Loops
+### Add Custom Skills
 
-**Communication:**
-- CRAFT Method (emails)
-- Concentric Circle Messaging
-- Radical Candor Feedback (Kim Scott)
-- Executive Storytelling
-
-**Go-to-Market:**
-- Product Positioning (April Dunford)
-- Crossing the Chasm (Geoffrey Moore)
-- Category Design
-- Beachhead Strategy
-
-**Research & Discovery:**
-- Continuous Discovery (Teresa Torres)
-- Customer Interview Frameworks
-- Hypothesis-Driven Validation
-- Jobs-to-be-Done Research
-
-[See all 350+ skills](ARCHITECTURE.md#skills)
-
-### 3. Personal Context (Your Layer)
-Shannon learns your name, role, product, team, preferences. 
-
-You must create a file in .claude named CLAUDE.local.md using CLAUDE.local.example.md as a guide.
-
-
-### 4. Content Pack (Optional Polish)
-Add your company's brand themes, templates, writing voice. Shannon works great without it—adds 10% when you need it.
-
----
-
-## Initiatives: Your Project Brain
-
-Shannon treats each product initiative as a living, self-documenting workspace.
-
-### What Are Initiatives?
-
-An initiative is a folder in `Initiatives/` with its own `CLAUDE.md` file—a project brain that Shannon maintains automatically. Think of it as a senior PM shadowing your work, taking notes, tracking decisions, and maintaining context so nothing gets lost.
-
-```
-Initiatives/
-├── collaboration-features/
-│   ├── CLAUDE.md              # Auto-maintained project brain
-│   ├── prd.md                 # Your PRD
-│   ├── positioning.md         # April Dunford's framework applied
-│   ├── pitch.md               # Shape Up pitch
-│   └── research/
-│       ├── user-interviews.md
-│       └── competitive-analysis.md
-│
-└── enterprise-onboarding/
-    ├── CLAUDE.md              # Separate project brain
-    ├── prd.md
-    └── metrics-dashboard.md
-```
-
-### How Initiative CLAUDE.md Works
-
-Each initiative's `CLAUDE.md` is different from the system `.claude/CLAUDE.md`:
-
-| File | Purpose | Maintained By |
-|------|---------|---------------|
-| `.claude/CLAUDE.md` | Shannon's core instructions and methodology | You (rarely changes) |
-| `Initiatives/[name]/CLAUDE.md` | Living context for this specific initiative | Shannon (auto-updates) |
-
-**Initiative CLAUDE.md contains:**
-- **Status & Timeline:** Current phase, target dates, dependencies
-- **Core Objective:** One-sentence goal with success metrics
-- **Key Decisions:** What was decided, why, what trade-offs were made
-- **Documents Created:** Links to PRDs, pitches, research with dates
-- **Current Blockers:** What's stuck and who owns unblocking it
-- **Open Questions:** Unresolved decisions with owners and deadlines
-- **Decision History:** Rationale for past choices (prevents rehashing)
-
-### Setting Up an Initiative
-
-**Method 1: Let Shannon Guide You**
+Your company has proprietary frameworks? Add them:
 
 ```bash
-# Create the folder
-mkdir Initiatives/my-feature
+# Create a new skill
+mkdir .claude/skills/our-launch-process
+touch .claude/skills/our-launch-process/SKILL.md
 
-# Open it in Cursor
-cursor Initiatives/my-feature
-
-# Shannon detects new initiative
-"I see you're in a new initiative folder. Want me to create 
-the CLAUDE.md project brain? I'll ask 3 questions to set it up."
+# Document your methodology
+# Shannon discovers it automatically
 ```
 
-Shannon asks:
-1. What's the one-sentence objective?
-2. What's the target timeline?
-3. What success metrics matter?
+No coding. Just document your process in markdown. Shannon applies it.
 
-Creates `CLAUDE.md` automatically.
+### Resolution Order
 
-**Method 2: Manual Setup**
+Shannon always prefers your company's standards:
+1. `.claude/CLAUDE.local.md` (your personal preferences)
+2. `content/` (your company's content pack)
+3. `.claude/defaults/` (Shannon's built-in frameworks)
 
-```bash
-# Create initiative
-mkdir Initiatives/my-feature
-cd Initiatives/my-feature
-
-# Copy template
-cp ../../.claude/reference/initiative-auto-update.md CLAUDE.md
-
-# Edit the template with your context
-```
-
-### How Shannon Uses Initiative Context
-
-When you work in an initiative folder, Shannon:
-
-**1. Reads context on every request**
-```
-You: "Draft a PRD for the sharing feature"
-
-Shannon (internally):
-- Reads Initiatives/collaboration-features/CLAUDE.md
-- Sees objective: "Enable async feedback on reports"
-- Sees past decision: "Real-time collaboration deferred to Phase 2"
-- Sees open question: "Do shared reports count against seat limits?"
-
-Shannon: "I see we decided on async-only for Phase 1. Should this 
-PRD address the open question about seat limits, or note it as TBD?"
-```
-
-**2. Tracks decisions automatically**
-```
-You: "Let's use view-only permissions as default"
-
-Shannon: 
-- Creates the PRD
-- Updates CLAUDE.md with:
-  **[Date]: Default Sharing Permissions**
-  Decision: View-only default, users can grant edit access
-  Rationale: 80% of shares are for stakeholder review, not editing
-  Trade-off: Power users need extra click for edit access
-```
-
-**3. Maintains document history**
-```
-After creating PRD, Shannon updates CLAUDE.md:
-
-**Documents Created:**
-- [2026-01-26]: prd.md - Async sharing & feedback PRD
-- [2026-01-24]: positioning.md - Product positioning (April Dunford)
-- [2026-01-20]: research/user-interviews.md - 12 interviews analyzed
-```
-
-**4. Flags blockers and questions**
-```
-You: "We can't finalize pricing until we talk to Finance"
-
-Shannon adds to CLAUDE.md:
-
-**Current Blockers:**
-- Pricing model decision (blocks enterprise sales pitch)
-  Owner: You + Sarah (CEO)
-  Deadline: Before Feb 1 board meeting
-```
-
-### The Power of Initiative Context
-
-**Without initiative CLAUDE.md:**
-```
-You (3 weeks later): "Why did we decide on async instead of real-time?"
-Generic AI: "I don't have that context. Can you remind me?"
-```
-
-**With initiative CLAUDE.md:**
-```
-You (3 weeks later): "Why did we decide on async instead of real-time?"
-
-Shannon: "From Initiatives/collaboration-features/CLAUDE.md:
-
-**[2026-01-20]: Real-time vs Async Collaboration**
-Decision: Async-only for Phase 1
-Rationale: User research showed 'get VP feedback' (async) not 
-'edit together in real-time.' Real-time is 3x engineering cost.
-Trade-off: Deferred real-time to Phase 2. Can revisit if 
-enterprise customers request (currently 0 requests).
-
-Want me to reconsider this decision based on new data?"
-```
-
-### Working Across Multiple Initiatives
-
-Shannon keeps contexts separate:
-
-```
-# Working in Initiative A
-cd Initiatives/collaboration-features
-"Create a PRD" → Uses collaboration-features/CLAUDE.md context
-
-# Switch to Initiative B  
-cd ../enterprise-onboarding
-"Create a PRD" → Uses enterprise-onboarding/CLAUDE.md context
-
-# No context bleeding
-Each initiative maintains its own decisions, timeline, constraints
-```
-
-### Initiative Best Practices
-
-**Do:**
-- ✅ Create one initiative per major project/feature
-- ✅ Let Shannon maintain CLAUDE.md (it auto-updates)
-- ✅ Reference past decisions: "Based on our Phase 1 decision..."
-- ✅ Store all related docs in the initiative folder
-- ✅ Review CLAUDE.md before status meetings (instant context refresh)
-
-**Don't:**
-- ❌ Manually edit CLAUDE.md often (Shannon maintains it)
-- ❌ Create initiatives for small tasks (use for multi-week projects)
-- ❌ Store unrelated work in initiative folders
-- ❌ Duplicate decisions across multiple initiatives
-
-### Real Example: Initiative in Action
-
-```
-Day 1: Create initiative
-mkdir Initiatives/q1-collaboration
-Shannon creates CLAUDE.md with objective, timeline, metrics
-
-Day 3: Do user research
-"Analyze these 12 interview transcripts"
-Shannon updates CLAUDE.md with key insights, adds research doc
-
-Day 7: Create PRD
-"Create a Working Backwards PRD"
-Shannon uses interview insights, updates CLAUDE.md with PRD link
-
-Day 10: Positioning work
-"Use April Dunford's framework to position this"
-Shannon applies framework, records positioning decisions
-
-Day 15: Pitch to leadership
-"Create a Shape Up pitch for the betting table"
-Shannon references all past work, creates pitch, updates status
-
-Day 30: Status check
-"Where are we on Q1 collaboration?"
-Shannon reads CLAUDE.md: "Phase 1 complete. 3 blockers remain 
-before Phase 2. Open question about pricing model needs Finance 
-input by Feb 1."
-```
-
-### Initiative Context = Persistent Memory
-
-Think of each initiative's `CLAUDE.md` as:
-- **Project historian** - Remembers every decision and why
-- **Context engine** - Instantly recalls past work
-- **Decision log** - Tracks rationale to prevent rehashing  
-- **Blocker tracker** - Surfaces what's stuck and who owns it
-- **Document index** - Links all related artifacts
-
-**You never lose context. You never rehash decisions. You never wonder "why did we decide that?"**
-
-Shannon becomes the PM who was in every meeting, read every doc, and remembers everything.
-
-See [Initiatives/README.md](Initiatives/README.md) for templates and detailed examples.
+**Result:** Shannon speaks your company's language while applying universal PM best practices.
 
 ---
 
-## The 5-Level Journey
+## From Single-Player to Team Adoption
 
-**Level 1: First Framework (10 seconds)**
-- Clone repo, make request
-- See framework activate: "Using Shape Up pitch format..."
-- Think: "It knows Ryan Singer's method"
+### Phase 1: You (Week 1)
+- Clone Shannon
+- Add personal context
+- Produce better work immediately
+- Stakeholders notice quality improvement
 
-**Level 2: Personal Context (5 minutes)**
-- Shannon asks 3 questions about your role
-- Saves to `.claude/CLAUDE.local.md` (gitignored)
-- Every response includes your context
+### Phase 2: Prove Value (Weeks 2-4)
+- Use Shannon for high-stakes work (board decks, strategy docs)
+- Share outputs with leadership
+- Hear: *"This is the clearest positioning I've seen from our team"*
 
-**Level 3: Ship Real Work (15 minutes)**
-- Create PRD using Working Backwards
-- Draft OKRs using Radical Focus
-- Position product using April Dunford's framework
-- Share with stakeholders without heavy editing
-- **Success:** They notice the quality improvement
+### Phase 3: Team Rollout (Month 2)
+- Share your `.claude/` setup (not CLAUDE.local.md—that's personal)
+- Create shared `content/` pack with company templates
+- Team members clone and customize
+- Collective PM practice improves
 
-**Level 4: Initiative Tracking (30 minutes)**
-- Create initiative folder
-- Shannon maintains living context
-- Tracks decisions using your frameworks
-- Return days later—context persists
+### Phase 4: Standard Operating System (Month 3+)
+- Shannon becomes how your team works
+- New PMs onboard faster (frameworks built-in)
+- Entire team speaks the same methodological language
+- You're known as the PM who elevated the practice
 
-**Level 5: Team Adoption (ongoing)**
-- Add content pack with company templates
-- Team members clone your setup
-- Elevate entire team's PM practice
-- **Success:** You're the PM others learn from
+**But it starts with you.** Get better first. Prove it works. Then scale.
+
+---
+
+## What Makes Shannon Different
+
+### 1. Frameworks, Not Generic Advice
+Every output applies a proven methodology. You don't get "here are some ideas"—you get Teresa Torres' opportunity mapping or Kim Scott's Radical Candor applied systematically.
+
+### 2. Quality Gates Always Active
+Five-step validation before every output:
+- Does it answer "Why does this matter to customers?"
+- Are trade-offs explicitly stated?
+- Are success metrics defined?
+- Can stakeholders take clear action?
+- Would this pass senior leadership review?
+
+### 3. Context Persists
+Shannon remembers your decisions, your team, your product. No re-explaining. No starting from zero every conversation.
+
+### 4. Credibility by Association
+When you apply April Dunford's positioning or Amazon's Working Backwards, stakeholders recognize best practices. Your work carries the weight of proven methodologies.
+
+### 5. Raises the Bar for "Good"
+Shannon makes excellence your default. A "quick email" becomes CRAFT-structured. A "rough draft" follows rigorous frameworks. **Your floor becomes higher than most PMs' ceiling.**
 
 ---
 
 ## Common Questions
 
-**Q: Which frameworks are included?**
-A: 350+ from product leaders: Shreyas Doshi, April Dunford, Teresa Torres, Marty Cagan, Kim Scott, Ryan Singer, Geoffrey Moore, Lenny Rachitsky, Elena Verna, and 100+ more. [Full list](ARCHITECTURE.md)
+**Q: Do I have to memorize 350 frameworks?**
+No. Tell Shannon **"use the appropriate skill"** and it selects the right one for your request. You benefit from frameworks without studying them.
 
-**Q: Do I choose which framework to use?**
-A: Shannon auto-activates based on your request. You can also specify: "Use Radical Candor to draft feedback" or "Create a Shape Up pitch."
+**Q: Can I still choose a specific framework?**
+Yes. Say *"Use Radical Candor to draft feedback"* or *"Apply April Dunford's positioning framework using claude/skills"* Shannon gives you control when you want it.
 
-**Q: Can I add custom frameworks?**
-A: Yes. Add to `.claude/skills/` and Shannon discovers them automatically. [Guide](CONTRIBUTING.md)
+**Q: What if my company uses different terminology?**
+Customize `content/` with your company's templates, voice, and standards. Shannon adapts to your organization's language.
 
-**Q: What gets committed to git?**
-A: Everything except `.claude/CLAUDE.local.md` (your personal context is gitignored for privacy).
+**Q: What gets shared if I commit this to git?**
+Everything except `.claude/CLAUDE.local.md` (personal context is gitignored). Share core frameworks, keep personal details private.
 
-**Q: Is this just prompt engineering?**
-A: No. Shannon is a systematic framework application system with quality gates, auto-activation, living context, and 350+ validated methodologies. Prompts give generic advice. Shannon applies proven frameworks.
+**Q: Is this just fancy prompt engineering?**
+No. Shannon is a systematic framework application system with quality gates, living initiative memory, auto-selection logic, and 350+ validated methodologies. Prompts give suggestions. Shannon applies proven processes.
+
+**Q: How do I add my company's proprietary frameworks?**
+Use .claude/skills/skill-creator to create your new skill and document your process. Shannon discovers it automatically. [Guide in CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
 ## What's Included
 
-📚 **Core Frameworks** (Always active)
-- Shreyas Doshi PM philosophy
-- 5 quality gates
-- First principles thinking
-- Trade-off analysis
+📚 **Core PM Philosophy** (Always Active)
+- Shreyas Doshi's first principles thinking
+- Five quality gates
+- Trade-off analysis framework
 - Eigenquestion context gathering
 
-🎯 **350+ Skills** (Auto-activate)
+🎯 **350+ Proven Frameworks** (Auto-Select)
 - Strategy: OKRs, North Star, Opportunity Solution Trees
 - Execution: Shape Up, Working Backwards, Now/Next/Later
-- Growth: PLG, activation, retention, loops
-- Communication: CRAFT, Radical Candor, storytelling
-- GTM: Positioning (April Dunford), Crossing the Chasm
-- Discovery: Teresa Torres' continuous discovery
-- [Full skill library](ARCHITECTURE.md)
+- Growth: PLG, First Mile, Retention Mechanics
+- Communication: CRAFT, Radical Candor, Strategic Narratives
+- GTM: Positioning, Crossing the Chasm, Category Design
+- Discovery: Continuous Discovery, JTBD, Customer Interviews
 
-🤖 **Specialized Agents**
-- Meeting Summarizer (transcript analysis)
+🤖 **Specialized Sub-Agents**
+- Marketing Copywriter (11 brand/copy frameworks)
+- Product Onboarding Specialist (5 activation frameworks)
+- Meeting Analyzer (transcript synthesis)
 - Executive Reviewer (strategic alignment)
-- PDF Builder (markdown → beautiful PDFs)
 
 📖 **Living Documentation**
-- Initiative auto-tracking
+- Initiative auto-tracking (decisions, timeline, blockers)
+- Context persistence across conversations
 - Decision rationale capture
-- Context that persists
+
+🎨 **Customization System**
+- Company content packs (templates, voice, standards)
+- Custom skill creation
+- Organizational adaptation
 
 ---
 
-## Why Shannon Works
+## Learn More
 
-**1. Frameworks, Not Generic Advice**
-Every output applies a proven methodology. You get Teresa Torres' opportunity mapping, not "here are some ideas."
+**📚 Browse Frameworks**
+Explore [`.claude/skills/`](.claude/skills/) to see all 350+ methodologies with application protocols and examples.
 
-**2. Quality Gates Always On**
-Five-step validation before every output:
-- Does it answer "Why does this matter to customers?"
-- Are trade-offs explicit?
-- Are success metrics quantified?
-- Can stakeholders take action?
-- Would this pass executive scrutiny?
 
-**3. Context That Persists**
-Shannon remembers your role, product, team, decisions. No re-explaining frameworks or context every conversation.
+**🏗️ Advanced Customization**
+[ADVANCED.md](ADVANCED.md) covers content packs, custom skills, team collaboration, and organizational adaptation.
 
-**4. Credible by Association**
-When you apply April Dunford's positioning or Ryan Singer's pitches, stakeholders recognize proven methodologies.
+**🔧 Technical Architecture**
+[ARCHITECTURE.md](ARCHITECTURE.md) explains Shannon's framework selection, quality gates, and content resolution system.
 
-**5. Progressive Activation**
-Start simple (draft an email). Unlock more value as you go (initiative tracking, team collaboration, content packs).
-
----
-
-## What's Next
-
-**📚 Explore Frameworks**
-Browse [`.claude/skills/`](.claude/skills/) to see all 350+ methodologies. Each includes the framework, application protocol, and examples.
-
-**🚀 See More Examples**
-Check [EXAMPLES.md](EXAMPLES.md) for detailed walkthroughs:
-- Strategic emails (CRAFT method)
-- PRD creation (Working Backwards)
-- Positioning (April Dunford)
-- Feedback (Radical Candor)
-- Growth analysis (PLG frameworks)
-
-**🏗️ Advanced Setup**
-Add content packs, create custom skills, set up team collaboration. See [ADVANCED.md](ADVANCED.md).
-
-**🔧 Technical Deep-Dive**
-Understand Shannon's architecture, skill activation, content resolution. See [ARCHITECTURE.md](ARCHITECTURE.md).
-
-**🤝 Contribute**
-Create skills, share frameworks, improve documentation. See [CONTRIBUTING.md](CONTRIBUTING.md).
+**🤝 Contribute New Frameworks**
+[CONTRIBUTING.md](CONTRIBUTING.md) shows how to document and share new PM methodologies.
 
 ---
 
@@ -625,4 +383,16 @@ Create skills, share frameworks, improve documentation. See [CONTRIBUTING.md](CO
 
 MIT License - See [LICENSE](LICENSE)
 
-**Framework Credits:** All skills credit original creators. Shannon is a framework application system, not a framework creator.
+**Framework Attribution:** Every skill credits its original creator. Shannon applies methodologies—it doesn't claim to invent them. See [Attribution.md](Attribution.md) for full credits.
+
+---
+
+**Ready to raise your bar?**
+
+```bash
+git clone https://github.com/samarv/shannon.git shannon
+cd shannon
+cursor .
+```
+
+Ask Shannon: *"Use the appropriate skill"* and watch proven frameworks activate.
