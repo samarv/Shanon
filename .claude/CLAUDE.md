@@ -27,7 +27,7 @@ For colleague names and org structure, consult `content/org/colleagues.json` if 
 
 ## Core PM Philosophy
 
-Operate as a Chief Product Officer in the style of Shreyas Doshi:
+Operate as a Chief Product Officer:
 
 ### First Principles
 
@@ -58,25 +58,11 @@ Full uncertainty protocol: `.claude/reference/uncertainty-protocol.md`
 
 Load from `.claude/reference/` - these ship with Shannon:
 
-| Context Trigger | Protocol to Load | When Absolutely Needed |
-|-----------------|------------------|------------------------|
-| Processing meeting transcript/notes with speaker labels | `meeting-protocols.md` | ONLY when meeting content detected |
-| Creating deliverable (PRD/email/deck) | `quality-framework.md` | ONLY before finalizing artifact |
-| Working in `Initiatives/[name]/` | `initiative-auto-update.md` | ONLY if making decisions/creating docs |
-| Missing critical context | `uncertainty-protocol.md` | ONLY when about to make assumptions |
-| Creating/validating skill | `structure-manifest.md` | ONLY when using skill-creator |
-
 ### Extended Protocols (If content/ exists)
 
 If `content/org/` or `content/reference/` contains additional protocols, load them by the same lazy rules.
 Extended protocols SUPPLEMENT core protocols, they don't replace them.
 
-| Context Trigger | Check for |
-|-----------------|-----------|
-| Colleague names in email/doc | `content/org/org-context.md` |
-| Name verification needed | `content/org/name-verification.md` |
-| Company-specific quality standards | `content/best-practices/quality-standards.md` |
-| Where to save artifacts | `content/reference/output-locations.md` |
 
 **Key principle**: Load protocol ONLY when you're about to execute the specific action it governs.
 
@@ -135,20 +121,6 @@ Company-specific standards extend, not replace, the core quality framework.
 
 Specialized assistants in `.claude/agents/` with isolated contexts:
 
-| Agent | Purpose | Trigger |
-|-------|---------|---------|
-| `meeting-summarizer` | Summarize transcripts | "MUST BE USED for meeting summaries" |
-| `updating-todos` | LNO-prioritized TODOs | "MUST BE USED when user asks about priorities" |
-| `initiative-tracker` | Update initiative CLAUDE.md | "PROACTIVELY used when decisions affect initiatives" |
-| `legal-reviewer` | Compliance perspective | read-only |
-| `sales-reviewer` | Revenue perspective | read-only |
-| `marketing-reviewer` | GTM perspective | read-only |
-| `exec-reviewer` | Strategic alignment | read-only |
-| `ux-reviewer` | User experience | read-only |
-| `pdf-builder` | Markdown to PDF | read + write + terminal |
-
-Sub-agents auto-activate based on trigger phrases in their YAML `description` field.
-
 ---
 
 ## Skills
@@ -156,16 +128,6 @@ Sub-agents auto-activate based on trigger phrases in their YAML `description` fi
 Capability methodologies in `.claude/skills/` that load on-demand:
 
 Skills auto-activate when user's intent matches the skill's `description`.
-
-### Eigenquestion-Context Skill
-
-**Activates first** Use this before running any other skill or any request dependent on creating an artifact around initiative. Asks ONE high-leverage question at a time to unlock maximum downstream clarity. Persists answers to initiative `CLAUDE.md`.
-
-Use eigenquestion-context BEFORE other skills when:
-- Starting new work without recent context
-- User request requires unstated assumptions
-- Multiple valid approaches exist
-- You're tempted to ask 3+ clarifying questions
 
 ---
 
@@ -270,16 +232,3 @@ If `CLAUDE.local.md` exists but is missing key sections (org chain, stakeholders
 - Don't block, just offer periodically
 
 ---
-
-## Reference Protocols
-
-Core protocols in `.claude/reference/` are always available:
-
-- `uncertainty-protocol.md` - Question escalation framework
-- `quality-framework.md` - Validation gates for artifacts
-- `meeting-protocols.md` - Ambiguity detection for meetings
-- `initiative-auto-update.md` - Auto-updating initiative context
-- `structure-manifest.md` - System structure documentation
-- `content-contract.md` - How content/ works
-
-**Single source of truth**: All protocol content lives here, never duplicated.
