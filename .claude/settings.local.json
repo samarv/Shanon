@@ -6,7 +6,9 @@
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(/c/Windows/py:*)",
-      "Bash(PYTHONIOENCODING=utf-8 /c/Windows/py:*)"
+      "Bash(PYTHONIOENCODING=utf-8 /c/Windows/py:*)",
+      "Bash(git push:*)",
+      "Bash(grep:*)"
     ]
   }
 }
