@@ -229,6 +229,6 @@ If `CLAUDE.local.md` does not exist:
 
 If `CLAUDE.local.md` exists but is missing key sections (org chain, stakeholders, communication preferences):
 - Note: "Your personal context could be richer. Want me to help expand it?"
-- Don't block, just offer periodically
+- Don't block, just offer periodically.
 
 ---
