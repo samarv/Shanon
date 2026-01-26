@@ -1,9 +1,12 @@
 # Personal context (contains private info)
 .claude/CLAUDE.local.md
+.claude/CLAUDE.local.example.md
+.claude/settings.local.json
 
 # Content packs (users add their own)
 content/*
 !content/README.md
+cursor-PM-Content/
 
 # Initiative work products (user-specific)
 Initiatives/*
