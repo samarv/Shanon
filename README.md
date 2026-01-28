@@ -33,19 +33,15 @@ You tell Shannon what you need. Shannon applies the right framework.
 
 ## The Problem Shannon Solves
 
-Every PM knows this pattern:
+You know what good PM work looks like. You've read the books, listened to the podcasts, saved the frameworks.
 
-1. Open AI chat
-2. Explain the framework you want ("Use MECE structure, lead with the ask, include trade-offs...")
-3. Get mediocre output
-4. Re-explain with more context
-5. Give up and write it yourself
+But when it's 4pm and you need to send that exec update, you don't pull out April Dunford's positioning template. You just write something and hope it lands.
 
-Generic AI doesn't know Teresa Torres from a to-do list. It doesn't know that Radical Candor requires both caring personally *and* challenging directly. It treats every PRD like a feature list.
+**Best practices exist. They just don't get applied.**
 
-**You end up teaching the same methodologies over and over—or skipping them entirely.**
+Generic AI makes this worse. It doesn't know that CRAFT emails lead with the ask. It doesn't know Radical Candor requires caring personally *and* challenging directly. It treats every PRD like a feature list.
 
-Shannon fixes this. 350+ frameworks from the PM leaders you already follow, pre-loaded and auto-selected based on your request.
+Shannon fixes this. 350+ best practices from the PM leaders you already follow—pre-loaded and auto-selected based on your request.
 
 ---
 
