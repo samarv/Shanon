@@ -310,7 +310,7 @@ Two new files will appear at root level. These are shortcuts that help your tool
 
 1. Copy the example file:
    ```bash
-   cp .claude/CLAUDE.local.example.md .claude/CLAUDE.local.md
+   cp .claude/claude.local.md .claude/CLAUDE.local.md
    ```
 
 2. Open `.claude/CLAUDE.local.md` and fill in:

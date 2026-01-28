@@ -22,7 +22,7 @@ Shannon is a file-based AI system for product management. It combines:
 shannon/
 ├── .claude/                          # Core Shannon system
 │   ├── CLAUDE.md                     # System instructions & methodology
-│   ├── CLAUDE.local.example.md       # Template for personal context
+│   ├── claude.local.md       # Template for personal context
 │   ├── CLAUDE.local.md               # Your context (gitignored)
 │   │
 │   ├── skills/                       # 350+ PM frameworks
