@@ -1,6 +1,6 @@
 # Personal context (contains private info)
 .claude/CLAUDE.local.md
-.claude/CLAUDE.local.example.md
+.claude/claude.local.md
 .claude/settings.local.json
 
 # Content packs (users add their own)
