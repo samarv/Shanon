@@ -25,29 +25,29 @@ Shannon works fully without them. Content packs add 10% polish when you need it.
 
 ```bash
 # Clone from your organization
-git clone https://github.com/my-org/shannon-content.git content-pack
+git clone https://github.com/my-org/shannon-content.git input-pack
 
-# Copy to content folder
-cp -r content-pack/* content/
+# Copy to input folder
+cp -r input-pack/* input/
 
 # Verify installation
-ls content/themes/pptx/    # Should show .md theme files
-ls content/templates/      # Should show template files
+ls input/themes/pptx/    # Should show .md theme files
+ls input/templates/      # Should show template files
 ```
 
 ### Method 2: Create Custom Pack
 
 ```bash
 # Create folders
-mkdir -p content/themes/{pptx,pdf}
-mkdir -p content/templates
-mkdir -p content/org
-mkdir -p content/output-styles
+mkdir -p input/themes/{pptx,pdf}
+mkdir -p input/templates
+mkdir -p input/org
+mkdir -p input/output-styles
 
 # Add your files
-cp my-company-theme.md content/themes/pptx/
-cp my-prd-template.md content/templates/
-cp colleagues.json content/org/
+cp my-company-theme.md input/themes/pptx/
+cp my-prd-template.md input/templates/
+cp colleagues.json input/org/
 ```
 
 ---
@@ -56,7 +56,7 @@ cp colleagues.json content/org/
 
 ### Presentation Themes (PPTX)
 
-Create `content/themes/pptx/my-brand.md`:
+Create `input/themes/pptx/my-brand.md`:
 
 ```markdown
 ---
@@ -93,7 +93,7 @@ Shannon applies these preferences when creating presentations.
 
 ### PDF Styles
 
-Create `content/themes/pdf/my-brand.css`:
+Create `input/themes/pdf/my-brand.css`:
 
 ```css
 /* My Company PDF Theme */
@@ -125,11 +125,11 @@ body {
 
 ### Creating Templates
 
-Templates live in `content/templates/`. Use markdown with placeholder markers.
+Templates live in `input/templates/`. Use markdown with placeholder markers.
 
 **Example: PRD Template**
 
-Create `content/templates/prd.md`:
+Create `input/templates/prd.md`:
 
 ```markdown
 # [PRODUCT NAME] - Product Requirements Document
@@ -209,7 +209,7 @@ Shannon uses this template automatically when you request a PRD.
 
 ### Colleague Name Verification
 
-Create `content/org/colleagues.json`:
+Create `input/org/colleagues.json`:
 
 ```json
 {
@@ -239,7 +239,7 @@ Shannon uses this for:
 
 ### Organization Context
 
-Create `content/org/org-context.md`:
+Create `input/org/org-context.md`:
 
 ```markdown
 # Organization Context
@@ -267,7 +267,7 @@ Create `content/org/org-context.md`:
 
 ### Output Styles
 
-Create `content/output-styles/my-voice.md`:
+Create `input/output-styles/my-voice.md`:
 
 ```markdown
 ---
@@ -310,7 +310,7 @@ Shannon applies this voice automatically to outputs.
 
 ### Custom Quality Gates
 
-Create `content/best-practices/quality-standards.md`:
+Create `input/best-practices/quality-standards.md`:
 
 ```markdown
 # Company Quality Standards
@@ -416,24 +416,24 @@ See `.claude/reference/structure-manifest.md` for full specification.
 
 ---
 
-## Initiative Management
+## Brain Management
 
-### Creating Initiatives
+### Creating Brains
 
 ```bash
-# Create initiative folder
-mkdir -p Initiatives/my-feature
+# Create Brain folder
+mkdir -p Brains/my-feature
 
 # Shannon will offer to create CLAUDE.md
 # Or create manually from template
 ```
 
-### Initiative Context Template
+### Brain Context Template
 
-Create `Initiatives/my-feature/CLAUDE.md`:
+Create `Brains/my-feature/CLAUDE.md`:
 
 ```markdown
-# [Feature Name] Initiative
+# [Feature Name] Brain
 
 **Status:** [Discovery | Planning | Building | Launched]  
 **Owner:** [Your name]  
@@ -484,23 +484,23 @@ Create `Initiatives/my-feature/CLAUDE.md`:
    - **Owner:** [Name]
 ```
 
-Shannon auto-updates this as you work in the initiative.
+Shannon auto-updates this as you work in the Brain.
 
 ---
 
 ## Advanced Workflows
 
-### Multi-Initiative Projects
+### Multi-Brain Projects
 
-For complex work spanning multiple initiatives:
+For complex work spanning multiple Brains:
 
 ```bash
-Initiatives/
+Brains/
 ├── parent-project/
 │   ├── CLAUDE.md              # Overview context
-│   ├── sub-initiative-1/      # Nested initiative
+│   ├── sub-brain-1/           # Nested Brain
 │   │   └── CLAUDE.md
-│   └── sub-initiative-2/
+│   └── sub-brain-2/
 │       └── CLAUDE.md
 ```
 
@@ -523,13 +523,13 @@ git commit -m "Initial content pack"
 2. Team members install:
 ```bash
 # In their Shannon workspace
-git clone [team-content-repo] content-pack
-cp -r content-pack/* content/
+git clone [team-content-repo] input-pack
+cp -r input-pack/* input/
 ```
 
 3. Each member has own `CLAUDE.local.md` (gitignored)
 
-4. Initiatives can be shared or private
+4. Brains can be shared or private
 
 ### Content Pack Versioning
 
@@ -539,10 +539,10 @@ git tag v1.0.0
 git push --tags
 
 # Team members update
-cd content-pack
+cd input-pack
 git pull
 git checkout v1.0.0
-cp -r * ../content/
+cp -r * ../input/
 ```
 
 ---
@@ -566,7 +566,7 @@ Check resolution order:
 
 ### "Templates not applying"
 
-- Verify template in `content/templates/`
+- Verify template in `input/templates/`
 - Check filename matches document type
 - Ensure markdown formatting is valid
 - Shannon will inform if template missing
@@ -580,7 +580,7 @@ Check resolution order:
 For organizations with many templates/themes:
 
 ```bash
-content/
+input/
 ├── themes/
 │   ├── pptx/
 │   │   ├── default.md          # Primary theme
@@ -592,16 +592,16 @@ content/
 
 Shannon loads only what's needed for current request.
 
-### Initiative Cleanup
+### Brain Cleanup
 
-Archive completed initiatives:
+Archive completed Brains:
 
 ```bash
-mkdir -p Initiatives/archive
-mv Initiatives/completed-feature Initiatives/archive/
+mkdir -p Brains/archive
+mv Brains/completed-feature Brains/archive/
 ```
 
-Shannon won't scan archived initiatives unless you work in them.
+Shannon won't scan archived Brains unless you work in them.
 
 ---
 
@@ -611,7 +611,7 @@ Shannon won't scan archived initiatives unless you work in them.
 
 **DO:**
 - Use `.gitignore` for PII-containing files
-- Keep `content/org/` private
+- Keep `input/org/` private
 - Use environment-specific content packs
 - Review content pack before installing
 
@@ -627,7 +627,7 @@ Before installing team content pack:
 
 ```bash
 # Clone to temp location first
-git clone [content-pack] /tmp/review-content
+git clone [input-pack] /tmp/review-content
 cd /tmp/review-content
 
 # Review files
@@ -636,7 +636,7 @@ cat templates/prd.md
 cat org/colleagues.json
 
 # Install if safe
-cp -r * ~/shannon-workspace/content/
+cp -r * ~/shannon-workspace/input/
 ```
 
 ---

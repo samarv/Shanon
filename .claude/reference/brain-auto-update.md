@@ -1,14 +1,14 @@
-# Initiative Context Auto-Update Protocol
+# Brain Context Auto-Update Protocol
 
 ## Purpose
 
-Automatically maintain living documentation for each initiative by updating initiative-specific CLAUDE.md files based on conversation context, decisions, and work performed.
+Automatically maintain living documentation for each Brain by updating Brain-specific CLAUDE.md files based on conversation context, decisions, and work performed. Brains actively accumulate and connect information across sessions.
 
 ## Activation Conditions
 
 **This protocol activates when:**
-- Current working directory is within `/Initiatives/[initiative-name]/` path
-- User is creating documents, making decisions, or discussing initiative-related work
+- Current working directory is within `/Brains/[brain-name]/` path
+- User is creating documents, making decisions, or discussing Brain-related work
 - Significant events occur during the conversation (see triggers below)
 
 ## Detection Triggers
@@ -25,7 +25,7 @@ Monitor conversations for these significant events:
 
 ### Medium Priority Events (Capture When Relevant)
 
-- **Framework Application**: Team Topologies, LNO, Jobs-to-be-Done, Wardley Mapping applied to initiative
+- **Framework Application**: Team Topologies, LNO, Jobs-to-be-Done, Wardley Mapping applied to Brain
 - **Stakeholder Input**: Feedback, requirements, or decisions from stakeholders mentioned
 - **Success Metrics**: New metrics defined, baselines set, or results measured
 - **Trade-offs Made**: Explicit choices between alternatives with rationale
@@ -35,15 +35,15 @@ Monitor conversations for these significant events:
 
 - **Research Findings**: Competitive analysis, user research, market insights
 - **Template Usage**: Which templates were applied and why
-- **Cross-Initiative Dependencies**: Links or dependencies identified with other initiatives
+- **Cross-Brain Dependencies**: Links or dependencies identified with other Brains
 
 ## Auto-Update Execution Protocol
 
-### Step 1: Detect Initiative Context
+### Step 1: Detect Brain Context
 
 ```
-When working in: /Initiatives/[initiative-name]/
-Check for: [initiative-name]/CLAUDE.md
+When working in: /Brains/[brain-name]/
+Check for: [brain-name]/CLAUDE.md
 If not exists: Offer to create from standard template
 If exists: Read current content before updating
 ```
@@ -63,16 +63,16 @@ As conversation progresses, track:
 **Automatic trigger when:**
 - Conversation includes 2+ high priority events
 - Document creation or major edit completes
-- User explicitly says "update initiative context"
+- User explicitly says "update Brain context"
 - End of conversation with significant decisions made
 
 **Proactive notification:**
 > "I noticed we [made decisions about X / created Y / identified blocker Z].
-> I'll update this initiative's CLAUDE.md to capture this context."
+> I'll update this Brain's CLAUDE.md to capture this context."
 
 ### Step 4: Execute Update
 
-1. **Read** current `Initiatives/[initiative-name]/CLAUDE.md`
+1. **Read** current `Brains/[Brain-name]/CLAUDE.md`
 2. **Extract** relevant context from this conversation:
    - What decisions were made and why
    - What documents were created and their purpose
@@ -82,24 +82,24 @@ As conversation progresses, track:
 3. **Update** appropriate sections:
    - Append to "Key Decisions & Rationale"
    - Refresh "Current Status"
-   - Add to "Documents in This Initiative"
+   - Add to "Documents in This Brain"
    - Update "Open Questions" or mark as resolved
    - Record in "Lessons Learned" if applicable
    - Update "Last Updated" timestamp
 4. **Preserve** all existing content - never overwrite, only append/update
-5. **Confirm** to user: "✓ Updated [Initiative Name] context in CLAUDE.md"
+5. **Confirm** to user: "✓ Updated [Brain Name] context in CLAUDE.md"
 
-## Initiative CLAUDE.md Standard Template
+## Brain CLAUDE.md Standard Template
 
-When creating a new initiative CLAUDE.md file, use this template:
+When creating a new Brain CLAUDE.md file, use this template:
 
 ```markdown
-# [Initiative Name] - Context & Memory
+# [Brain Name] - Context & Memory
 
-## Initiative Overview
+## Brain Overview
 - **Status**: [Planning/Active/Blocked/Paused/Completed]
 - **Timeline**: [Start Date] - [Target End Date]
-- **Owner**: [Who's leading this initiative]
+- **Owner**: [Who's leading this Brain]
 - **Last Updated**: [YYYY-MM-DD HH:MM]
 
 ## Core Objective
@@ -142,9 +142,9 @@ When creating a new initiative CLAUDE.md file, use this template:
 - **Primary Stakeholders**: [Who cares most about this]
 - **Key Contributors**: [Who's working on this]
 - **External Dependencies**: [What we depend on outside the team]
-- **Related Initiatives**: [Cross-references to other initiatives]
+- **Related Brains**: [Cross-references to other Brains]
 
-## Documents in This Initiative
+## Documents in This Brain
 
 - [Document Name](./document-name.md) (YYYY-MM-DD)
   - *Purpose*: [Why this document exists]
@@ -163,6 +163,21 @@ When creating a new initiative CLAUDE.md file, use this template:
 - **[Metric Name]**: [Baseline] → [Target] → [Current]
   - *Why it matters*: [Connection to objective]
   - *Measurement method*: [How we track this]
+
+## Connected Brains
+
+<!-- Auto-detected cross-references to other Brains -->
+- **[Brain Name]** -- [How they relate, shared dependencies or topics]
+
+## Knowledge Graph
+
+<!-- Key concepts, patterns, and relationships this Brain has accumulated -->
+- **[Concept]**: [What we know, how it connects to the objective]
+
+## Evolution Log
+
+<!-- How this Brain's understanding has deepened over time -->
+- **[YYYY-MM-DD]**: [Insight or shift in understanding]
 
 ## Frameworks Applied
 
@@ -230,7 +245,7 @@ When creating a new initiative CLAUDE.md file, use this template:
 - Use clear, searchable language
 - Avoid ambiguous pronouns ("this", "it", "that")
 - Include enough context to understand months later
-- Write for someone new joining the initiative
+- Write for someone new joining the Brain
 
 ### Chronological Integrity
 
@@ -260,7 +275,7 @@ Prioritize capturing Leverage items in detail.
 ### Planner-Execution Loop Integration
 
 **During UNDERSTAND phase:**
-- Read initiative's CLAUDE.md for existing context
+- Read Brain's CLAUDE.md for existing context
 - Reference previous decisions and current status
 - Identify gaps in knowledge or documentation
 
@@ -283,10 +298,10 @@ Prioritize capturing Leverage items in detail.
 
 User can control updates with these commands:
 
-- **"Update initiative context"** - Immediate manual trigger
+- **"Update Brain context"** - Immediate manual trigger
 - **"Don't update context"** - Skip auto-update for this session
 - **"Show me what you'd update"** - Preview changes before committing
-- **"Create initiative CLAUDE.md"** - Generate new file from template
+- **"Create Brain CLAUDE.md"** - Generate new file from template
 - **"Summarize session for CLAUDE.md"** - Generate summary first, ask before updating
 
 ## Edge Cases & Handling
@@ -294,16 +309,16 @@ User can control updates with these commands:
 ### No CLAUDE.md Exists
 
 ```
-Prompt: "This initiative doesn't have a CLAUDE.md context file yet.
+Prompt: "This Brain doesn't have a CLAUDE.md context file yet.
 Should I create one using the standard template?
 [Shows template preview]"
 ```
 
-### Multiple Initiatives Referenced
+### Multiple Brains Referenced
 
-- Update only the initiative folder where primary work occurred
-- If ambiguous, ask: "Which initiative should I update: [list options]?"
-- Can update multiple if clearly working across initiatives
+- Update only the Brain folder where primary work occurred
+- If ambiguous, ask: "Which Brain should I update: [list options]?"
+- Can update multiple if clearly working across Brains
 
 ### Sensitive Information Detection
 
@@ -320,9 +335,9 @@ If new information contradicts existing entries:
   - *Reason for change*: [Why the change]
 ```
 
-### Initiative Completion
+### Brain Completion
 
-When initiative reaches "Completed" status:
+When Brain reaches "Completed" status:
 - Add final summary to "Core Objective" section
 - Mark all open questions as closed or transferred
 - Document final metrics vs targets
@@ -336,20 +351,20 @@ When initiative reaches "Completed" status:
 - Accumulate updates during conversation (don't write after every message)
 - Write once at end of conversation or when explicitly triggered
 - Batch multiple updates into single file write operation
-- Cache initiative name and path to avoid repeated directory checks
+- Cache Brain name and path to avoid repeated directory checks
 
 ### Smart Detection
 
 - Use keyword pattern matching for high-priority event detection
 - Learn from user feedback about what to capture
-- Adjust verbosity based on initiative phase (more detail in planning, less in maintenance)
+- Adjust verbosity based on Brain phase (more detail in planning, less in maintenance)
 
 ## Success Criteria
 
 **This protocol succeeds when:**
-1. Initiative context is always current without manual effort
+1. Brain context is always current without manual effort
 2. User never has to re-explain previous decisions
-3. AI can quickly get up to speed on any initiative by reading CLAUDE.md
+3. AI can quickly get up to speed on any Brain by reading CLAUDE.md
 4. Historical context enables better recommendations and decision-making
 5. Zero information loss between sessions
 6. Context files are valuable reference documents even without AI
@@ -357,8 +372,8 @@ When initiative reaches "Completed" status:
 ## Activation Summary
 
 **This protocol automatically activates for every conversation where:**
-- Working directory path contains `/Initiatives/[initiative-name]/`
-- User creates/edits files within initiative folder
+- Working directory path contains `/Brains/[brain-name]/`
+- User creates/edits files within Brain folder
 - Significant events detected (decisions, documents, status changes)
 
-**Result**: Every initiative maintains living documentation that automatically captures context, decisions, and progress with minimal user intervention while maintaining high quality standards.
+**Result**: Every Brain maintains living documentation that automatically captures context, decisions, and progress with minimal user intervention while maintaining high quality standards.

@@ -1,6 +1,6 @@
 # Meeting Analysis Protocols
 
-Shared protocols used by analyzing-meetings, routing-initiatives, and summarizing-meetings skills.
+Shared protocols used by analyzing-meetings, routing-brains, and summarizing-meetings skills.
 
 ---
 
@@ -68,7 +68,7 @@ Got it - [acknowledge]. Continuing with analysis...
 
 ### Purpose
 
-When action items involve creating documents, pre-register them in initiative CLAUDE.md files.
+When action items involve creating documents, pre-register them in Brain CLAUDE.md files.
 
 ### Detection Triggers
 
@@ -87,29 +87,29 @@ When action items involve creating documents, pre-register them in initiative CL
 - [Document Name] (YYYY-MM-DD - PENDING)
   - *Purpose*: [Why this document is being created]
   - *Status*: To be written by [Owner] by [Due date if known]
-  - *Cross-reference*: [Other initiatives if applicable]
+  - *Cross-reference*: [Other Brains if applicable]
 ```
 
-### Cross-Initiative Documents
+### Cross-Brain Documents
 
-When a document affects multiple initiatives:
-1. Add entry to ALL relevant initiative CLAUDE.md files
+When a document affects multiple Brains:
+1. Add entry to ALL relevant Brain CLAUDE.md files
 2. Include cross-reference in each entry
-3. Note in routing summary which initiatives share this document
+3. Note in routing summary which Brains share this document
 
 ### Integration with Action Items
 
 Document-creating actions should appear in TWO places:
-1. **Action Items table**: With owner, due date, initiative
+1. **Action Items table**: With owner, due date, Brain
 2. **Documents section**: As PENDING entry with purpose
 
 ### Anti-Patterns
 
 - ❌ Capturing document actions ONLY in Action Items
-- ❌ Missing cross-initiative documents
+- ❌ Missing cross-Brain documents
 - ❌ Not marking documents as PENDING
 - ✅ Register in BOTH Action Items AND Documents sections
-- ✅ Add cross-references when document affects multiple initiatives
+- ✅ Add cross-references when document affects multiple Brains
 
 ---
 
@@ -119,7 +119,7 @@ Document-creating actions should appear in TWO places:
 - [ ] Complete content read (beginning to end)
 - [ ] Input type correctly classified
 - [ ] Speaker label presence assessed
-- [ ] All initiatives discovered dynamically
+- [ ] All Brains discovered dynamically
 
 ### Ambiguity Resolution
 - [ ] All items scanned for ambiguity triggers
@@ -130,11 +130,11 @@ Document-creating actions should appear in TWO places:
 ### Document Capture
 - [ ] Action items scanned for document-creation language
 - [ ] Document-creating actions registered in Documents section
-- [ ] Cross-initiative documents added to ALL relevant files
+- [ ] Cross-Brain documents added to ALL relevant files
 - [ ] PENDING status clearly marked
 
 ### Final Validation
 - [ ] All ambiguous items clarified
 - [ ] All critical attributions confirmed
 - [ ] Summary enables immediate action
-- [ ] Cross-initiative dependencies noted
+- [ ] Cross-Brain dependencies noted

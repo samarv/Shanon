@@ -4,5 +4,35 @@
       "Read(./Shanon-Docs/**)",
       "Read(./README.md)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/check-onboarding.sh",
+            "statusMessage": "Checking Shannon setup..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/log-session.sh",
+            "async": true
+          },
+          {
+            "type": "prompt",
+            "prompt": "Review what happened in this conversation. Did the user make significant decisions, create documents, change status, or identify blockers related to a Brain (a folder in Brains/)? If YES: remind the user that the Brain's CLAUDE.md should be updated, and offer to do it. If NO: say nothing and return empty output. Only consider work that clearly relates to a specific Brain folder. Do not fabricate Brain names. Context: $ARGUMENTS",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
   }
 }

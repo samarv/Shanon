@@ -1,11 +1,11 @@
-# Content Folder
+# Input Folder
 
 Add your themes, templates, and organizational context here.
 
 ## Structure
 
 ```
-content/
+input/
 ├── themes/
 │   ├── pptx/          # Presentation themes (.md files)
 │   └── pdf/           # PDF styles (.css files)
@@ -20,24 +20,19 @@ content/
 
 ## Quick Start
 
-### Option 1: Clone a content pack
+### Option 1: Clone an input pack
 
 ```bash
-git clone https://github.com/[org]/content-[name].git content-pack
-cp -r content-pack/* content/
+git clone https://github.com/[org]/input-[name].git input-pack
+cp -r input-pack/* input/
 ```
 
 ### Option 2: Add individual files
 
 ```bash
-# Add a theme
-cp my-brand-theme.md content/themes/pptx/
-
-# Add a template
-cp my-prd-template.md content/templates/
-
-# Add org data
-cp colleagues.json content/org/
+cp my-brand-theme.md input/themes/pptx/
+cp my-prd-template.md input/templates/
+cp colleagues.json input/org/
 ```
 
 ## The Contract
@@ -47,4 +42,4 @@ cp colleagues.json content/org/
 - **Missing files = built-in defaults used**
 - **No configuration needed**
 
-See `.claude/reference/content-contract.md` for full documentation.
+See `.claude/rules/input-resolution.md` for full resolution order.
