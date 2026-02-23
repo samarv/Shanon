@@ -2,7 +2,7 @@
 
 **PM Best Practices applied automatically.**
 
-350+ frameworks from Lenny's Podcast, Teresa Torres, and April Dunford. Practical skills for decks, docs, and code. A system that learns your context and scales with your team.
+330+ frameworks from Lenny's Podcast, Teresa Torres, and April Dunford. Practical skills for decks, docs, and code. A system that learns your context and scales with your team.
 
 | What's Included | Examples |
 |-----------------|----------|
@@ -11,7 +11,7 @@
 | **Extensibility** | Skill Creator for custom frameworks, Sub-Agent Creator for workflows |
 | **Memory** | Brains that track decisions, personal context that persists |
 
-Shannon isn't a prompt library. It's bundled PM Best Practices that adapts to how you work.
+Shannon isn't a prompt library. It's bundled PM best practices that adapt to how you work.
 
 ---
 
@@ -41,7 +41,7 @@ But when it's 4pm and you need to send that exec update, you don't pull out Apri
 
 Generic AI makes this worse. It doesn't know that CRAFT emails lead with the ask. It doesn't know Radical Candor requires caring personally *and* challenging directly. It treats every PRD like a feature list.
 
-Shannon fixes this. 350+ best practices from the PM leaders you already follow—pre-loaded and auto-selected based on your request.
+Shannon fixes this. 330+ best practices from the PM leaders you already follow—pre-loaded and auto-selected based on your request.
 
 ---
 
@@ -49,7 +49,7 @@ Shannon fixes this. 350+ best practices from the PM leaders you already follow�
 
 You say: **"Use the appropriate skill"**
 
-Shannon reads your request, selects the right methodology from 350+ options, and applies it. You don't memorize frameworks. You don't prompt-engineer. You get senior PM-quality output on the first draft.
+Shannon reads your request, selects the right methodology from 330+ options, and applies it. You don't memorize frameworks. You don't prompt-engineer. You get senior PM-quality output on the first draft.
 
 ---
 
@@ -133,9 +133,9 @@ Shannon applies product leadership rigor to every output:
 
 You get the "senior PM review" automatically.
 
-### 2. 350+ Proven Frameworks (On-Demand)
+### 2. 330+ Proven Frameworks (On-Demand)
 
-Shannon knows methodologies from the PMs you already learn from:
+Shannon knows methodologies from the PM leaders you already learn from:
 
 **Strategy & Planning:**
 - Three Pillar Strategy (vision, bets, roadmap)
@@ -172,7 +172,7 @@ Shannon knows methodologies from the PMs you already learn from:
 - Hypothesis-Driven Validation
 - Jobs-to-be-Done Research
 
-*Full list: [Browse 350+ skills](.claude/skills/)*
+*Full list: [Browse 330+ skills](.claude/skills/)*
 
 **The key:** You don't choose frameworks manually. You tell Shannon **"use the appropriate skill"** and it selects the right methodology for your request.
 
@@ -184,7 +184,7 @@ Shannon learns your context once (2-minute setup):
 - Communication preferences
 - Company terminology
 
-Stored in `.claude/CLAUDE.local.md` (gitignored for privacy).
+Stored in `CLAUDE.local.md` (gitignored for privacy).
 
 Every response uses your context. No re-explaining who your CEO is or what product you work on.
 
@@ -437,7 +437,7 @@ Shannon discovers and uses this content when you add it to your conversation con
 
 ## Customizing Shannon for Your Company
 
-Shannon ships with 350+ universal PM frameworks. But your company has its own SOPs, templates, and standards.
+Shannon ships with 330+ universal PM frameworks. But your company has its own SOPs, templates, and standards.
 
 **Shannon is fully customizable:**
 
@@ -613,7 +613,7 @@ Any tool that supports markdown context files works. Cursor and Claude Code are 
 
 ### Using Shannon
 
-**Q: Do I have to memorize 350 frameworks?**
+**Q: Do I have to memorize 330 frameworks?**
 No. Tell Shannon **"use the appropriate skill"** and it selects the right one for your request. You benefit from frameworks without studying them.
 
 **Q: Can I still choose a specific framework?**
@@ -656,10 +656,10 @@ Customize `input/` with your company's templates, voice, and standards. Shannon 
 Everything except `.claude/CLAUDE.local.md` (personal context is gitignored). Share core frameworks, keep personal details private.
 
 **Q: How do I add my company's proprietary frameworks?**
-Use `.claude/skills/skill-creator` to create your new skill and document your process. Shannon discovers it automatically. [Guide in CONTRIBUTING.md](Docs/CONTRIBUTING.md)
+Use `.claude/skills/skill-creator` to create your new skill and document your process. Shannon discovers it automatically. [Guide in CONTRIBUTING.md](Shanon-Docs/CONTRIBUTING.md)
 
 **Q: Is this just fancy prompt engineering?**
-No. Shannon is a systematic framework application system with quality gates, living Brain memory, auto-selection logic, and 350+ validated methodologies. Prompts give suggestions. Shannon applies proven processes.
+No. Shannon is a systematic framework application system with quality gates, living Brain memory, auto-selection logic, and 330+ validated methodologies. Prompts give suggestions. Shannon applies proven processes.
 
 ---
 
@@ -671,7 +671,7 @@ No. Shannon is a systematic framework application system with quality gates, liv
 - Trade-off analysis framework
 - Eigenquestion context gathering
 
-🎯 **350+ Proven Frameworks** (Auto-Select)
+🎯 **330+ Proven Frameworks** (Auto-Select)
 - Strategy: OKRs, North Star, Opportunity Solution Trees
 - Execution: Shape Up, Working Backwards, Now/Next/Later
 - Growth: PLG, First Mile, Retention Mechanics
@@ -750,16 +750,16 @@ No. Shannon is a systematic framework application system with quality gates, liv
 ## Learn More
 
 **📚 Browse Frameworks**
-Explore [`.claude/skills/`](.claude/skills/) to see all 350+ methodologies with application protocols and examples.
+Explore [`.claude/skills/`](.claude/skills/) to see all 330+ methodologies with application protocols and examples.
 
 **🏗️ Advanced Customization**
-[ADVANCED.md](Docs/ADVANCED.md) covers content packs, custom skills, team collaboration, and organizational adaptation.
+[ADVANCED.md](Shanon-Docs/ADVANCED.md) covers content packs, custom skills, team collaboration, and organizational adaptation.
 
 **🔧 Technical Architecture**
-[ARCHITECTURE.md](Docs/ARCHITECTURE.md) explains Shannon's framework selection, quality gates, and content resolution system.
+[ARCHITECTURE.md](Shanon-Docs/ARCHITECTURE.md) explains Shannon's framework selection, quality gates, and content resolution system.
 
 **🤝 Contribute New Frameworks**
-[CONTRIBUTING.md](Docs/CONTRIBUTING.md) shows how to document and share new PM methodologies.
+[CONTRIBUTING.md](Shanon-Docs/CONTRIBUTING.md) shows how to document and share new PM methodologies.
 
 ---
 
@@ -767,7 +767,7 @@ Explore [`.claude/skills/`](.claude/skills/) to see all 350+ methodologies with 
 
 MIT License - See [LICENSE](LICENSE)
 
-**Framework Attribution:** Every skill credits its original creator. Shannon applies methodologies—it doesn't claim to invent them. See [Attribution.md](Docs/Attribution.md) for full credits.
+**Framework Attribution:** Every skill credits its original creator. Shannon applies methodologies—it doesn't claim to invent them. See [Attribution.md](Shanon-Docs/Attribution.md) for full credits.
 
 ---
 

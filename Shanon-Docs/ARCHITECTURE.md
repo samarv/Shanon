@@ -25,7 +25,7 @@ shannon/
 │   ├── claude.local.md       # Template for personal context
 │   ├── CLAUDE.local.md               # Your context (gitignored)
 │   │
-│   ├── skills/                       # 350+ PM frameworks
+│   ├── skills/                       # 330+ PM frameworks
 │   │   ├── email-drafter/            # CRAFT method email drafting
 │   │   │   ├── SKILL.md              # Skill definition & methodology
 │   │   │   └── references/           # Examples and documentation
@@ -34,7 +34,7 @@ shannon/
 │   │   ├── eigenquestion-context/    # High-leverage questioning
 │   │   ├── first-mile-experience-design/
 │   │   ├── comprehension-first-design/
-│   │   └── ... 345 more skills
+│   │   └── ... 330+ more skills
 │   │
 │   ├── agents/                       # Specialized assistants
 │   │   ├── meeting-summarizer.md     # Meeting transcript analysis
@@ -424,7 +424,7 @@ Add `input/personas/` for user persona definitions. Reference from skills that n
 
 **Context efficiency:**  
 - Lazy loading keeps token usage minimal
-- Only active skill loaded, not all 350
+- Only active skill loaded, not all 330+
 - Protocol loading on-demand
 - Personal context always loaded (small file)
 
@@ -475,4 +475,4 @@ Add `input/personas/` for user persona definitions. Reference from skills that n
 - `.claude/rules/input-resolution.md` - Content system details
 - `.claude/skills/system-health-check/` - System diagnostic skill
 - `.claude/rules/quality-gates.md` - Quality gates explained
-- `CONTRIBUTING.md` - How to create skills and contribute
+- [CONTRIBUTING.md](CONTRIBUTING.md) - How to create skills and contribute

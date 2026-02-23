@@ -272,7 +272,7 @@ Official content pack for [Company Name].
 
 \```bash
 git clone [this-repo] shannon-content
-cp -r shannon-input/* [your-shannon]/input/
+cp -r shannon-content/* [your-shannon]/input/
 \```
 
 ## What's Included
@@ -435,8 +435,8 @@ Top contributors may be invited to:
 ## Questions?
 
 - **Skill design questions:** Open a discussion issue
-- **Technical questions:** See ARCHITECTURE.md
-- **Usage questions:** See EXAMPLES.md
+- **Technical questions:** See [ARCHITECTURE.md](ARCHITECTURE.md)
+- **Usage questions:** See [ADVANCED.md](ADVANCED.md)
 - **General questions:** Open an issue with "Question" label
 
 ---
@@ -450,5 +450,5 @@ All skills should credit original framework creators and link to
 source materials where applicable.
 
 ---
-Test
+
 **Thank you for helping elevate PM practice for everyone!**

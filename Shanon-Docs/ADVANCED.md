@@ -412,7 +412,7 @@ Before delivering output, verify:
 
 3. Shannon discovers it automatically on next use.
 
-See `.claude/reference/structure-manifest.md` for full specification.
+See `.claude/skills/system-health-check/` for full specification.
 
 ---
 
@@ -645,5 +645,4 @@ cp -r * ~/shannon-workspace/input/
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) - Technical deep-dive
 - [CONTRIBUTING.md](CONTRIBUTING.md) - Create and contribute skills
-- [EXAMPLES.md](EXAMPLES.md) - Extended use cases
-- `.claude/reference/content-contract.md` - Content system details
+- `.claude/rules/input-resolution.md` - Content resolution details

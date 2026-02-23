@@ -1,1792 +1,1203 @@
+# Attribution
+
+Skills in Shannon are derived from frameworks, methodologies, and insights shared by the following product leaders. Each skill credits its original source.
+
+Skills are located in `.claude/skills/`.
+
+---
+
 : Ebi Atawodi.txt
 
-   ✅  Skill: product-vision-storytelling
-   ✅ Created: /input/generated_skills/product-vision-storytelling
-
+   Skill: product-vision-storytelling
 
 : Andy Johns.txt
 
-   ✅  Skill: deep-personal-transformation-framework
-   ✅ Created: /input/generated_skills/deep-personal-transformation-framework
-
+   Skill: deep-personal-transformation-framework
 
 : Mayur Kamat.txt
 
-   ✅  Skill: scientific-experimentation-framework
-   ✅ Created: /input/generated_skills/scientific-experimentation-framework
-
+   Skill: scientific-experimentation-framework
 
 : Garrett Lord.txt
 
-   ✅  Skill: internal-startup-incubation
-   ✅ Created: /input/generated_skills/internal-startup-incubation
-
+   Skill: internal-startup-incubation
 
 : Brian Chesky.txt
 
-   ✅  Skill: founder-led-product-operating-model
-   ✅ Created: /input/generated_skills/founder-led-product-operating-model
-
+   Skill: founder-led-product-operating-model
 
 : Shreyas Doshi.txt
 
-   ✅  Skill: pre-mortem-risk-mitigation
-   ✅ Created: /input/generated_skills/pre-mortem-risk-mitigation
-
+   Skill: pre-mortem-risk-mitigation
 
 : Michael Truell.txt
 
-   ✅  Skill: logic-design-engineering
-   ✅ Created: /input/generated_skills/logic-design-engineering
-
+   Skill: logic-design-engineering
 
 : Varun Parmar.txt
 
-   ✅  Skill: amped-lifecycle-tracking
-   ✅ Created: /input/generated_skills/amped-lifecycle-tracking
-
+   Skill: amped-lifecycle-tracking
 
 : Paige Costello.txt
 
-   ✅  Skill: building-stakeholder-trust-through-insight
-   ✅ Created: /input/generated_skills/building-stakeholder-trust-through-insight
+   Skill: building-stakeholder-trust-through-insight
 
+: Hamilton Helmer.txt
 
-📄: Hamilton Helmer.txt
+   Skill: power-progression-strategy
 
-   ✅  Skill: power-progression-strategy
-   ✅ Created: /input/generated_skills/power-progression-strategy
+: Marty Cagan.txt
 
+   Skill: empowered-product-team-transition
 
-📄: Marty Cagan.txt
+: Peter Deng.txt
 
-   ✅  Skill: empowered-product-team-transition
-   ✅ Created: /input/generated_skills/empowered-product-team-transition
+   Skill: product-management-archetype-mapping
 
+: Petra Wille.txt
 
-📄: Peter Deng.txt
+   Skill: product-management-coaching-framework
 
-   ✅  Skill: product-management-archetype-mapping
-   ✅ Created: /input/generated_skills/product-management-archetype-mapping
+: Matt Mochary.txt
 
+   Skill: humane-termination-and-layoff-process
 
-📄: Petra Wille.txt
+: Jason M Lemkin.txt
 
-   ✅  Skill: product-management-coaching-framework
-   ✅ Created: /input/generated_skills/product-management-coaching-framework
+   Skill: early-sales-pod-hiring
 
+: Ryan Hoover.txt
 
-📄: Matt Mochary.txt
+   Skill: high-impact-product-launch
 
-   ✅  Skill: humane-termination-and-layoff-process
-   ✅ Created: /input/generated_skills/humane-termination-and-layoff-process
+: Lane Shackleton.txt
 
+   Skill: two-way-writeup-design
 
-📄: Jason M Lemkin.txt
+: Mike Maples Jr.txt
 
-   ✅  Skill: early-sales-pod-hiring
-   ✅ Created: /input/generated_skills/early-sales-pod-hiring
+   Skill: pattern-breakers-framework
 
+: Christopher Miller.txt
 
-📄: Ryan Hoover.txt
+   Skill: modular-plg-transition
 
-   ✅  Skill: high-impact-product-launch
-   ✅ Created: /input/generated_skills/high-impact-product-launch
+: Matt Abrahams.txt
 
+   Skill: spontaneous-speaking-and-anxiety-management
 
-📄: Lane Shackleton.txt
+: Shaun Clowes.txt
 
-   ✅  Skill: two-way-writeup-design
-   ✅ Created: /input/generated_skills/two-way-writeup-design
+   Skill: market-driven-feedback-synthesis
 
+: Kevin Aluwi.txt
 
-📄: Mike Maples Jr.txt
+   Skill: unifying-concept-product-expansion
 
-   ✅  Skill: pattern-breakers-framework
-   ✅ Created: /input/generated_skills/pattern-breakers-framework
+: Shishir Mehrotra.txt
 
+   Skill: eigenquestion-strategic-alignment
 
-📄: Christopher Miller.txt
+: Lauryn Isford.txt
 
-   ✅  Skill: modular-plg-transition
-   ✅ Created: /input/generated_skills/modular-plg-transition
+   Skill: guided-onboarding-and-activation
 
+: John Mark Nickels.txt
 
-📄: Matt Abrahams.txt
+   Skill: first-principles-future-visualization
 
-   ✅  Skill: spontaneous-speaking-and-anxiety-management
-   ✅ Created: /input/generated_skills/spontaneous-speaking-and-anxiety-management
+: Jake Knapp + John Zeratsky 2.0.txt
 
+   Skill: foundation-sprint-framework
 
-📄: Shaun Clowes.txt
+: Geoffrey Moore.txt
 
-   ✅  Skill: market-driven-feedback-synthesis
-   ✅ Created: /input/generated_skills/market-driven-feedback-synthesis
+   Skill: crossing-the-chasm-beachhead-strategy
 
+: Adriel Frederick.txt
 
-📄: Kevin Aluwi.txt
+   Skill: marginal-user-growth-optimization
 
-   ✅  Skill: unifying-concept-product-expansion
-   ✅ Created: /input/generated_skills/unifying-concept-product-expansion
+: Jeff Weinstein.txt
 
+   Skill: customer-empathy-study-groups
 
-📄: Shishir Mehrotra.txt
+: Timothy Davis.txt
 
-   ✅  Skill: eigenquestion-strategic-alignment
-   ✅ Created: /input/generated_skills/eigenquestion-strategic-alignment
+   Skill: signs-of-life-paid-growth-testing
 
+: Ian McAllister.txt
 
-📄: Lauryn Isford.txt
+   Skill: working-backwards-product-development
 
-   ✅  Skill: guided-onboarding-and-activation
-   ✅ Created: /input/generated_skills/guided-onboarding-and-activation
+: Ravi Mehta.txt
 
+   Skill: product-strategy-stack-alignment
 
-📄: John Mark Nickels.txt
+: Elena Verna 3.0.txt
 
-   ✅  Skill: first-principles-future-visualization
-   ✅ Created: /input/generated_skills/first-principles-future-visualization
+   Skill: growth-roadmap-audit-filter
 
+: Daniel Lereya.txt
 
-📄: Jake Knapp + John Zeratsky 2.0.txt
+   Skill: non-incremental-product-acceleration
 
-   ✅  Skill: foundation-sprint-framework
-   ✅ Created: /input/generated_skills/foundation-sprint-framework
+: Sachin Monga.txt
 
+   Skill: curated-discovery-growth-engine
 
-📄: Geoffrey Moore.txt
+: Krithika Shankarraman.txt
 
-   ✅  Skill: crossing-the-chasm-beachhead-strategy
-   ✅ Created: /input/generated_skills/crossing-the-chasm-beachhead-strategy
+   Skill: date-marketing-diagnostic-framework
 
+: Madhavan Ramanujam.txt
 
-📄: Adriel Frederick.txt
+   Skill: willingness-to-pay-discovery
 
-   ✅  Skill: marginal-user-growth-optimization
-   ✅ Created: /input/generated_skills/marginal-user-growth-optimization
+: Gaurav Misra.txt
 
+   Skill: dual-roadmap-strategy
 
-📄: Jeff Weinstein.txt
+: Matt Mullenweg.txt
 
-   ✅  Skill: customer-empathy-study-groups
-   ✅ Created: /input/generated_skills/customer-empathy-study-groups
+   Skill: building-product-movements
 
+: Jeremy Henrickson.txt
 
-📄: Timothy Davis.txt
+   Skill: complex-first-product-design
 
-   ✅  Skill: signs-of-life-paid-growth-testing
-   ✅ Created: /input/generated_skills/signs-of-life-paid-growth-testing
+: Yuhki Yamashata.txt
 
+   Skill: pm-storytelling-synthesis-memification
 
-📄: Ian McAllister.txt
+: Raaz Herzberg.txt
 
-   ✅  Skill: working-backwards-product-development
-   ✅ Created: /input/generated_skills/working-backwards-product-development
+   Skill: high-signal-pmf-detection
 
+: Brian Balfour.txt
 
-📄: Ravi Mehta.txt
+   Skill: distribution-platform-growth-cycle
 
-   ✅  Skill: product-strategy-stack-alignment
-   ✅ Created: /input/generated_skills/product-strategy-stack-alignment
+: Richard Rumelt.txt
 
+   Skill: strategic-action-agenda-design
 
-📄: Elena Verna 3.0.txt
+: Camille Fournier.txt
 
-   ✅  Skill: growth-roadmap-audit-filter
-   ✅ Created: /input/generated_skills/growth-roadmap-audit-filter
+   Skill: engineering-partnership-optimization
 
+: Dharmesh Shah.txt
 
-📄: Daniel Lereya.txt
+   Skill: high-stakes-speaking-lpm
 
-   ✅  Skill: non-incremental-product-acceleration
-   ✅ Created: /input/generated_skills/non-incremental-product-acceleration
+: Boz.txt
 
+   Skill: leveraging-leadership-to-bulldoze-obstacles
 
-📄: Sachin Monga.txt
+: Alex Komoroske.txt
 
-   ✅  Skill: curated-discovery-growth-engine
-   ✅ Created: /input/generated_skills/curated-discovery-growth-engine
+   Skill: strategy-salon-alignment
 
+: Tanguy Crusson.txt
 
-📄: Krithika Shankarraman.txt
+   Skill: generated-skill
 
-   ✅  Skill: date-marketing-diagnostic-framework
-   ✅ Created: /input/generated_skills/date-marketing-diagnostic-framework
+: Ryan Singer.txt
 
+   Skill: shaping-product-appetites
 
-📄: Madhavan Ramanujam.txt
+: Elena Verna 4.0.txt
 
-   ✅  Skill: willingness-to-pay-discovery
-   ✅ Created: /input/generated_skills/willingness-to-pay-discovery
+   Skill: innovation-led-growth-engine
 
+: Ryan J. Salva.txt
 
-📄: Gaurav Misra.txt
+   Skill: moonshot-graduation-framework
 
-   ✅  Skill: dual-roadmap-strategy
-   ✅ Created: /input/generated_skills/dual-roadmap-strategy
+: Dr. Fei Fei Li.txt
 
+   Skill: spatial-intelligence-world-modeling
 
-📄: Matt Mullenweg.txt
+: Gia Laudi.txt
 
-   ✅  Skill: building-product-movements
-   ✅ Created: /input/generated_skills/building-product-movements
+   Skill: customer-led-growth-mapping
 
+: Drew Houston.txt
 
-📄: Jeremy Henrickson.txt
+   Skill: strategic-inflection-point-pivot
 
-   ✅  Skill: complex-first-product-design
-   ✅ Created: /input/generated_skills/complex-first-product-design
+: Edwin Chen.txt
 
+   Skill: defining-ai-objective-functions
 
-📄: Yuhki Yamashata.txt
+: Teresa Torres.txt
 
-   ✅  Skill: pm-storytelling-synthesis-memification
-   ✅ Created: /input/generated_skills/pm-storytelling-synthesis-memification
+   Skill: opportunity-solution-tree-mapping
 
+: Marty Cagan 2.0.txt
 
-📄: Raaz Herzberg.txt
+   Skill: empowered-product-management-transition
 
-   ✅  Skill: high-signal-pmf-detection
-   ✅ Created: /input/generated_skills/high-signal-pmf-detection
+: Archie Abrams.txt
 
+   Skill: long-term-growth-impact-assessment
 
-📄: Brian Balfour.txt
+: Paul Millerd.txt
 
-   ✅  Skill: distribution-platform-growth-cycle
-   ✅ Created: /input/generated_skills/distribution-platform-growth-cycle
+   Skill: pathless-path-exploration
 
+: Christina Wodtke.txt
 
-📄: Richard Rumelt.txt
+   Skill: radical-focus-okr-cadence
 
-   ✅  Skill: strategic-action-agenda-design
-   ✅ Created: /input/generated_skills/strategic-action-agenda-design
+: Vikrama Dhiman.txt
 
+   Skill: pm-career-growth-framework
 
-📄: Camille Fournier.txt
+: Andy Raskin_.txt
 
-   ✅  Skill: engineering-partnership-optimization
-   ✅ Created: /input/generated_skills/engineering-partnership-optimization
+   Skill: strategic-narrative-framework
 
+: Jason Shah.txt
 
-📄: Dharmesh Shah.txt
+   Skill: reframing-pushback-as-strategic-alignment
 
-   ✅  Skill: high-stakes-speaking-lpm
-   ✅ Created: /input/generated_skills/high-stakes-speaking-lpm
+: Sam Lessin.txt
 
+   Skill: founder-etiquette-and-social-fluency
 
-📄: Boz.txt
+: Casey Winters_.txt
 
-   ✅  Skill: leveraging-leadership-to-bulldoze-obstacles
-   ✅ Created: /input/generated_skills/leveraging-leadership-to-bulldoze-obstacles
+   Skill: shipping-to-learn-diagnostic
 
+: Claire Hughes Johnson.txt
 
-📄: Alex Komoroske.txt
+   Skill: saying-the-unsayable
 
-   ✅  Skill: strategy-salon-alignment
-   ✅ Created: /input/generated_skills/strategy-salon-alignment
+: Jackson Shuttleworth.txt
 
+   Skill: retention-streak-mechanic-design
 
-📄: Tanguy Crusson.txt
+: Grant Lee.txt
 
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill
+   Skill: micro-influencer-growth-engine
 
+: Heidi Helfand.txt
 
-📄: Ryan Singer.txt
+   Skill: collaborative-whiteboard-reteaming
 
-   ✅  Skill: shaping-product-appetites
-   ✅ Created: /input/generated_skills/shaping-product-appetites
+: Carilu Dietrich.txt
 
+   Skill: high-momentum-company-evaluation
 
-📄: Elena Verna 4.0.txt
+: Naomi Gleit.txt
 
-   ✅  Skill: innovation-led-growth-engine
-   ✅ Created: /input/generated_skills/innovation-led-growth-engine
+   Skill: canonical-project-orchestration
 
+: Melissa Tan.txt
 
-📄: Ryan J. Salva.txt
+   Skill: growth-flying-formation
 
-   ✅  Skill: moonshot-graduation-framework
-   ✅ Created: /input/generated_skills/moonshot-graduation-framework
+: Sam Schillace.txt
 
+   Skill: what-if-innovation-framework
 
-📄: Dr. Fei Fei Li.txt
+: Anton Osika.txt
 
-   ✅  Skill: spatial-intelligence-world-modeling
-   ✅ Created: /input/generated_skills/spatial-intelligence-world-modeling
+   Skill: building-with-ai-engineers
 
+: Julie Zhuo 2.0.txt
 
-📄: Gia Laudi.txt
+   Skill: hypothesis-led-alignment
 
-   ✅  Skill: customer-led-growth-mapping
-   ✅ Created: /input/generated_skills/customer-led-growth-mapping
+: Claire Butler.txt
 
+   Skill: bottom-up-gtm-for-technical-products
 
-📄: Drew Houston.txt
+: Arielle Jackson.txt
 
-   ✅  Skill: strategic-inflection-point-pivot
-   ✅ Created: /input/generated_skills/strategic-inflection-point-pivot
+   Skill: startup-brand-identity-framework
 
+: Camille Ricketts.txt
 
-📄: Edwin Chen.txt
+   Skill: community-led-growth-strategy
 
-   ✅  Skill: defining-ai-objective-functions
-   ✅ Created: /input/generated_skills/defining-ai-objective-functions
+: Dmitry Zlokazov.txt
 
+   Skill: deep-dive-portfolio-management
 
-📄: Teresa Torres.txt
+: Kayvon Beykpour.txt
 
-   ✅  Skill: opportunity-solution-tree-mapping
-   ✅ Created: /input/generated_skills/opportunity-solution-tree-mapping
+   Skill: sacred-cow-product-roadmap
 
+: Ben Williams.txt
 
-📄: Marty Cagan 2.0.txt
+   Skill: growth-impact-and-learning-reviews
 
-   ✅  Skill: empowered-product-management-transition
-   ✅ Created: /input/generated_skills/empowered-product-management-transition
+: Guillermo Rauch.txt
 
+   Skill: full-stack-ai-product-building
 
-📄: Archie Abrams.txt
+: Tristan de Montebello.txt
 
-   ✅  Skill: long-term-growth-impact-assessment
-   ✅ Created: /input/generated_skills/long-term-growth-impact-assessment
+   Skill: high-stakes-spontaneous-speaking
 
+: Eoghan McCabe.txt
 
-📄: Paul Millerd.txt
+   Skill: ai-first-business-transformation
 
-   ✅  Skill: pathless-path-exploration
-   ✅ Created: /input/generated_skills/pathless-path-exploration
+: Roger Martin.txt
 
+   Skill: strategy-choice-cascade
 
-📄: Christina Wodtke.txt
+: Scott Belsky.txt
 
-   ✅  Skill: radical-focus-okr-cadence
-   ✅ Created: /input/generated_skills/radical-focus-okr-cadence
+   Skill: first-mile-experience-design
 
+: Noah Weiss.txt
 
-📄: Vikrama Dhiman.txt
+   Skill: complaint-storming-for-product-polish
 
-   ✅  Skill: pm-career-growth-framework
-   ✅ Created: /input/generated_skills/pm-career-growth-framework
+: Aishwarya Naresh Reganti + Kiriti Badam.txt
 
+   Skill: ai-agency-calibration-framework
 
-📄: Andy Raskin_.txt
+: Jess Lachs.txt
 
-   ✅  Skill: strategic-narrative-framework
-   ✅ Created: /input/generated_skills/strategic-narrative-framework
+   Skill: metric-definition-and-incentive-alignment
 
+: Kenneth Berger.txt
 
-📄: Jason Shah.txt
+   Skill: ask-for-what-you-want
 
-   ✅  Skill: reframing-pushback-as-strategic-alignment
-   ✅ Created: /input/generated_skills/reframing-pushback-as-strategic-alignment
+: Gustaf Alstromer.txt
 
+   Skill: yc-execution-and-customer-discovery
 
-📄: Sam Lessin.txt
+: Vijay.txt
 
-   ✅  Skill: founder-etiquette-and-social-fluency
-   ✅ Created: /input/generated_skills/founder-etiquette-and-social-fluency
+   Skill: high-impact-product-prioritization
 
+: Nikita Bier.txt
 
-📄: Casey Winters_.txt
+   Skill: latent-demand-discovery
 
-   ✅  Skill: shipping-to-learn-diagnostic
-   ✅ Created: /input/generated_skills/shipping-to-learn-diagnostic
+: Jen Abel.txt
 
+   Skill: founder-led-sales-playbook
 
-📄: Claire Hughes Johnson.txt
+: Adam Fishman.txt
 
-   ✅  Skill: saying-the-unsayable
-   ✅ Created: /input/generated_skills/saying-the-unsayable
+   Skill: onboarding-for-retention-optimization
 
+: Wes Kao 2.0.txt
 
-📄: Jackson Shuttleworth.txt
+   Skill: strategic-executive-communication
 
-   ✅  Skill: retention-streak-mechanic-design
-   ✅ Created: /input/generated_skills/retention-streak-mechanic-design
+: Alex Hardimen.txt
 
+   Skill: editorial-integrated-product-development
 
-📄: Grant Lee.txt
+: Janna Bastow.txt
 
-   ✅  Skill: micro-influencer-growth-engine
-   ✅ Created: /input/generated_skills/micro-influencer-growth-engine
+   Skill: now-next-later-roadmapping
 
+: Chandra Janakiraman.txt
 
-📄: Heidi Helfand.txt
+   Skill: product-strategy-operator-playbook
 
-   ✅  Skill: collaborative-whiteboard-reteaming
-   ✅ Created: /input/generated_skills/collaborative-whiteboard-reteaming
+: Robby Stein.txt
 
+   Skill: relentless-product-improvement
 
-📄: Carilu Dietrich.txt
+: Gibson Biddle.txt
 
-   ✅  Skill: high-momentum-company-evaluation
-   ✅ Created: /input/generated_skills/high-momentum-company-evaluation
+   Skill: dhm-product-strategy-framework
 
+: Nickey Skarstad.txt
 
-📄: Naomi Gleit.txt
+   Skill: vision-to-execution-pyramid
 
-   ✅  Skill: canonical-project-orchestration
-   ✅ Created: /input/generated_skills/canonical-project-orchestration
+: Joe Hudson.txt
 
+   Skill: critical-voice-transformation
 
-📄: Melissa Tan.txt
+: Bob Moesta 2.0.txt
 
-   ✅  Skill: growth-flying-formation
-   ✅ Created: /input/generated_skills/growth-flying-formation
+   Skill: career-progress-job-moves
 
+: Scott Wu.txt
 
-📄: Sam Schillace.txt
+   Skill: agentic-engineering-workflow
 
-   ✅  Skill: what-if-innovation-framework
-   ✅ Created: /input/generated_skills/what-if-innovation-framework
+: Uri Levine.txt
 
+   Skill: strategic-pitch-optimization
 
-📄: Anton Osika.txt
+: April Dunford.txt
 
-   ✅  Skill: building-with-ai-engineers
-   ✅ Created: /input/generated_skills/building-with-ai-engineers
+   Skill: product-positioning-framework
 
+: Logan Kilpatrick.txt
 
-📄: Julie Zhuo 2.0.txt
+   Skill: high-context-prompt-engineering
 
-   ✅  Skill: hypothesis-led-alignment
-   ✅ Created: /input/generated_skills/hypothesis-led-alignment
+: David Singleton.txt
 
+   Skill: friction-logging-and-ux-reviews
 
-📄: Claire Butler.txt
+: Noam Lovinsky.txt
 
-   ✅  Skill: bottom-up-gtm-for-technical-products
-   ✅ Created: /input/generated_skills/bottom-up-gtm-for-technical-products
+   Skill: strategic-project-auditing
 
+: Gustav Söderström.txt
 
-📄: Arielle Jackson.txt
+   Skill: fault-tolerant-ai-ux-design
 
-   ✅  Skill: startup-brand-identity-framework
-   ✅ Created: /input/generated_skills/startup-brand-identity-framework
+: Yuriy Timen.txt
 
+   Skill: growth-channel-selection-audit
 
-📄: Camille Ricketts.txt
+: Kristen Berman.txt
 
-   ✅  Skill: community-led-growth-strategy
-   ✅ Created: /input/generated_skills/community-led-growth-strategy
+   Skill: three-bs-behavioral-design
 
+: Sriram and Aarthi.txt
 
-📄: Dmitry Zlokazov.txt
+   Skill: systems-thinking-product-tradeoffs
 
-   ✅  Skill: deep-dive-portfolio-management
-   ✅ Created: /input/generated_skills/deep-dive-portfolio-management
+: Jonny Miller.txt
 
+   Skill: bottom-up-nervous-system-regulation
 
-📄: Kayvon Beykpour.txt
+: Nancy Duarte.txt
 
-   ✅  Skill: sacred-cow-product-roadmap
-   ✅ Created: /input/generated_skills/sacred-cow-product-roadmap
+   Skill: persuasive-narrative-contrast-framework
 
+: Matthew Dicks.txt
 
-📄: Ben Williams.txt
+   Skill: five-second-moment-storytelling
 
-   ✅  Skill: growth-impact-and-learning-reviews
-   ✅ Created: /input/generated_skills/growth-impact-and-learning-reviews
+: Marc Benioff.txt
 
+   Skill: winning-tactic-to-strategy
 
-📄: Guillermo Rauch.txt
+: Hilary Gridley.txt
 
-   ✅  Skill: full-stack-ai-product-building
-   ✅ Created: /input/generated_skills/full-stack-ai-product-building
+   Skill: counter-program-professional-narratives
 
+: Annie Pearl.txt
 
-📄: Tristan de Montebello.txt
+   Skill: strategic-prioritization-by-horizons
 
-   ✅  Skill: high-stakes-spontaneous-speaking
-   ✅ Created: /input/generated_skills/high-stakes-spontaneous-speaking
+: Kevin Weil.txt
 
+   Skill: ai-eval-design-and-iteration
 
-📄: Eoghan McCabe.txt
+: Jonathan Becker.txt
 
-   ✅  Skill: ai-first-business-transformation
-   ✅ Created: /input/generated_skills/ai-first-business-transformation
+   Skill: creative-performance-testing
 
+: Tobi Lutke.txt
 
-📄: Roger Martin.txt
+   Skill: first-principles-product-derivation
 
-   ✅  Skill: strategy-choice-cascade
-   ✅ Created: /input/generated_skills/strategy-choice-cascade
+: Merci Grace.txt
 
+   Skill: product-led-onboarding-design
 
-📄: Scott Belsky.txt
+: Karri Saarinen.txt
 
-   ✅  Skill: first-mile-experience-design
-   ✅ Created: /input/generated_skills/first-mile-experience-design
+   Skill: craft-centric-product-development
 
+: Shreyas Doshi Live.txt
 
-📄: Noah Weiss.txt
+   Skill: strategy-led-planning-bypass
 
-   ✅  Skill: complaint-storming-for-product-polish
-   ✅ Created: /input/generated_skills/complaint-storming-for-product-polish
+: Phyl Terry.txt
 
+   Skill: candidate-market-fit-assessment
 
-📄: Aishwarya Naresh Reganti + Kiriti Badam.txt
+: Jules Walter.txt
 
-   ✅  Skill: ai-agency-calibration-framework
-   ✅ Created: /input/generated_skills/ai-agency-calibration-framework
+   Skill: strategic-mentorship-accelerated-growth
 
+: Luc Levesque.txt
 
-📄: Jess Lachs.txt
+   Skill: growth-advisor-selection-and-structure
 
-   ✅  Skill: metric-definition-and-incentive-alignment
-   ✅ Created: /input/generated_skills/metric-definition-and-incentive-alignment
+: Melissa Perri + Denise Tilles.txt
 
+   Skill: product-operations-setup
 
-📄: Kenneth Berger.txt
+: Dan Shipper.txt
 
-   ✅  Skill: ask-for-what-you-want
-   ✅ Created: /input/generated_skills/ask-for-what-you-want
+   Skill: compounding-engineering-with-ai
 
+: Itamar Gilad.txt
 
-📄: Gustaf Alstromer.txt
+   Skill: gist-evidence-guided-development
 
-   ✅  Skill: yc-execution-and-customer-discovery
-   ✅ Created: /input/generated_skills/yc-execution-and-customer-discovery
+: Ray Cao.txt
 
+   Skill: tiktok-advertising-strategy
 
-📄: Vijay.txt
+: April Dunford 2.0.txt
 
-   ✅  Skill: high-impact-product-prioritization
-   ✅ Created: /input/generated_skills/high-impact-product-prioritization
+   Skill: sales-pitch-storytelling-framework
 
+: Tom Conrad.txt
 
-📄: Nikita Bier.txt
+   Skill: business-model-math-validation
 
-   ✅  Skill: latent-demand-discovery
-   ✅ Created: /input/generated_skills/latent-demand-discovery
+: Ronny Kohavi.txt
 
+   Skill: oec-experimentation-framework
 
-📄: Jen Abel.txt
+: Keith Yandell.txt
 
-   ✅  Skill: founder-led-sales-playbook
-   ✅ Created: /input/generated_skills/founder-led-sales-playbook
+   Skill: manager-readme-for-scaling-trust
 
+: Melanie Perkins.txt
 
-📄: Adam Fishman.txt
+   Skill: column-b-strategic-planning
 
-   ✅  Skill: onboarding-for-retention-optimization
-   ✅ Created: /input/generated_skills/onboarding-for-retention-optimization
+: Melissa Perri.txt
 
+   Skill: product-owner-to-manager-transition
 
-📄: Wes Kao 2.0.txt
+: Bangaly Kaba.txt
 
-   ✅  Skill: strategic-executive-communication
-   ✅ Created: /input/generated_skills/strategic-executive-communication
+   Skill: understand-identify-execute-framework
 
+: Ayo Omojola.txt
 
-📄: Alex Hardimen.txt
+   Skill: command-of-details-investigation
 
-   ✅  Skill: editorial-integrated-product-development
-   ✅ Created: /input/generated_skills/editorial-integrated-product-development
+: Jason Droege.txt
 
+   Skill: new-business-opportunity-filtering
 
-📄: Janna Bastow.txt
+: Interview Q Compilation.txt
 
-   ✅  Skill: now-next-later-roadmapping
-   ✅ Created: /input/generated_skills/now-next-later-roadmapping
+   Skill: eigenquestion-product-assessment
 
+: Jessica Livingston.txt
 
-📄 : Chandra Janakiraman.txt
+   Skill: social-radar-founder-evaluation
 
-   ✅  Skill: product-strategy-operator-playbook
-   ✅ Created: /input/generated_skills/product-strategy-operator-playbook
+: Alisa Cohn.txt
 
+   Skill: difficult-performance-conversations
 
-📄 : Robby Stein.txt
+: Jeanne Grosser.txt
 
-   ✅  Skill: relentless-product-improvement
-   ✅ Created: /input/generated_skills/relentless-product-improvement
+   Skill: gtm-agent-engineering
 
+: Nicole Forsgren 2.0.txt
 
-📄 : Gibson Biddle.txt
+   Skill: devex-improvement-framework
 
-   ✅  Skill: dhm-product-strategy-framework
-   ✅ Created: /input/generated_skills/dhm-product-strategy-framework
+: Sri Batchu.txt
 
+   Skill: north-star-translation-layer
 
-📄 : Nickey Skarstad.txt
+: Marily Nika.txt
 
-   ✅  Skill: vision-to-execution-pyramid
-   ✅ Created: /input/generated_skills/vision-to-execution-pyramid
+   Skill: ai-product-management-transition
 
+: Inbal S.txt
 
-📄 : Joe Hudson.txt
+   Skill: ai-first-systems-thinking
 
-   ✅  Skill: critical-voice-transformation
-   ✅ Created: /input/generated_skills/critical-voice-transformation
+: Ami Vora.txt
 
+   Skill: curiosity-led-disagreement
 
-📄 : Bob Moesta 2.0.txt
+: Sanchan Saxena.txt
 
-   ✅  Skill: career-progress-job-moves
-   ✅ Created: /input/generated_skills/career-progress-job-moves
+   Skill: content-first-product-leadership
 
+: Jeffrey Pfeffer.txt
 
-📄 : Scott Wu.txt
+   Skill: strategic-power-acquisition-framework
 
-   ✅  Skill: agentic-engineering-workflow
-   ✅ Created: /input/generated_skills/agentic-engineering-workflow
+: David Placek.txt
 
+   Skill: scientific-brand-naming-process
 
-📄 : Uri Levine.txt
+: Katie Dill.txt
 
-   ✅  Skill: strategic-pitch-optimization
-   ✅ Created: /input/generated_skills/strategic-pitch-optimization
+   Skill: walk-the-store-quality-review
 
+: Kunal Shah.txt
 
-📄 : April Dunford.txt
+   Skill: delta-4-product-efficiency-framework
 
-   ✅  Skill: product-positioning-framework
-   ✅ Created: /input/generated_skills/product-positioning-framework
+: Julie Zhuo.txt
 
+   Skill: product-critique-synthesis
 
-📄 : Logan Kilpatrick.txt
+: Donna Lichaw.txt
 
-   ✅  Skill: high-context-prompt-engineering
-   ✅ Created: /input/generated_skills/high-context-prompt-engineering
+   Skill: superpower-kryptonite-audit
 
+: Zevi Arnovitz.txt
 
-📄 : David Singleton.txt
+   Skill: ai-native-builder-workflow
 
-   ✅  Skill: friction-logging-and-ux-reviews
-   ✅ Created: /input/generated_skills/friction-logging-and-ux-reviews
+: Eric Ries.txt
 
+   Skill: pivot-or-perish-audit
 
-📄 : Noam Lovinsky.txt
+: Matt MacInnis.txt
 
-   ✅  Skill: strategic-project-auditing
-   ✅ Created: /input/generated_skills/strategic-project-auditing
+   Skill: alpha-beta-management-framework
 
+: Oji Udezue.txt
 
-📄 : Gustav Söderström.txt
+   Skill: b2b-saas-workflow-strategy
 
-   ✅  Skill: fault-tolerant-ai-ux-design
-   ✅ Created: /input/generated_skills/fault-tolerant-ai-ux-design
+: Ivan Zhao.txt
 
+   Skill: sugar-coated-broccoli-strategy
 
-📄 : Yuriy Timen.txt
+: Farhan Thawar.txt
 
-   ✅  Skill: growth-channel-selection-audit
-   ✅ Created: /input/generated_skills/growth-channel-selection-audit
+   Skill: high-velocity-execution-cadence
 
+: Ben Horowitz.txt
 
-📄 : Kristen Berman.txt
+   Skill: high-stakes-leadership-decision-making
 
-   ✅  Skill: three-bs-behavioral-design
-   ✅ Created: /input/generated_skills/three-bs-behavioral-design
+: Ken Norton.txt
 
+   Skill: creative-leadership-mindset-shift
 
-📄 : Sriram and Aarthi.txt
+: Molly Graham.txt
 
-   ✅  Skill: systems-thinking-product-tradeoffs
-   ✅ Created: /input/generated_skills/systems-thinking-product-tradeoffs
+   Skill: high-growth-goal-alignment
 
+: Mihika Kapoor.txt
 
-📄 : Jonny Miller.txt
+   Skill: internal-product-championing
 
-   ✅  Skill: bottom-up-nervous-system-regulation
-   ✅ Created: /input/generated_skills/bottom-up-nervous-system-regulation
+: Kevin Yien.txt
 
+   Skill: automated-b2b-user-research-flywheel
 
-📄 : Nancy Duarte.txt
+: Casey Winters.txt
 
-   ✅  Skill: persuasive-narrative-contrast-framework
-   ✅ Created: /input/generated_skills/persuasive-narrative-contrast-framework
+   Skill: executive-communication-narrative-mapping
 
+: Annie Duke.txt
 
-📄 : Matthew Dicks.txt
+   Skill: discover-discuss-decide-framework
 
-   ✅  Skill: five-second-moment-storytelling
-   ✅ Created: /input/generated_skills/five-second-moment-storytelling
+: Sahil Mansuri.txt
 
+   Skill: strategic-insight-prospecting
 
-📄 : Marc Benioff.txt
+: Brian Tolkin.txt
 
-   ✅  Skill: winning-tactic-to-strategy
-   ✅ Created: /input/generated_skills/winning-tactic-to-strategy
+   Skill: low-sample-product-validation
 
+: Dhanji R. Prasanna.txt
 
-📄 : Hilary Gridley.txt
+   Skill: agentic-workflow-automation
 
-   ✅  Skill: counter-program-professional-narratives
-   ✅ Created: /input/generated_skills/counter-program-professional-narratives
+: Bob Moesta.txt
 
+   Skill: demand-side-jtbd-analysis
 
-📄 : Annie Pearl.txt
+: Elizabeth Stone.txt
 
-   ✅  Skill: strategic-prioritization-by-horizons
-   ✅ Created: /input/generated_skills/strategic-prioritization-by-horizons
+   Skill: generated-skill
 
+: Maggie Crowley.txt
 
-📄 : Kevin Weil.txt
+   Skill: landscape-first-product-strategy
 
-   ✅  Skill: ai-eval-design-and-iteration
-   ✅ Created: /input/generated_skills/ai-eval-design-and-iteration
+: Claire Vo.txt
 
+   Skill: high-velocity-product-leadership
 
-📄 : Jonathan Becker.txt
+: Tim Holley.txt
 
-   ✅  Skill: creative-performance-testing
-   ✅ Created: /input/generated_skills/creative-performance-testing
+   Skill: five-legged-stool-collaboration
 
+: Amjad Masad.txt
 
-📄 : Tobi Lutke.txt
+   Skill: agentic-product-prototyping
 
-   ✅  Skill: first-principles-product-derivation
-   ✅ Created: /input/generated_skills/first-principles-product-derivation
+: Tomer Cohen 2.0.txt
 
+   Skill: full-stack-builder-model
 
-📄 : Merci Grace.txt
+: Stewart Butterfield.txt
 
-   ✅  Skill: product-led-onboarding-design
-   ✅ Created: /input/generated_skills/product-led-onboarding-design
+   Skill: comprehension-first-design
 
+: Bret Taylor.txt
 
-📄 : Karri Saarinen.txt
+   Skill: outcomes-based-pricing-strategy
 
-   ✅  Skill: craft-centric-product-development
-   ✅ Created: /input/generated_skills/craft-centric-product-development
+: Gina Gotthilf.txt
 
+   Skill: unique-irreverent-brand-voice
 
-📄 : Shreyas Doshi Live.txt
+: Nikita Miller.txt
 
-   ✅  Skill: strategy-led-planning-bypass
-   ✅ Created: /input/generated_skills/strategy-led-planning-bypass
+   Skill: cross-functional-alignment-contract
 
+: Benjamin Lauzier.txt
 
-📄 : Phyl Terry.txt
+   Skill: marketplace-liquidity-management
 
-   ✅  Skill: candidate-market-fit-assessment
-   ✅ Created: /input/generated_skills/candidate-market-fit-assessment
+: Keith Coleman & Jay Baxter.txt
 
+   Skill: thermal-team-incubation
 
-📄 : Jules Walter.txt
+: Madhavan Ramanujam 2.0.txt
 
-   ✅  Skill: strategic-mentorship-accelerated-growth
-   ✅ Created: /input/generated_skills/strategic-mentorship-accelerated-growth
+   Skill: b2b-value-negotiation
 
+: Paul Adams.txt
 
-📄 : Luc Levesque.txt
+   Skill: ai-product-strategy-mapping
 
-   ✅  Skill: growth-advisor-selection-and-structure
-   ✅ Created: /input/generated_skills/growth-advisor-selection-and-structure
+: Judd Antin.txt
 
+   Skill: falsification-driven-user-research
 
-📄 : Melissa Perri + Denise Tilles.txt
+: Adam Grenier.txt
 
-   ✅  Skill: product-operations-setup
-   ✅ Created: /input/generated_skills/product-operations-setup
+   Skill: emerging-channel-evaluation
 
+: Gergely.txt
 
-📄 : Dan Shipper.txt
+   Skill: professional-newsletter-operating-model
 
-   ✅  Skill: compounding-engineering-with-ai
-   ✅ Created: /input/generated_skills/compounding-engineering-with-ai
+: Laura Schaffer.txt
 
+   Skill: generated-skill
 
-📄 : Itamar Gilad.txt
+: Asha Sharma.txt
 
-   ✅  Skill: gist-evidence-guided-development
-   ✅ Created: /input/generated_skills/gist-evidence-guided-development
+   Skill: generated-skill
 
+: Patrick Campbell.txt
 
-📄 : Ray Cao.txt
+   Skill: high-frequency-shipping-tempo
 
-   ✅  Skill: tiktok-advertising-strategy
-   ✅ Created: /input/generated_skills/tiktok-advertising-strategy
+: Zoelle Egner.txt
 
+   Skill: startup-legitimacy-signaling
 
-📄 : April Dunford 2.0.txt
+: Ethan Evans 2.0.txt
 
-   ✅  Skill: sales-pitch-storytelling-framework
-   ✅ Created: /input/generated_skills/sales-pitch-storytelling-framework
+   Skill: the-magic-loop-career-acceleration
 
+: Dalton Caldwell.txt
 
-📄 : Tom Conrad.txt
+   Skill: startup-pivot-framework
 
-   ✅  Skill: business-model-math-validation
-   ✅ Created: /input/generated_skills/business-model-math-validation
+: Anuj Rathi.txt
 
+   Skill: four-bb-product-prioritization
 
-📄 : Ronny Kohavi.txt
+: Dylan Field.txt
 
-   ✅  Skill: oec-experimentation-framework
-   ✅ Created: /input/generated_skills/oec-experimentation-framework
+   Skill: product-intuition-and-simplification
 
+: Jackie Bavaro.txt
 
-📄 : Keith Yandell.txt
+   Skill: three-pillar-product-strategy
 
-   ✅  Skill: manager-readme-for-scaling-trust
-   ✅ Created: /input/generated_skills/manager-readme-for-scaling-trust
+: Gokul Rajaram.txt
 
+   Skill: leadership-recruitment-lieutenant-strategy
 
-📄 : Melanie Perkins.txt
+: Hila Qu.txt
 
-   ✅  Skill: column-b-strategic-planning
-   ✅ Created: /input/generated_skills/column-b-strategic-planning
+   Skill: plg-funnel-audit-and-implementation
 
+: Tamar Yehoshua.txt
 
-📄 : Melissa Perri.txt
+   Skill: product-engineering-strategic-alignment
 
-   ✅  Skill: product-owner-to-manager-transition
-   ✅ Created: /input/generated_skills/product-owner-to-manager-transition
+: Chris Hutchins.txt
 
+   Skill: generated-skill
 
-📄 : Bangaly Kaba.txt
+: Jen Abel 2.0.txt
 
-   ✅  Skill: understand-identify-execute-framework
-   ✅ Created: /input/generated_skills/understand-identify-execute-framework
+   Skill: enterprise-deal-crafting-framework
 
+: Maya Prohovnik.txt
 
-📄 : Ayo Omojola.txt
+   Skill: gut-data-balancing-framework
 
-   ✅  Skill: command-of-details-investigation
-   ✅ Created: /input/generated_skills/command-of-details-investigation
+: Christopher Lochhead.txt
 
+   Skill: category-design-framework
 
-📄 : Jason Droege.txt
+: Alexander Embiricos.txt
 
-   ✅  Skill: new-business-opportunity-filtering
-   ✅ Created: /input/generated_skills/new-business-opportunity-filtering
+   Skill: plan-driven-agentic-engineering
 
+: Naomi Ionita.txt
 
-📄 : Interview Q Compilation.txt
+   Skill: monetization-and-pricing-strategy
 
-   ✅  Skill: eigenquestion-product-assessment
-   ✅ Created: /input/generated_skills/eigenquestion-product-assessment
+: Sean Ellis.txt
 
+   Skill: pmf-leading-indicator-assessment
 
-📄 : Jessica Livingston.txt
+: Nick Turley.txt
 
-   ✅  Skill: social-radar-founder-evaluation
-   ✅ Created: /input/generated_skills/social-radar-founder-evaluation
+   Skill: maximally-accelerated-execution
 
+: Will Larson.txt
 
-📄 : Alisa Cohn.txt
+   Skill: engineering-strategy-development
 
-   ✅  Skill: difficult-performance-conversations
-   ✅ Created: /input/generated_skills/difficult-performance-conversations
+: Evan LaPointe.txt
 
+   Skill: strategic-influence-characters
 
-📄 : Jeanne Grosser.txt
+: Nir Eyal.txt
 
-   ✅  Skill: gtm-agent-engineering
-   ✅ Created: /input/generated_skills/gtm-agent-engineering
+   Skill: indistractable-focus-framework
 
+: Carole Robin.txt
 
-📄 : Nicole Forsgren 2.0.txt
+   Skill: stay-on-your-side-of-the-net
 
-   ✅  Skill: devex-improvement-framework
-   ✅ Created: /input/generated_skills/devex-improvement-framework
+: Megan Cook.txt
 
+   Skill: strategic-project-advocacy
 
-📄 : Sri Batchu.txt
+: Jessica Hische.txt
 
-   ✅  Skill: north-star-translation-layer
-   ✅ Created: /input/generated_skills/north-star-translation-layer
+   Skill: logo-refresh-and-design-intuition
 
+: Nan Yu.txt
 
-📄 : Marily Nika.txt
+   Skill: extreme-attribute-prototyping
 
-   ✅  Skill: ai-product-management-transition
-   ✅ Created: /input/generated_skills/ai-product-management-transition
+: Barbra Gago.txt
 
+   Skill: b2b-category-creation-strategy
 
-📄 : Inbal S.txt
+: Sander Schulhoff.txt
 
-   ✅  Skill: ai-first-systems-thinking
-   ✅ Created: /input/generated_skills/ai-first-systems-thinking
+   Skill: advanced-prompting-and-adversarial-testing
 
+: Graham Weaver.txt
 
-📄 : Ami Vora.txt
+   Skill: career-direction-genie-framework
 
-   ✅  Skill: curiosity-led-disagreement
-   ✅ Created: /input/generated_skills/curiosity-led-disagreement
+: Kim Scott.txt
 
+   Skill: radical-candor-feedback-loop
 
-📄 : Sanchan Saxena.txt
+: Crystal W.txt
 
-   ✅  Skill: content-first-product-leadership
-   ✅ Created: /input/generated_skills/content-first-product-leadership
+   Skill: insight-driven-event-tracking
 
+: Howie Liu.txt
 
-📄 : Jeffrey Pfeffer.txt
+   Skill: ai-native-product-refounding
 
-   ✅  Skill: strategic-power-acquisition-framework
-   ✅ Created: /input/generated_skills/strategic-power-acquisition-framework
+: Hamel Husain & Shreya Shankar.txt
 
+   Skill: ai-error-analysis-and-eval-design
 
-📄 : David Placek.txt
+: Benjamin Mann.txt
 
-   ✅  Skill: scientific-brand-naming-process
-   ✅ Created: /input/generated_skills/scientific-brand-naming-process
+   Skill: constitutional-ai-alignment
 
+: Seth Godin.txt
 
-📄 : Katie Dill.txt
+   Skill: strategic-choice-framework
 
-   ✅  Skill: walk-the-store-quality-review
-   ✅ Created: /input/generated_skills/walk-the-store-quality-review
+: Uri Levine 2.0.txt
 
+   Skill: startup-crisis-management
 
-📄 : Kunal Shah.txt
+: Dylan Field 2.0.txt
 
-   ✅  Skill: delta-4-product-efficiency-framework
-   ✅ Created: /input/generated_skills/delta-4-product-efficiency-framework
+   Skill: workflow-tracing-product-expansion
 
+: Anneka Gupta.txt
 
-📄 : Julie Zhuo.txt
+   Skill: strategic-leadership-and-perception
 
-   ✅  Skill: product-critique-synthesis
-   ✅ Created: /input/generated_skills/product-critique-synthesis
+: Rahul Vohra.txt
 
+   Skill: pmf-optimization-engine
 
-📄 : Donna Lichaw.txt
+: Bill Carr.txt
 
-   ✅  Skill: superpower-kryptonite-audit
-   ✅ Created: /input/generated_skills/superpower-kryptonite-audit
+   Skill: working-backwards-pr-faq
 
+: Brandon Chu.txt
 
-📄 : Zevi Arnovitz.txt
+   Skill: decision-importance-prioritization
 
-   ✅  Skill: ai-native-builder-workflow
-   ✅ Created: /input/generated_skills/ai-native-builder-workflow
+: Jason Fried.txt
 
+   Skill: fixed-appetite-product-cycles
 
-📄 : Eric Ries.txt
+: Melissa.txt
 
-   ✅  Skill: pivot-or-perish-audit
-   ✅ Created: /input/generated_skills/pivot-or-perish-audit
+   Skill: generated-skill
 
+: Nilan Peiris.txt
 
-📄 : Matt MacInnis.txt
+   Skill: word-of-mouth-growth-engine
 
-   ✅  Skill: alpha-beta-management-framework
-   ✅ Created: /input/generated_skills/alpha-beta-management-framework
+: Sander Schulhoff 2.0.txt
 
+   Skill: securing-agentic-ai-systems
 
-📄 : Oji Udezue.txt
+: Julia Schottenstein.txt
 
-   ✅  Skill: b2b-saas-workflow-strategy
-   ✅ Created: /input/generated_skills/b2b-saas-workflow-strategy
+   Skill: m-and-a-strategic-positioning
 
+: Christian Idiodi.txt
 
-📄 : Ivan Zhao.txt
+   Skill: reference-customer-discovery
 
-   ✅  Skill: sugar-coated-broccoli-strategy
-   ✅ Created: /input/generated_skills/sugar-coated-broccoli-strategy
+: Fareed Mosavat.txt
 
+   Skill: product-career-acceleration
 
-📄 : Farhan Thawar.txt
+: Todd Jackson.txt
 
-   ✅  Skill: high-velocity-execution-cadence
-   ✅ Created: /input/generated_skills/high-velocity-execution-cadence
+   Skill: levels-of-product-market-fit
 
+: Jason Feifer.txt
 
-📄 : Ben Horowitz.txt
+   Skill: startup-media-pitching-strategy
 
-   ✅  Skill: high-stakes-leadership-decision-making
-   ✅ Created: /input/generated_skills/high-stakes-leadership-decision-making
+: Lauren Ipsen.txt
 
+   Skill: generated-skill
 
-📄 : Ken Norton.txt
+: Brendan Foody.txt
 
-   ✅  Skill: creative-leadership-mindset-shift
-   ✅ Created: /input/generated_skills/creative-leadership-mindset-shift
+   Skill: systematic-ai-eval-design
 
+: Camille Hearst.txt
 
-📄 : Molly Graham.txt
+   Skill: dual-track-discovery-de-risking
 
-   ✅  Skill: high-growth-goal-alignment
-   ✅ Created: /input/generated_skills/high-growth-goal-alignment
+: Ramesh Johari.txt
 
+   Skill: marketplace-tradeoff-management
 
-📄 : Mihika Kapoor.txt
+: Jag Duggal.txt
 
-   ✅  Skill: internal-product-championing
-   ✅ Created: /input/generated_skills/internal-product-championing
+   Skill: pmf-threshold-gating
 
+: Elena Verna 2.0.txt
 
-📄 : Kevin Yien.txt
+   Skill: product-led-sales-bridge
 
-   ✅  Skill: automated-b2b-user-research-flywheel
-   ✅ Created: /input/generated_skills/automated-b2b-user-research-flywheel
+: Failure.txt
 
+   Skill: conclusive-failure-experimentation
 
-📄 : Casey Winters.txt
+: Cam Adams.txt
 
-   ✅  Skill: executive-communication-narrative-mapping
-   ✅ Created: /input/generated_skills/executive-communication-narrative-mapping
+   Skill: jtob-template-seo-engine
 
+: Nikhyl Singhal.txt
 
-📄 : Annie Duke.txt
+   Skill: pm-career-growth-unblocking
 
-   ✅  Skill: discover-discuss-decide-framework
-   ✅ Created: /input/generated_skills/discover-discuss-decide-framework
+: Pete Kazanjy.txt
 
+   Skill: repeatable-sales-motion-while-loop
 
-📄 : Sahil Mansuri.txt
+: Wes Kao.txt
 
-   ✅  Skill: strategic-insight-prospecting
-   ✅ Created: /input/generated_skills/strategic-insight-prospecting
+   Skill: managing-up-strategic-communication
 
+: Jonathan Lowenhar.txt
 
-📄 : Brian Tolkin.txt
+   Skill: magic-box-exit-strategy
 
-   ✅  Skill: low-sample-product-validation
-   ✅ Created: /input/generated_skills/low-sample-product-validation
+: Eeke de Milliano.txt
 
+   Skill: operationalizing-innovation-framework
 
-📄 : Dhanji R. Prasanna.txt
+: Christine Itwaru.txt
 
-   ✅  Skill: agentic-workflow-automation
-   ✅ Created: /input/generated_skills/agentic-workflow-automation
+   Skill: product-operations-system-design
 
+: Ada Chen Rekhi.txt
 
-📄 : Bob Moesta.txt
+   Skill: curiosity-loop-decision-making
 
-   ✅  Skill: demand-side-jtbd-analysis
-   ✅ Created: /input/generated_skills/demand-side-jtbd-analysis
+: Sarah Tavel.txt
 
+   Skill: hierarchy-of-marketplaces
 
-📄 : Elizabeth Stone.txt
+: Emily Kramer.txt
 
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-1
+   Skill: startup-marketing-hiring-framework
 
+: Matt Dixon.txt
 
-📄 : Maggie Crowley.txt
+   Skill: overcoming-customer-indecision-jolt
 
-   ✅  Skill: landscape-first-product-strategy
-   ✅ Created: /input/generated_skills/landscape-first-product-strategy
+: Bob Baxley.txt
 
+   Skill: design-tenets-for-decision-making
 
-📄 : Claire Vo.txt
+: Dan Hockenmaier.txt
 
-   ✅  Skill: high-velocity-product-leadership
-   ✅ Created: /input/generated_skills/high-velocity-product-leadership
+   Skill: growth-model-construction
 
+: Aparna Chennapragada.txt
 
-📄 : Tim Holley.txt
+   Skill: nlx-design-and-agent-framework
 
-   ✅  Skill: five-legged-stool-collaboration
-   ✅ Created: /input/generated_skills/five-legged-stool-collaboration
+: Jerry Colonna.txt
 
+   Skill: radical-self-inquiry-leadership
 
-📄 : Amjad Masad.txt
+: Varun Mohan.txt
 
-   ✅  Skill: agentic-product-prototyping
-   ✅ Created: /input/generated_skills/agentic-product-prototyping
+   Skill: high-agency-ai-building
 
+: Chip Huyen.txt
 
-📄 : Tomer Cohen 2.0.txt
+   Skill: ai-app-performance-optimization
 
-   ✅  Skill: full-stack-builder-model
-   ✅ Created: /input/generated_skills/full-stack-builder-model
+: Matt LeMay.txt
 
+   Skill: impact-first-alignment
 
-📄 : Stewart Butterfield.txt
+: Lulu Cheng Meservey.txt
 
-   ✅  Skill: comprehension-first-design
-   ✅ Created: /input/generated_skills/comprehension-first-design
+   Skill: concentric-circle-messaging
 
+: Hari Srinivasan.txt
 
-📄 : Bret Taylor.txt
+   Skill: complex-system-decision-making
 
-   ✅  Skill: outcomes-based-pricing-strategy
-   ✅ Created: /input/generated_skills/outcomes-based-pricing-strategy
+: Eric Simons.txt
 
+   Skill: ai-native-product-building
 
-📄 : Gina Gotthilf.txt
+: Tomer Cohen.txt
 
-   ✅  Skill: unique-irreverent-brand-voice
-   ✅ Created: /input/generated_skills/unique-irreverent-brand-voice
+   Skill: wrong-but-not-confused-clarity-framework
 
+: Laura Modi.txt
 
-📄 : Nikita Miller.txt
+   Skill: manufacturing-team-momentum
 
-   ✅  Skill: cross-functional-alignment-contract
-   ✅ Created: /input/generated_skills/cross-functional-alignment-contract
+: Albert Cheng.txt
 
+   Skill: explore-and-exploit-growth-strategy
 
-📄 : Benjamin Lauzier.txt
+: Karina Nguyen.txt
 
-   ✅  Skill: marketplace-liquidity-management
-   ✅ Created: /input/generated_skills/marketplace-liquidity-management
+   Skill: ai-product-evaluation-design
 
+: Emilie Gerber.txt
 
-📄 : Keith Coleman & Jay Baxter.txt
+   Skill: startup-pr-outreach
 
-   ✅  Skill: thermal-team-incubation
-   ✅ Created: /input/generated_skills/thermal-team-incubation
+: Julian Shapiro.txt
 
+   Skill: creativity-faucet-brainstorming
 
-📄 : Madhavan Ramanujam 2.0.txt
+: Nabeel S. Qureshi.txt
 
-   ✅  Skill: b2b-value-negotiation
-   ✅ Created: /input/generated_skills/b2b-value-negotiation
+   Skill: forward-deployed-iteration-loop
 
+: Austin Hay.txt
 
-📄 : Paul Adams.txt
+   Skill: martech-system-architecture
 
-   ✅  Skill: ai-product-strategy-mapping
-   ✅ Created: /input/generated_skills/ai-product-strategy-mapping
+: EOY Review.txt
 
+   Skill: five-step-product-positioning
 
-📄 : Judd Antin.txt
+: Ethan Smith.txt
 
-   ✅  Skill: falsification-driven-user-research
-   ✅ Created: /input/generated_skills/falsification-driven-user-research
+   Skill: answer-engine-optimization-playbook
 
+: Andrew Wilkinson.txt
 
-📄 : Adam Grenier.txt
+   Skill: niche-market-opportunity-mapping
 
-   ✅  Skill: emerging-channel-evaluation
-   ✅ Created: /input/generated_skills/emerging-channel-evaluation
+: Eli Schwartz.txt
 
+   Skill: product-led-seo-strategy
 
-📄 : Gergely.txt
+: Manik Gupta.txt
 
-   ✅  Skill: professional-newsletter-operating-model
-   ✅ Created: /input/generated_skills/professional-newsletter-operating-model
+   Skill: consumer-product-readiness-stack
 
+: Mike Krieger.txt
 
-📄 : Laura Schaffer.txt
+   Skill: generated-skill
 
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-2
+: Nicole Forsgren.txt
 
+   Skill: engineering-productivity-measurement-framework
 
-📄 : Asha Sharma.txt
+: Meltem Kuran.txt
 
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-3
+   Skill: seo-traffic-light-framework
 
+: Rachel Lockett.txt
 
-📄 : Patrick Campbell.txt
+   Skill: leader-as-coach-methodology
 
-   ✅  Skill: high-frequency-shipping-tempo
-   ✅ Created: /input/generated_skills/high-frequency-shipping-tempo
+: Chip Conley.txt
 
+   Skill: modern-elder-upward-influence
 
-📄 : Zoelle Egner.txt
+: Shweta Shriva.txt
 
-   ✅  Skill: startup-legitimacy-signaling
-   ✅ Created: /input/generated_skills/startup-legitimacy-signaling
+   Skill: proactive-assumption-challenging
 
+: Deb Liu.txt
 
-📄 : Ethan Evans 2.0.txt
+   Skill: pm-your-career-roadmap
 
-   ✅  Skill: the-magic-loop-career-acceleration
-   ✅ Created: /input/generated_skills/the-magic-loop-career-acceleration
+: Josh Miller.txt
 
+   Skill: optimizing-for-user-feelings
 
-📄 : Dalton Caldwell.txt
+: Geoff Charles.txt
 
-   ✅  Skill: startup-pivot-framework
-   ✅ Created: /input/generated_skills/startup-pivot-framework
+   Skill: operationalizing-product-velocity
 
+: Jiaona Zhang.txt
 
-📄 : Anuj Rathi.txt
+   Skill: narrative-led-roadmapping
 
-   ✅  Skill: four-bb-product-prioritization
-   ✅ Created: /input/generated_skills/four-bb-product-prioritization
+: Teaser_2021.txt
 
+   Skill: high-proximity-networking
 
-📄 : Dylan Field.txt
+: John Cutler.txt
 
-   ✅  Skill: product-intuition-and-simplification
-   ✅ Created: /input/generated_skills/product-intuition-and-simplification
+   Skill: data-informed-product-loop
 
+: Upasna Gautam.txt
 
-📄 : Jackie Bavaro.txt
+   Skill: editorial-expert-collaboration-framework
 
-   ✅  Skill: three-pillar-product-strategy
-   ✅ Created: /input/generated_skills/three-pillar-product-strategy
+: Jake Knapp + John Zeratsky.txt
 
-
-📄 : Gokul Rajaram.txt
-
-   ✅  Skill: leadership-recruitment-lieutenant-strategy
-   ✅ Created: /input/generated_skills/leadership-recruitment-lieutenant-strategy
-
-
-📄 : Hila Qu.txt
-
-   ✅  Skill: plg-funnel-audit-and-implementation
-   ✅ Created: /input/generated_skills/plg-funnel-audit-and-implementation
-
-
-📄 : Tamar Yehoshua.txt
-
-   ✅  Skill: product-engineering-strategic-alignment
-   ✅ Created: /input/generated_skills/product-engineering-strategic-alignment
-
-
-📄 : Chris Hutchins.txt
-
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-4
-
-
-📄 : Jen Abel 2.0.txt
-
-   ✅  Skill: enterprise-deal-crafting-framework
-   ✅ Created: /input/generated_skills/enterprise-deal-crafting-framework
-
-
-📄 : Maya Prohovnik.txt
-
-   ✅  Skill: gut-data-balancing-framework
-   ✅ Created: /input/generated_skills/gut-data-balancing-framework
-
-
-📄 : Christopher Lochhead.txt
-
-   ✅  Skill: category-design-framework
-   ✅ Created: /input/generated_skills/category-design-framework
-
-
-📄 : Alexander Embiricos.txt
-
-   ✅  Skill: plan-driven-agentic-engineering
-   ✅ Created: /input/generated_skills/plan-driven-agentic-engineering
-
-
-📄 : Naomi Ionita.txt
-
-   ✅  Skill: monetization-and-pricing-strategy
-   ✅ Created: /input/generated_skills/monetization-and-pricing-strategy
-
-
-📄 : Sean Ellis.txt
-
-   ✅  Skill: pmf-leading-indicator-assessment
-   ✅ Created: /input/generated_skills/pmf-leading-indicator-assessment
-
-
-📄 : Nick Turley.txt
-
-   ✅  Skill: maximally-accelerated-execution
-   ✅ Created: /input/generated_skills/maximally-accelerated-execution
-
-
-📄 : Will Larson.txt
-
-   ✅  Skill: engineering-strategy-development
-   ✅ Created: /input/generated_skills/engineering-strategy-development
-
-
-📄 : Evan LaPointe.txt
-
-   ✅  Skill: strategic-influence-characters
-   ✅ Created: /input/generated_skills/strategic-influence-characters
-
-
-📄 : Nir Eyal.txt
-
-   ✅  Skill: indistractable-focus-framework
-   ✅ Created: /input/generated_skills/indistractable-focus-framework
-
-
-📄 : Carole Robin.txt
-
-   ✅  Skill: stay-on-your-side-of-the-net
-   ✅ Created: /input/generated_skills/stay-on-your-side-of-the-net
-
-
-📄 : Megan Cook.txt
-
-   ✅  Skill: strategic-project-advocacy
-   ✅ Created: /input/generated_skills/strategic-project-advocacy
-
-
-📄 : Jessica Hische.txt
-
-   ✅  Skill: logo-refresh-and-design-intuition
-   ✅ Created: /input/generated_skills/logo-refresh-and-design-intuition
-
-
-📄 : Nan Yu.txt
-
-   ✅  Skill: extreme-attribute-prototyping
-   ✅ Created: /input/generated_skills/extreme-attribute-prototyping
-
-
-📄 : Barbra Gago.txt
-
-   ✅  Skill: b2b-category-creation-strategy
-   ✅ Created: /input/generated_skills/b2b-category-creation-strategy
-
-
-📄 : Sander Schulhoff.txt
-
-   ✅  Skill: advanced-prompting-and-adversarial-testing
-   ✅ Created: /input/generated_skills/advanced-prompting-and-adversarial-testing
-
-
-📄 : Graham Weaver.txt
-
-   ✅  Skill: career-direction-genie-framework
-   ✅ Created: /input/generated_skills/career-direction-genie-framework
-
-
-📄 : Kim Scott.txt
-
-   ✅  Skill: radical-candor-feedback-loop
-   ✅ Created: /input/generated_skills/radical-candor-feedback-loop
-
-
-📄 : Crystal W.txt
-
-   ✅  Skill: insight-driven-event-tracking
-   ✅ Created: /input/generated_skills/insight-driven-event-tracking
-
-
-📄 : Howie Liu.txt
-
-   ✅  Skill: ai-native-product-refounding
-   ✅ Created: /input/generated_skills/ai-native-product-refounding
-
-
-📄 : Hamel Husain & Shreya Shankar.txt
-
-   ✅  Skill: ai-error-analysis-and-eval-design
-   ✅ Created: /input/generated_skills/ai-error-analysis-and-eval-design
-
-
-📄 : Benjamin Mann.txt
-
-   ✅  Skill: constitutional-ai-alignment
-   ✅ Created: /input/generated_skills/constitutional-ai-alignment
-
-
-📄 : Seth Godin.txt
-
-   ✅  Skill: strategic-choice-framework
-   ✅ Created: /input/generated_skills/strategic-choice-framework
-
-
-📄 : Uri Levine 2.0.txt
-
-   ✅  Skill: startup-crisis-management
-   ✅ Created: /input/generated_skills/startup-crisis-management
-
-
-📄 : Dylan Field 2.0.txt
-
-   ✅  Skill: workflow-tracing-product-expansion
-   ✅ Created: /input/generated_skills/workflow-tracing-product-expansion
-
-
-📄 : Anneka Gupta.txt
-
-   ✅  Skill: strategic-leadership-and-perception
-   ✅ Created: /input/generated_skills/strategic-leadership-and-perception
-
-
-📄 : Rahul Vohra.txt
-
-   ✅  Skill: pmf-optimization-engine
-   ✅ Created: /input/generated_skills/pmf-optimization-engine
-
-
-📄 : Bill Carr.txt
-
-   ✅  Skill: working-backwards-pr-faq
-   ✅ Created: /input/generated_skills/working-backwards-pr-faq
-
-
-📄 : Brandon Chu.txt
-
-   ✅  Skill: decision-importance-prioritization
-   ✅ Created: /input/generated_skills/decision-importance-prioritization
-
-
-📄 : Jason Fried.txt
-
-   ✅  Skill: fixed-appetite-product-cycles
-   ✅ Created: /input/generated_skills/fixed-appetite-product-cycles
-
-
-📄 : Melissa.txt
-
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-5
-
-
-📄 : Nilan Peiris.txt
-
-   ✅  Skill: word-of-mouth-growth-engine
-   ✅ Created: /input/generated_skills/word-of-mouth-growth-engine
-
-
-📄 : Sander Schulhoff 2.0.txt
-
-   ✅  Skill: securing-agentic-ai-systems
-   ✅ Created: /input/generated_skills/securing-agentic-ai-systems
-
-
-📄 : Julia Schottenstein.txt
-
-   ✅  Skill: m-and-a-strategic-positioning
-   ✅ Created: /input/generated_skills/m-and-a-strategic-positioning
-
-
-📄 : Christian Idiodi.txt
-
-   ✅  Skill: reference-customer-discovery
-   ✅ Created: /input/generated_skills/reference-customer-discovery
-
-
-📄 : Fareed Mosavat.txt
-
-   ✅  Skill: product-career-acceleration
-   ✅ Created: /input/generated_skills/product-career-acceleration
-
-
-📄 : Todd Jackson.txt
-
-   ✅  Skill: levels-of-product-market-fit
-   ✅ Created: /input/generated_skills/levels-of-product-market-fit
-
-
-📄 : Jason Feifer.txt
-
-   ✅  Skill: startup-media-pitching-strategy
-   ✅ Created: /input/generated_skills/startup-media-pitching-strategy
-
-
-📄 : Lauren Ipsen.txt
-
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-6
-
-
-📄 : Brendan Foody.txt
-
-   ✅  Skill: systematic-ai-eval-design
-   ✅ Created: /input/generated_skills/systematic-ai-eval-design
-
-
-📄 : Camille Hearst.txt
-
-   ✅  Skill: dual-track-discovery-de-risking
-   ✅ Created: /input/generated_skills/dual-track-discovery-de-risking
-
-
-📄 : Ramesh Johari.txt
-
-   ✅  Skill: marketplace-tradeoff-management
-   ✅ Created: /input/generated_skills/marketplace-tradeoff-management
-
-
-📄 : Jag Duggal.txt
-
-   ✅  Skill: pmf-threshold-gating
-   ✅ Created: /input/generated_skills/pmf-threshold-gating
-
-
-📄 : Elena Verna 2.0.txt
-
-   ✅  Skill: product-led-sales-bridge
-   ✅ Created: /input/generated_skills/product-led-sales-bridge
-
-
-📄 : Failure.txt
-
-   ✅  Skill: conclusive-failure-experimentation
-   ✅ Created: /input/generated_skills/conclusive-failure-experimentation
-
-
-📄 : Cam Adams.txt
-
-   ✅  Skill: jtob-template-seo-engine
-   ✅ Created: /input/generated_skills/jtob-template-seo-engine
-
-
-📄 : Nikhyl Singhal.txt
-
-   ✅  Skill: pm-career-growth-unblocking
-   ✅ Created: /input/generated_skills/pm-career-growth-unblocking
-
-
-📄 : Pete Kazanjy.txt
-
-   ✅  Skill: repeatable-sales-motion-while-loop
-   ✅ Created: /input/generated_skills/repeatable-sales-motion-while-loop
-
-
-📄 : Wes Kao.txt
-
-   ✅  Skill: managing-up-strategic-communication
-   ✅ Created: /input/generated_skills/managing-up-strategic-communication
-
-
-📄 : Jonathan Lowenhar.txt
-
-   ✅  Skill: magic-box-exit-strategy
-   ✅ Created: /input/generated_skills/magic-box-exit-strategy
-
-
-📄 : Eeke de Milliano.txt
-
-   ✅  Skill: operationalizing-innovation-framework
-   ✅ Created: /input/generated_skills/operationalizing-innovation-framework
-
-
-📄 : Christine Itwaru.txt
-
-   ✅  Skill: product-operations-system-design
-   ✅ Created: /input/generated_skills/product-operations-system-design
-
-
-📄 : Ada Chen Rekhi.txt
-
-   ✅  Skill: curiosity-loop-decision-making
-   ✅ Created: /input/generated_skills/curiosity-loop-decision-making
-
-
-📄 : Sarah Tavel.txt
-
-   ✅  Skill: hierarchy-of-marketplaces
-   ✅ Created: /input/generated_skills/hierarchy-of-marketplaces
-
-
-📄 : Emily Kramer.txt
-
-   ✅  Skill: startup-marketing-hiring-framework
-   ✅ Created: /input/generated_skills/startup-marketing-hiring-framework
-
-
-📄 : Matt Dixon.txt
-
-   ✅  Skill: overcoming-customer-indecision-jolt
-   ✅ Created: /input/generated_skills/overcoming-customer-indecision-jolt
-
-
-📄 : Bob Baxley.txt
-
-   ✅  Skill: design-tenets-for-decision-making
-   ✅ Created: /input/generated_skills/design-tenets-for-decision-making
-
-
-📄 : Dan Hockenmaier.txt
-
-   ✅  Skill: growth-model-construction
-   ✅ Created: /input/generated_skills/growth-model-construction
-
-
-📄 : Aparna Chennapragada.txt
-
-   ✅  Skill: nlx-design-and-agent-framework
-   ✅ Created: /input/generated_skills/nlx-design-and-agent-framework
-
-
-📄 : Jerry Colonna.txt
-
-   ✅  Skill: radical-self-inquiry-leadership
-   ✅ Created: /input/generated_skills/radical-self-inquiry-leadership
-
-
-📄 : Varun Mohan.txt
-
-   ✅  Skill: high-agency-ai-building
-   ✅ Created: /input/generated_skills/high-agency-ai-building
-
-
-📄 : Chip Huyen.txt
-
-   ✅  Skill: ai-app-performance-optimization
-   ✅ Created: /input/generated_skills/ai-app-performance-optimization
-
-
-📄 : Matt LeMay.txt
-
-   ✅  Skill: impact-first-alignment
-   ✅ Created: /input/generated_skills/impact-first-alignment
-
-
-📄 : Lulu Cheng Meservey.txt
-
-   ✅  Skill: concentric-circle-messaging
-   ✅ Created: /input/generated_skills/concentric-circle-messaging
-
-
-📄 : Hari Srinivasan.txt
-
-   ✅  Skill: complex-system-decision-making
-   ✅ Created: /input/generated_skills/complex-system-decision-making
-
-
-📄 : Eric Simons.txt
-
-   ✅  Skill: ai-native-product-building
-   ✅ Created: /input/generated_skills/ai-native-product-building
-
-
-📄 : Tomer Cohen.txt
-
-   ✅  Skill: wrong-but-not-confused-clarity-framework
-   ✅ Created: /input/generated_skills/wrong-but-not-confused-clarity-framework
-
-
-📄 : Laura Modi.txt
-
-   ✅  Skill: manufacturing-team-momentum
-   ✅ Created: /input/generated_skills/manufacturing-team-momentum
-
-
-📄 : Albert Cheng.txt
-
-   ✅  Skill: explore-and-exploit-growth-strategy
-   ✅ Created: /input/generated_skills/explore-and-exploit-growth-strategy
-
-
-📄 : Karina Nguyen.txt
-
-   ✅  Skill: ai-product-evaluation-design
-   ✅ Created: /input/generated_skills/ai-product-evaluation-design
-
-
-📄 : Emilie Gerber.txt
-
-   ✅  Skill: startup-pr-outreach
-   ✅ Created: /input/generated_skills/startup-pr-outreach
-
-
-📄 : Julian Shapiro.txt
-
-   ✅  Skill: creativity-faucet-brainstorming
-   ✅ Created: /input/generated_skills/creativity-faucet-brainstorming
-
-
-📄 : Nabeel S. Qureshi.txt
-
-   ✅  Skill: forward-deployed-iteration-loop
-   ✅ Created: /input/generated_skills/forward-deployed-iteration-loop
-
-
-📄 : Austin Hay.txt
-
-   ✅  Skill: martech-system-architecture
-   ✅ Created: /input/generated_skills/martech-system-architecture
-
-
-📄 : EOY Review.txt
-
-   ✅  Skill: five-step-product-positioning
-   ✅ Created: /input/generated_skills/five-step-product-positioning
-
-
-📄 : Ethan Smith.txt
-
-   ✅  Skill: answer-engine-optimization-playbook
-   ✅ Created: /input/generated_skills/answer-engine-optimization-playbook
-
-
-📄 : Andrew Wilkinson.txt
-
-   ✅  Skill: niche-market-opportunity-mapping
-   ✅ Created: /input/generated_skills/niche-market-opportunity-mapping
-
-
-📄 : Eli Schwartz.txt
-
-   ✅  Skill: product-led-seo-strategy
-   ✅ Created: /input/generated_skills/product-led-seo-strategy
-
-
-📄 : Manik Gupta.txt
-
-   ✅  Skill: consumer-product-readiness-stack
-   ✅ Created: /input/generated_skills/consumer-product-readiness-stack
-
-
-📄 : Mike Krieger.txt
-
-   ✅  Skill: generated-skill
-   ✅ Created: /input/generated_skills/generated-skill-7
-
-
-📄 : Nicole Forsgren.txt
-
-   ✅  Skill: engineering-productivity-measurement-framework
-   ✅ Created: /input/generated_skills/engineering-productivity-measurement-framework
-
-
-📄 : Meltem Kuran.txt
-
-   ✅  Skill: seo-traffic-light-framework
-   ✅ Created: /input/generated_skills/seo-traffic-light-framework
-
-
-📄 : Rachel Lockett.txt
-
-   ✅  Skill: leader-as-coach-methodology
-   ✅ Created: /input/generated_skills/leader-as-coach-methodology
-
-
-📄 : Chip Conley.txt
-
-   ✅  Skill: modern-elder-upward-influence
-   ✅ Created: /input/generated_skills/modern-elder-upward-influence
-
-
-📄 : Shweta Shriva.txt
-
-   ✅  Skill: proactive-assumption-challenging
-   ✅ Created: /input/generated_skills/proactive-assumption-challenging
-
-
-📄 : Deb Liu.txt
-
-   ✅  Skill: pm-your-career-roadmap
-   ✅ Created: /input/generated_skills/pm-your-career-roadmap
-
-
-📄 : Josh Miller.txt
-
-   ✅  Skill: optimizing-for-user-feelings
-   ✅ Created: /input/generated_skills/optimizing-for-user-feelings
-
-
-📄 : Geoff Charles.txt
-
-   ✅  Skill: operationalizing-product-velocity
-   ✅ Created: /input/generated_skills/operationalizing-product-velocity
-
-
-📄 : Jiaona Zhang.txt
-
-   ✅  Skill: narrative-led-roadmapping
-   ✅ Created: /input/generated_skills/narrative-led-roadmapping
-
-
-📄 : Teaser_2021.txt
-
-   ✅  Skill: high-proximity-networking
-   ✅ Created: /input/generated_skills/high-proximity-networking
-
-
-📄 : John Cutler.txt
-
-   ✅  Skill: data-informed-product-loop
-   ✅ Created: /input/generated_skills/data-informed-product-loop
-
-
-📄 : Upasna Gautam.txt
-
-   ✅  Skill: editorial-expert-collaboration-framework
-   ✅ Created: /input/generated_skills/editorial-expert-collaboration-framework
-
-
-📄 : Jake Knapp + John Zeratsky.txt
-
-   ✅  Skill: daily-highlight-focus-system
-   ✅ Created: /input/generated_skills/daily-highlight-focus-system
+   Skill: daily-highlight-focus-system
