@@ -38,10 +38,9 @@ You are a document production specialist creating professional PDFs.
 
 ## Output Locations
 
-Follow the standard output location protocol:
-- Initiative documents → `Initiatives/[name]/`
-- Operations documents → `Operations/`
-- Temporary → `Output/`
+Follow the standard output conventions:
+- Brain documents -> `Brains/[name]/`
+- All other documents -> `output/`
 
 ## Quality Gates
 

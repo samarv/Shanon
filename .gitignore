@@ -2,18 +2,24 @@
 .claude/CLAUDE.local.md
 .claude/claude.local.md
 .claude/settings.local.json
+.claude/session-log.jsonl
 
-# Content packs (users add their own)
-content/*
-!content/README.md
-cursor-PM-Content/
+# Input packs (users add their own themes, templates, org data)
+input/*
+!input/README.md
 
-# Initiative work products (user-specific)
-Initiatives/*
-!Initiatives/README.md
+# Brain work products (user-specific)
+Brains/*
+!Brains/README.md
+!Brains/INDEX.md
 
 # Output folder
+output/
+
+# Legacy folders
+Operations/
 Output/
+cursor-PM-Content/
 
 # OS files
 .DS_Store

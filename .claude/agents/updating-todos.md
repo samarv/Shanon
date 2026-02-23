@@ -54,7 +54,7 @@ Classify every item:
 
 After context refresh:
 
-1. Scan `Initiatives/` folder for all active initiatives
+1. Scan `Brains/` folder for all active Brains
 2. Read each initiative's `CLAUDE.md` for blockers, questions, milestones
 3. Remove any items user confirmed as completed
 4. Incorporate new blockers/priority changes from context refresh

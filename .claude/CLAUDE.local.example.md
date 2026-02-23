@@ -66,7 +66,7 @@ This file contains user-specific preferences and private context. It is gitignor
 ## Document Preferences
 
 ### Templates
-- [Which templates to use] - e.g., "Use existing templates from content/templates/"
+- [Which templates to use] - e.g., "Use existing templates from input/templates/"
 - [PRD style] - e.g., "PRDs should be outcome-focused, not feature lists"
 - [Strategic docs] - e.g., "Include explicit trade-offs in all strategic docs"
 
@@ -87,7 +87,7 @@ This file contains user-specific preferences and private context. It is gitignor
 5. Open Questions
 
 ### Name Verification
-Always verify colleague names against `content/org/colleagues.json` if available.
+Always verify colleague names against `input/org/colleagues.json` if available.
 
 ---
 
@@ -110,7 +110,7 @@ Always verify colleague names against `content/org/colleagues.json` if available
 ## Working Context
 
 ### Current Focus Areas
-- [Current initiatives - e.g., "Initiatives in `Initiatives/` folder"]
+- [Current Brains - e.g., "Brains in `Brains/` folder"]
 - [Key references - e.g., "Analytics events in `Reference/analytics/`"]
 - [Strategy docs - e.g., "Corporate strategy in `Reference/corporate-strategy/`"]
 

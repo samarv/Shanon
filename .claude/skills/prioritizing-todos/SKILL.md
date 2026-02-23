@@ -3,7 +3,7 @@ name: prioritizing-todos
 description: |
   PROACTIVELY used when user needs daily priorities or LNO classification.
   Generates and maintains TODO.md with Leverage/Neutral/Overhead priorities.
-  Scans active initiatives and extracts actionable items dynamically.
+  Scans active brains and extracts actionable items dynamically.
 ---
 
 # Prioritizing TODOs Skill
@@ -11,7 +11,7 @@ description: |
 ## Purpose
 
 Generate and maintain a daily TODO.md file that:
-1. **Scans active initiatives** dynamically from Initiatives/ folder
+1. **Scans active brains** dynamically from Brains/ folder
 2. **Extracts actionable items** (blockers, questions, milestones)
 3. **Classifies using LNO framework** (Leverage, Neutral, Overhead)
 4. **Creates dated sections** preserving history
@@ -28,7 +28,7 @@ For product-specific context, see `CLAUDE.local.md`.
 
 **Mindset**:
 - Leverage-first - always ask "what unblocks the most?"
-- Initiative-aware - understands which workstream each item belongs to
+- Brain-aware - understands which workstream each item belongs to
 - Action-oriented - every item should be doable TODAY
 - Honest about overhead - clearly marks admin work as low-priority
 
@@ -45,7 +45,7 @@ For product-specific context, see `CLAUDE.local.md`.
 ### Classification Decision Matrix
 
 **Leverage Indicators**:
-- Active Blockers with cross-initiative impact
+- Active Blockers with cross-brain impact
 - Decisions that block downstream tasks
 - Questions where the answer changes the plan
 - Items affecting major deadlines
@@ -67,28 +67,28 @@ For product-specific context, see `CLAUDE.local.md`.
 For each item, ask:
 1. "Does this unblock other work?" → Leverage
 2. "Can this be scheduled for a specific time?" → Neutral
-3. "Necessary but doesn't advance the initiative?" → Overhead
+3. "Necessary but doesn't advance the brain?" → Overhead
 
 When uncertain, default to **Neutral**.
 
 ---
 
-## Initiative Discovery
+## Brain Discovery
 
-**CRITICAL: Never hardcode initiative names. Always discover dynamically.**
+**CRITICAL: Never hardcode brain names. Always discover dynamically.**
 
 ```
-1. List all subdirectories in /Initiatives/
+1. List all subdirectories in /Brains/
 2. For each subdirectory:
    a. Check if CLAUDE.md exists
-   b. Extract Status from "Initiative Overview" section
-   c. Only process initiatives with Status: Active
+   b. Extract Status from "Brain Overview" section
+   c. Only process brains with Status: Active
 3. Build registry with name, objective, status
 ```
 
 ### Extract Actionable Items
 
-From each active initiative's CLAUDE.md:
+From each active brain's CLAUDE.md:
 
 | Section | What to Extract | Default LNO |
 |---------|-----------------|-------------|
@@ -115,7 +115,7 @@ From each active initiative's CLAUDE.md:
 
 ## [DATE] ([DAY_OF_WEEK])
 
-*Generated from [N] active initiatives at [TIMESTAMP]*
+*Generated from [N] active brains at [TIMESTAMP]*
 
 ### L - Leverage (Do First)
 *High-impact work that unblocks others.*
@@ -149,25 +149,25 @@ From each active initiative's CLAUDE.md:
 ## Execution Protocol
 
 1. **Check existing TODO.md** - If today's section exists, ask user to regenerate or append
-2. **Discover initiatives** - Scan Initiatives/, filter for Active status
+2. **Discover brains** - Scan Brains/, filter for Active status
 3. **Extract items** - From Active Blockers, Pending Questions, Next Milestone
 4. **Classify items** - Apply LNO decision matrix
-5. **Generate output** - Group by LNO, then by initiative
-6. **Write and confirm** - "✓ Updated TODO.md with [N] items across [M] initiatives"
+5. **Generate output** - Group by LNO, then by brain
+6. **Write and confirm** - "✓ Updated TODO.md with [N] items across [M] brains"
 
 ---
 
 ## Quality Gates
 
 ### Before Generation
-- [ ] Initiatives folder scanned dynamically
-- [ ] Only Active initiatives processed
+- [ ] Brains folder scanned dynamically
+- [ ] Only Active brains processed
 - [ ] Each CLAUDE.md read completely
 
 ### During Classification
 - [ ] Each item assigned exactly one LNO category
 - [ ] Leverage items are truly high-impact (not just urgent)
-- [ ] Blockers with cross-initiative impact identified
+- [ ] Blockers with cross-brain impact identified
 
 ### Before Writing
 - [ ] Date format correct: `YYYY-MM-DD (Day)`
@@ -176,12 +176,12 @@ From each active initiative's CLAUDE.md:
 - [ ] Previous content preserved
 
 ### Anti-Patterns
-- ❌ Hardcoding initiative names
-- ❌ Processing paused/completed initiatives
+- ❌ Hardcoding brain names
+- ❌ Processing paused/completed brains
 - ❌ Marking everything as Leverage
 - ❌ Vague task titles ("Do the thing")
 - ❌ Overwriting previous days' content
-- ✅ Scan Initiatives/ folder fresh each time
+- ✅ Scan Brains/ folder fresh each time
 - ✅ Apply decision matrix consistently
 - ✅ Action-oriented, specific tasks
 
@@ -211,16 +211,16 @@ From each active initiative's CLAUDE.md:
 - [ ] Update help article draft - documentation
 ```
 
-"✓ Updated TODO.md with 4 items across 2 initiatives (2L, 1N, 1O)"
+"✓ Updated TODO.md with 4 items across 2 brains (2L, 1N, 1O)"
 
 ---
 
 ## Success Criteria
 
 1. User can immediately identify highest-leverage work
-2. All active initiatives represented
+2. All active brains represented
 3. Blockers correctly identified as Leverage
 4. Historical sections preserved
 5. Items are actionable with clear context
 6. No stale or resolved items
-7. Cross-initiative dependencies visible
+7. Cross-brain dependencies visible

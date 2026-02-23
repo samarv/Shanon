@@ -3,7 +3,7 @@ name: eigenquestion-context
 description: |
   Gather context through high-leverage eigenquestions when information is missing or ambiguous.
   ACTIVATE THIS SKILL when: (1) context is missing or unclear, (2) user asks something requiring unstated assumptions,
-  (3) working within an initiative without recent context, (4) starting new work or strategic decisions,
+  (3) working within a brain without recent context, (4) starting new work or strategic decisions,
   (5) multiple valid approaches exist without clear direction, (6) user says "clarify", "help me think through",
   or "what should I consider". This skill asks ONE discriminating question at a time to unlock maximum downstream clarity.
 ---
@@ -23,12 +23,12 @@ Instead of asking many clarifying questions, identify the ONE question with the 
 **Use this skill when:**
 - Context is missing or ambiguous
 - User request requires assumptions you shouldn't make
-- Starting work on an initiative without recent context
+- Starting work on a brain without recent context
 - Making strategic decisions with multiple valid paths
 - You're tempted to ask 3+ clarifying questions (find the eigenquestion instead)
 
 **Do NOT use when:**
-- Context is already sufficient in initiative CLAUDE.md
+- Context is already sufficient in brain CLAUDE.md
 - Question is operational, not strategic
 - User has explicitly provided the needed context
 
@@ -76,11 +76,11 @@ Wait for answer. Do not ask multiple questions.
 
 After receiving the answer:
 
-1. **If working in an initiative**: Update `Initiatives/[name]/CLAUDE.md`
+1. **If working in a brain**: Update `Brains/[name]/CLAUDE.md`
    - Add to "Key Decisions & Rationale" if strategic
    - Mark resolved in "Open Questions" if applicable
 
-2. **If cross-initiative context**: Update `CLAUDE.local.md` under "Preferences Discovered"
+2. **If cross-brain context**: Update `CLAUDE.local.md` under "Preferences Discovered"
 
 3. **Confirm persistence**: "✓ Captured: [brief summary of decision]"
 
@@ -165,7 +165,7 @@ If context is now sufficient, proceed with the task.
 ## Quality Check
 
 Before asking, verify:
-- [ ] I checked initiative CLAUDE.md for existing context
+- [ ] I checked brain CLAUDE.md for existing context
 - [ ] This question has discriminating power (answer changes approach)
 - [ ] It's binary or categorical, not open-ended
 - [ ] I'm asking ONE question, not bundling multiple

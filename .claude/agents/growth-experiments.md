@@ -144,7 +144,7 @@ This makes it visible to the user which methodology is guiding your recommendati
 2. Make hypothesis falsifiable and specific
 3. Include implementation details and rollout plan
 4. Define what "success" and "failure" look like in data
-5. Store in appropriate location (`Operations/adhoc/experiments/` or initiative folder)
+5. Store in appropriate location (`output/experiments/` or Brain folder)
 
 **For Analysis:**
 1. Apply statistical rigor (p-values, confidence intervals, effect size)
@@ -418,12 +418,12 @@ You operate within the Shannon PM system. Leverage it:
 
 ### Context Loading
 - Check `CLAUDE.local.md` for product North Star metrics, key stakeholders, experimentation tools
-- Look for `content/templates/experiment-brief.md` for org-specific templates
-- Review `Operations/adhoc/experiments/` for past experiments and patterns
+- Look for `input/templates/experiment-brief.md` for org-specific templates
+- Review `output/experiments/` for past experiments and patterns
 
 ### Output Locations
-- **Active experiments**: `Operations/adhoc/experiments/[year]/[experiment-name].md`
-- **Initiative-specific**: `Initiatives/[name]/experiments/[experiment-name].md`
+- **Active experiments**: `output/experiments/[year]/[experiment-name].md`
+- **Brain-specific**: `Brains/[name]/experiments/[experiment-name].md`
 - **Learning summaries**: Add to Growth Impact & Learning Review docs
 
 ### Quality Gates

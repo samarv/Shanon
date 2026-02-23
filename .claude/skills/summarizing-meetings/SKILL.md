@@ -2,8 +2,8 @@
 name: summarizing-meetings
 description: |
   MUST BE USED when generating meeting summaries after analysis and routing.
-  Creates per-initiative and overall summaries, updates CLAUDE.md files.
-  Works with analyzing-meetings and routing-initiatives skills.
+  Creates per-brain and overall summaries, updates CLAUDE.md files.
+  Works with analyzing-meetings and routing-brains skills.
 ---
 
 # Summarizing Meetings Skill
@@ -11,9 +11,9 @@ description: |
 ## Purpose
 
 Generate actionable meeting summaries after routing:
-1. **Per-initiative summaries** for each affected initiative
-2. **Overall meeting summary** with cross-initiative context
-3. **Update initiative CLAUDE.md files** with new content
+1. **Per-brain summaries** for each affected brain
+2. **Overall meeting summary** with cross-brain context
+3. **Update brain CLAUDE.md files** with new content
 
 For product-specific context, see `CLAUDE.local.md`.
 
@@ -30,14 +30,14 @@ For product-specific context, see `CLAUDE.local.md`.
 
 ---
 
-## Per-Initiative Summary Template
+## Per-Brain Summary Template
 
 ```markdown
-## [Initiative Name] - Meeting Updates
+## [Brain Name] - Meeting Updates
 
 **Meeting**: [Meeting Name] | **Date**: [Date]
 
-### Items Routed to This Initiative
+### Items Routed to This Brain
 
 #### Decisions
 - **[Decision Topic]** (YYYY-MM-DD)
@@ -59,8 +59,8 @@ For product-specific context, see `CLAUDE.local.md`.
   - *Context*: [Why this matters]
   - *Status*: [Pending/Needs Resolution]
 
-### Cross-Initiative Dependencies
-- [Any items that also affect other initiatives]
+### Cross-Brain Dependencies
+- [Any items that also affect other brains]
 ```
 
 ---
@@ -75,22 +75,22 @@ For product-specific context, see `CLAUDE.local.md`.
 **Duration**: [Approximate length]
 **Purpose**: [Meeting objective]
 
-## Initiative Distribution
+## Brain Distribution
 
-| Initiative | Items Routed | Key Outcome |
+| Brain | Items Routed | Key Outcome |
 |------------|--------------|-------------|
-| [Initiative 1] | [N] items | [One-line summary] |
-| [Initiative 2] | [N] items | [One-line summary] |
+| [Brain 1] | [N] items | [One-line summary] |
+| [Brain 2] | [N] items | [One-line summary] |
 | Unmatched | [N] items | Pending assignment |
 
-## Cross-Initiative Themes
-- [Theme across multiple initiatives]
+## Cross-Brain Themes
+- [Theme across multiple brains]
 - [Dependencies identified]
 
 ## Consolidated Action Items
-| # | Action | Owner | Due | Initiative |
+| # | Action | Owner | Due | Brain |
 |---|--------|-------|-----|------------|
-| 1 | [Action] | [Name] | [Date] | [Initiative] |
+| 1 | [Action] | [Name] | [Date] | [Brain] |
 
 ## Unresolved Items
 - [Items requiring follow-up]
@@ -108,22 +108,22 @@ For short meetings or highlights only:
 ```markdown
 **Meeting Recap** | [Meeting Name] | [Date]
 
-**Routed to Initiatives:**
-- [Initiative 1]: [N] items ([one-line summary])
-- [Initiative 2]: [N] items ([one-line summary])
+**Routed to Brains:**
+- [Brain 1]: [N] items ([one-line summary])
+- [Brain 2]: [N] items ([one-line summary])
 
 **Key Decisions:**
-- [Decision 1] → [Initiative]
+- [Decision 1] → [Brain]
 
 **Action Items:**
-- [ ] [Action] - [Owner] - [Due] → [Initiative]
+- [ ] [Action] - [Owner] - [Due] → [Brain]
 
 **Unmatched Items**: [N] items pending assignment
 ```
 
 ---
 
-## Updating Initiative CLAUDE.md Files
+## Updating Brain CLAUDE.md Files
 
 ### Key Decisions Section
 Append new decisions:
@@ -151,7 +151,7 @@ Update if meeting changed status:
 ### Update Prompt
 Before updating any CLAUDE.md, ask:
 ```
-Should I update [Initiative Name]/CLAUDE.md with:
+Should I update [Brain Name]/CLAUDE.md with:
 - [N] decisions
 - [N] action items
 - [N] status updates
@@ -168,7 +168,7 @@ Classify items using Leverage-Neutral-Overhead:
 
 | Classification | Criteria | Handling |
 |----------------|----------|----------|
-| **Leverage** | Decisions affecting multiple initiatives, blockers, timeline changes | Highlight prominently |
+| **Leverage** | Decisions affecting multiple brains, blockers, timeline changes | Highlight prominently |
 | **Neutral** | Status updates, routine discussions | Standard placement |
 | **Overhead** | Administrative, scheduling, logistics | Capture briefly or omit |
 
@@ -214,14 +214,14 @@ Routed items:
 **Duration**: 30 minutes
 **Purpose**: Weekly status and blockers
 
-## Initiative Distribution
-| Initiative | Items | Key Outcome |
+## Brain Distribution
+| Brain | Items | Key Outcome |
 |------------|-------|-------------|
 | frontend-modernization | 3 | React migration approved |
 | api-platform | 3 | API blocker identified |
 
 ## Consolidated Action Items
-| # | Action | Owner | Due | Initiative |
+| # | Action | Owner | Due | Brain |
 |---|--------|-------|-----|------------|
 | 1 | Create React migration plan | Engineering | Jan 28 | frontend-modernization |
 | 2 | Escalate API blocker | PM | Jan 22 | api-platform |
@@ -235,9 +235,9 @@ Routed items:
 
 ## Quality Gates
 
-- [ ] Per-initiative summaries generated
+- [ ] Per-brain summaries generated
 - [ ] Overall summary includes all routed items
-- [ ] Cross-initiative dependencies noted
+- [ ] Cross-brain dependencies noted
 - [ ] Action items have owners and deadlines
 - [ ] Leverage items highlighted
 - [ ] CLAUDE.md updates confirmed with user
@@ -247,11 +247,11 @@ Routed items:
 ## Anti-Patterns
 
 - ❌ Summarizing before complete read-through
-- ❌ Losing context when splitting by initiative
-- ❌ Forgetting cross-initiative dependencies
+- ❌ Losing context when splitting by brain
+- ❌ Forgetting cross-brain dependencies
 - ❌ Overwriting existing CLAUDE.md content
 - ❌ Adding duplicates
-- ✅ Maintain overall context while routing
+- ✅ Maintain overall context while routing to brains
 - ✅ Append only, verify before writing
 - ✅ Ask before updating CLAUDE.md files
 
@@ -259,8 +259,8 @@ Routed items:
 
 ## Success Criteria
 
-1. Per-initiative summaries actionable
-2. Overall summary provides cross-initiative context
+1. Per-brain summaries actionable
+2. Overall summary provides cross-brain context
 3. CLAUDE.md files updated correctly
 4. Leverage items highlighted
 5. User can take immediate action from summary

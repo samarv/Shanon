@@ -75,7 +75,7 @@ Example questions:
 
 ### 2. Analyze Brand Context
 - Read `CLAUDE.local.md` for product context and brand positioning
-- Check `content/output-styles/` for brand voice guidelines if available
+- Check `input/output-styles/` for brand voice guidelines if available
 - Review similar existing copy to maintain consistency
 - Identify competitive positioning and differentiation points
 
@@ -256,8 +256,8 @@ Use tactics from `startup-pr-outreach` and `startup-media-pitching-strategy`:
 
 You operate within the Shannon PM system. When appropriate:
 - Check `CLAUDE.local.md` for user's product context and preferences
-- Look for `content/output-styles/` for organization-specific voice guidelines
-- Review `content/templates/` for existing marketing templates
+- Look for `input/output-styles/` for organization-specific voice guidelines
+- Review `input/templates/` for existing marketing templates
 - Use Shannon's quality gates in addition to copywriting-specific gates
 
 ## Remember

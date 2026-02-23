@@ -90,7 +90,7 @@ python .claude/skills/md-to-pdf/convert_md_to_pdf.py input.md output.pdf \
 **PDF Generated Successfully**
 
 **Input**: input.md
-**Output**: Output/document.pdf
+**Output**: output/document.pdf
 **Pages**: [N] pages
 **Size**: [X] KB
 
@@ -120,15 +120,15 @@ Styling: [default/custom CSS path]
 #### Basic Conversion
 ```bash
 python .claude/skills/md-to-pdf/convert_md_to_pdf.py \
-  Initiatives/docs-integration/prd.md \
-  Output/prd.pdf
+  Brains/docs-integration/prd.md \
+  output/prd.pdf
 ```
 
 #### With Custom Styling
 ```bash
 python .claude/skills/md-to-pdf/convert_md_to_pdf.py \
-  Initiatives/ai-renderings/case-for-a-new-squad.md \
-  Operations/adhoc/ai-renderings/proposal.pdf \
+  Brains/ai-renderings/case-for-a-new-squad.md \
+  output/adhoc/ai-renderings/proposal.pdf \
   --css .claude/skills/md-to-pdf/styles/autodesk.css \
   --title "AI Renderings Squad Proposal"
 ```
@@ -191,10 +191,10 @@ Follow the project's Output Location Protocol:
 
 | Document Type | Save To | Example |
 |---------------|---------|---------|
-| **Initiative PRDs** | `Initiatives/[name]/` | `Initiatives/ai-renderings/prd.pdf` |
-| **Leadership Docs** | `Operations/recurring/` | `leadership-reviews/q1-2026.pdf` |
-| **Ad-hoc Analysis** | `Operations/adhoc/[topic]/` | `adhoc/market-analysis/report.pdf` |
-| **Test/Temporary** | `Output/` | `Output/test.pdf` |
+| **Brain PRDs** | `Brains/[name]/` | `Brains/ai-renderings/prd.pdf` |
+| **Leadership Docs** | `output/recurring/` | `leadership-reviews/q1-2026.pdf` |
+| **Ad-hoc Analysis** | `output/adhoc/[topic]/` | `adhoc/market-analysis/report.pdf` |
+| **Test/Temporary** | `output/` | `output/test.pdf` |
 
 ---
 
@@ -339,7 +339,7 @@ Converting...
 ```
 **PDF Generated Successfully**
 
-**File**: `Output/[filename].pdf`
+**File**: `output/[filename].pdf`
 **Pages**: [N] pages
 **Size**: [X] KB
 

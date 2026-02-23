@@ -3,7 +3,7 @@ name: analyzing-meetings
 description: |
   MUST BE USED when analyzing meeting transcripts or notes.
   Classifies input type, attributes speakers, and verifies names against colleagues.json.
-  Works with routing-initiatives and summarizing-meetings skills for complete workflow.
+  Works with routing-brains and summarizing-meetings skills for complete workflow.
 ---
 
 # Analyzing Meetings Skill
@@ -210,4 +210,4 @@ For detailed name lookup protocols, see `.claude/reference/name-verification.md`
 1. Input type correctly identified
 2. Speakers attributed with appropriate confidence
 3. Names verified and corrected if needed
-4. Ready for routing-initiatives skill
+4. Ready for routing-brains skill

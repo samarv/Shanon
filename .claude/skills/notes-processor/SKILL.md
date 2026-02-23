@@ -3,7 +3,7 @@ name: notes-processor
 description: |
   Process and organize notes.md using the LNO (Leverage/Neutral/Overhead) framework for systematic task prioritization.
   Use when: (1) adding action items to notes.md, (2) organizing daily tasks, (3) categorizing work by ROI potential,
-  (4) carrying forward incomplete tasks to new date sections, (5) routing initiative-specific notes,
+  (4) carrying forward incomplete tasks to new date sections, (5) routing brain-specific notes,
   (6) user requests "update notes" or "process my notes", or (7) synchronizing action items from CLAUDE.md files to daily tracking.
   Applies Shreyas Doshi's ROI-based prioritization framework to maintain strategic focus in daily execution.
 allowed-tools: [Read, Edit, Write]
@@ -26,11 +26,11 @@ Systematically organize daily notes using the LNO framework to maintain strategi
 - "process notes"
 - "categorize these tasks"
 - "organize my daily tasks"
-- "sync action items from [initiative]"
+- "sync action items from [brain]"
 
 **Usage**:
 ```
-Invoked by agents (initiative-tracker, meeting-notes-router) or directly when user requests notes organization
+Invoked by agents (brain-tracker, meeting-notes-router) or directly when user requests notes organization
 ```
 
 ## Framework: LNO Prioritization
@@ -174,19 +174,19 @@ For each task in previous date section:
 # Jan 26 (Completed):
 ```
 
-### Phase 5: ROUTE - Initiative-Specific Content
+### Phase 5: ROUTE - Brain-Specific Content
 
-**When notes reference specific initiatives**, route to initiative CLAUDE.md:
+**When notes reference specific brains**, route to brain CLAUDE.md:
 
-**Detection Keywords** (examples, dynamically discover actual initiatives):
+**Detection Keywords** (examples, dynamically discover actual brains):
 
 **Routing Protocol**:
-1. Identify initiative-specific content (meetings, decisions, insights)
+1. Identify brain-specific content (meetings, decisions, insights)
 2. Extract relevant notes
-3. Append to initiative's RunningNotes.md with date header
+3. Append to brain's RunningNotes.md with date header
 4. Log routing in notes.md "✅ Processed Notes" section
 
-**Why Route**: Initiatives need context persistence. Daily notes are ephemeral; initiative files are durable memory.
+**Why Route**: Brains need context persistence. Daily notes are ephemeral; brain files are durable memory.
 
 ### Phase 6: COMPLETION & CANCELLATION TRACKING
 
@@ -228,9 +228,9 @@ Update "Last Updated" timestamp at bottom of notes.md:
 **Last Updated**: 2026-01-27 14:30
 ```
 
-## Integration with Initiative Tracker
+## Integration with Brain Tracker
 
-When invoked by initiative-tracker or meeting-notes-router:
+When invoked by brain-tracker or meeting-notes-router:
 
 **Input**: List of action items with context
 ```
@@ -258,7 +258,7 @@ Before completing any notes processing:
 - [ ] **Carryforward Accuracy**: Did I ONLY carry forward incomplete tasks?
 - [ ] **Creation Dates Preserved**: Are original creation dates maintained on carried-forward tasks?
 - [ ] **Completion Timestamps**: Are completion dates added to all finished tasks?
-- [ ] **Initiative Routing**: Did I route initiative-specific content appropriately?
+- [ ] **Brain Routing**: Did I route brain-specific content appropriately?
 - [ ] **Metadata Updated**: Is the "Last Updated" timestamp current?
 - [ ] **Strategic Alignment**: Does this organization serve the user's strategic priorities?
 
@@ -278,7 +278,7 @@ This skill embodies Shannon's core philosophy:
 - **Framework application**: Every task gets systematic ROI assessment
 
 ### Quality Standards Reference
-See `.claude/reference/quality-framework.md` for full Shannon quality gates.
+See `.claude/rules/quality-gates.md` for full Shannon quality gates.
 
 ### First Principles
 - Not all work is equal (fundamental truth)
@@ -294,7 +294,7 @@ This skill succeeds when:
 2. ✅ Categorization reflects honest ROI assessment, not wishful thinking
 3. ✅ Date transitions preserve task history (creation dates maintained)
 4. ✅ Completed tasks stay in original date sections with completion timestamps
-5. ✅ Initiative-specific content routed to appropriate CLAUDE.md files
+5. ✅ Brain-specific content routed to appropriate CLAUDE.md files
 6. ✅ User can scan notes.md and immediately see leverage vs overhead ratio
 7. ✅ Over time, user's work shifts toward more leverage activities
 8. ✅ Strategic work is visible and not buried in tactical noise
@@ -325,7 +325,7 @@ This skill succeeds when:
 For detailed implementation rules, see:
 - **LNO Framework Deep Dive**: `.claude/reference/lno-framework.md` (if exists)
 - **Notes Structure Rules**: Original notes-processor agent for granular formatting rules
-- **Quality Framework**: `.claude/reference/quality-framework.md`
+- **Quality Framework**: `.claude/rules/quality-gates.md`
 
 ## Error Handling
 
@@ -341,9 +341,9 @@ If task ROI is unclear:
 - Add note: "*(Category uncertain - review)*"
 - User can recategorize later
 
-### Initiative Routing Uncertainty
-If initiative mentioned but no matching folder found:
-- List discovered initiatives
+### Brain Routing Uncertainty
+If brain mentioned but no matching folder found:
+- List discovered brains
 - Ask user which to route to, or skip routing
 
 ### Invalid Task Format

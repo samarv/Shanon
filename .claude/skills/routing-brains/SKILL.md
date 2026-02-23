@@ -1,17 +1,17 @@
 ---
-name: routing-initiatives
+name: routing-brains
 description: |
-  PROACTIVELY used for routing meeting items to initiative CLAUDE.md files.
-  Discovers initiatives dynamically, matches items by confidence, handles unmatched content.
+  PROACTIVELY used for routing meeting items to Brain CLAUDE.md files.
+  Discovers Brains dynamically, matches items by confidence, handles unmatched content.
   Works with analyzing-meetings and summarizing-meetings skills.
 ---
 
-# Routing Initiatives Skill
+# Routing Brains Skill
 
 ## Purpose
 
-Route meeting items to appropriate initiative CLAUDE.md files:
-1. **Discover initiatives** dynamically from Initiatives/ folder
+Route meeting items to appropriate Brain CLAUDE.md files:
+1. **Discover Brains** dynamically from Brains/ folder
 2. **Match items** using keyword and semantic scoring
 3. **Handle unmatched** content with user prompts (one at a time)
 
@@ -19,20 +19,20 @@ For product-specific context, see `CLAUDE.local.md`.
 
 ---
 
-## Initiative Discovery Protocol
+## Brain Discovery Protocol
 
-### Step 1: Scan Initiatives Folder
+### Step 1: Scan Brains Folder
 
-**CRITICAL: Never hardcode initiative names. Always discover dynamically.**
+**CRITICAL: Never hardcode Brain names. Always discover dynamically.**
 
 ```
-1. List all subdirectories in /Initiatives/
+1. List all subdirectories in /Brains/
 2. For each subdirectory:
    a. Check if CLAUDE.md exists
    b. If yes, read and parse the file
    c. Extract keywords and context for matching
-3. Build initiative registry with:
-   - Initiative name (folder name)
+3. Build Brain registry with:
+   - Brain name (folder name)
    - Core objective (from CLAUDE.md)
    - Key terms (extracted from all sections)
    - Status (Active/Paused/Completed)
@@ -40,7 +40,7 @@ For product-specific context, see `CLAUDE.local.md`.
 
 ### Step 2: Extract Keywords
 
-From each initiative's CLAUDE.md, extract:
+From each Brain's CLAUDE.md, extract:
 
 | Section | What to Extract |
 |---------|-----------------|
@@ -53,7 +53,7 @@ From each initiative's CLAUDE.md, extract:
 ### Step 3: Build Matching Index
 
 ```
-Initiative: "[initiative-name]"
+Brain: "[Brain-name]"
 Keywords: [relevant terms extracted]
 Core Theme: "[one-line description]"
 Status: Active
@@ -67,7 +67,7 @@ Status: Active
 
 | Level | Threshold | Action |
 |-------|-----------|--------|
-| **High** | >= 0.8 | Auto-route to initiative |
+| **High** | >= 0.8 | Auto-route to Brain |
 | **Medium** | 0.6 - 0.8 | Route with [Review] flag |
 | **Low** | 0.4 - 0.6 | Flag as potential, ask user |
 | **None** | < 0.4 | Mark as unmatched |
@@ -77,21 +77,21 @@ Status: Active
 For each meeting item:
 
 1. **Keyword Match Score** (0-0.5):
-   - Count keyword overlaps with initiative keywords
+   - Count keyword overlaps with Brain keywords
    - Weight Core Objective keywords 2x
    - Normalize by total keywords
 
 2. **Semantic Match Score** (0-0.5):
-   - Compare item theme to initiative Core Objective
+   - Compare item theme to Brain Core Objective
    - Consider context (what problem is being solved?)
    - Factor in stakeholder mentions
 
 3. **Combined Score**: Keyword + Semantic
 
-### Multi-Initiative Matching
+### Multi-Brain Matching
 
-Items CAN match multiple initiatives if:
-- Score >= threshold for multiple initiatives
+Items CAN match multiple Brains if:
+- Score >= threshold for multiple Brains
 - Item explicitly mentions multiple workstreams
 - Action item affects multiple teams
 
@@ -119,18 +119,18 @@ Extract discrete items from meeting content:
 ```
 For each item:
   1. Run matching algorithm
-  2. If High confidence (>= 0.8) → Route to initiative
+  2. If High confidence (>= 0.8) → Route to Brain
   3. If Medium confidence (0.6-0.8) → Route with [Review] flag
   4. If Low confidence (0.4-0.6) → Add to potential matches
   5. If No match (< 0.4) → Add to unmatched list
 ```
 
-### Step 2: Handle Multi-Initiative Items
+### Step 2: Handle Multi-Brain Items
 
-If item matches multiple initiatives:
-1. Route to ALL matching initiatives
-2. Note cross-initiative dependency
-3. Flag in both initiative summaries
+If item matches multiple Brains:
+1. Route to ALL matching Brains
+2. Note cross-Brain dependency
+3. Flag in both Brain summaries
 
 ---
 
@@ -142,7 +142,7 @@ If item matches multiple initiatives:
 
 **Step 1: Announce count**
 ```
-I found [N] items that don't clearly match any existing initiative.
+I found [N] items that don't clearly match any existing Brain.
 Let me walk through each one with you.
 ```
 
@@ -153,12 +153,12 @@ Let me walk through each one with you.
 **Type**: [Decision/Action/Discussion/Blocker/Question]
 **Content**: [Full item - 1-2 sentences]
 **Context**: [Why this came up]
-**Potential match**: [Initiative] (low confidence) OR "No matching initiative"
+**Potential match**: [Brain] (low confidence) OR "No matching Brain"
 
 What would you like to do?
-a) Assign to [initiative 1]
-b) Assign to [initiative 2]
-c) Create a new initiative
+a) Assign to [Brain 1]
+b) Assign to [Brain 2]
+c) Create a new Brain
 d) Leave in temp folder
 e) Discard (not relevant)
 ```
@@ -171,11 +171,11 @@ Got it - [acknowledge choice].
 **Item 2 of [N]**: [Next summary]...
 ```
 
-### New Initiative Creation (Guided)
+### New Brain Creation (Guided)
 
-If user chooses to create new initiative:
+If user chooses to create new Brain:
 
-**Step 1**: "What should this initiative be called? (Suggested: '[name]')"
+**Step 1**: "What should this Brain be called? (Suggested: '[name]')"
 → Wait for response
 
 **Step 2**: "In one sentence, what's the core objective?"
@@ -211,12 +211,12 @@ Items to route:
 **Item 1 of 1**: Partnership discussion
 **Type**: Discussion Point
 **Content**: Potential collaboration with external vendor
-**Potential match**: No matching initiative
+**Potential match**: No matching Brain
 
 What would you like to do?
 a) Assign to frontend-modernization
 b) Assign to api-platform
-c) Create a new initiative
+c) Create a new Brain
 d) Leave in temp folder
 e) Discard
 ```
@@ -225,10 +225,10 @@ e) Discard
 
 ## Quality Gates
 
-- [ ] Initiatives discovered dynamically (not hardcoded)
+- [ ] Brains discovered dynamically (not hardcoded)
 - [ ] Each item categorized by type
 - [ ] Matching algorithm applied consistently
-- [ ] Multi-initiative items flagged
+- [ ] Multi-Brain items flagged
 - [ ] Confidence levels logged
 - [ ] Unmatched items presented one at a time
 
@@ -236,12 +236,12 @@ e) Discard
 
 ## Anti-Patterns
 
-- ❌ Hardcoding initiative names
-- ❌ Force-matching items to initiatives
+- ❌ Hardcoding Brain names
+- ❌ Force-matching items to Brains
 - ❌ Auto-routing low-confidence matches
 - ❌ Presenting all unmatched items at once
 - ❌ Proceeding before user responds
-- ✅ Always scan Initiatives/ folder fresh
+- ✅ Always scan Brains/ folder fresh
 - ✅ Ask ONE question at a time
 - ✅ Wait for explicit confirmation
 
@@ -249,8 +249,8 @@ e) Discard
 
 ## Success Criteria
 
-1. All initiatives discovered dynamically
+1. All Brains discovered dynamically
 2. Items routed with appropriate confidence
-3. Multi-initiative dependencies flagged
+3. Multi-Brain dependencies flagged
 4. Unmatched items handled with user input
 5. Ready for summarizing-meetings skill

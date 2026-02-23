@@ -9,7 +9,7 @@
 | **PM Frameworks** | CRAFT emails, Radical Candor, Working Backwards PRDs, LNO prioritization |
 | **Practical Skills** | PowerPoint generation, GitHub code search, PDF/Excel processing |
 | **Extensibility** | Skill Creator for custom frameworks, Sub-Agent Creator for workflows |
-| **Memory** | Initiatives that track decisions, personal context that persists |
+| **Memory** | Brains that track decisions, personal context that persists |
 
 Shannon isn't a prompt library. It's bundled PM Best Practices that adapts to how you work.
 
@@ -188,14 +188,14 @@ Stored in `.claude/CLAUDE.local.md` (gitignored for privacy).
 
 Every response uses your context. No re-explaining who your CEO is or what product you work on.
 
-### 4. Living Initiative Memory
+### 4. Living Brain Memory
 
-Each major project gets its own folder with a `CLAUDE.md` brain that Shannon maintains automatically:
+Each major project gets its own Brain -- a knowledge context that actively accumulates and connects information:
 
 ```
-Initiatives/
+Brains/
 └── enterprise-tier/
-    ├── CLAUDE.md          # Auto-maintained: decisions, timeline, blockers
+    ├── CLAUDE.md          # Auto-maintained: decisions, timeline, blockers, connections
     ├── prd.md
     ├── positioning.md
     └── research/
@@ -418,13 +418,13 @@ Before clicking "Keep," verify:
 
 ### Where Files Get Saved
 
-- **Default location:** `content/` folder
-- **Specify location in prompt:** "Save to Initiatives/my-project/"
+- **Default location:** `output/` folder
+- **Specify location in prompt:** "Save to Brains/my-project/"
 - **Move after generation:** You can always move files manually after clicking "Keep"
 
 ### Adding Company Knowledge
 
-Store your company's reference material in `content/`:
+Store your company's reference material in `input/`:
 - User research summaries
 - Product vision documents
 - Analytics dashboards (exported)
@@ -443,13 +443,13 @@ Shannon ships with 350+ universal PM frameworks. But your company has its own SO
 
 ### Add Your Company's Content
 
-Create a `content/` folder with:
+Add to the `input/` folder:
 - **Templates**: Your PRD template, roadmap format, OKR structure
 - **Brand Voice**: Your company's writing style and terminology
 - **Org Data**: Colleague names, team structure, stakeholder map
 - **Quality Standards**: Your company's definition of "good enough"
 
-Shannon discovers and applies these automatically. Company content *extends* core frameworks—it doesn't replace them.
+Shannon discovers and applies these automatically. Input *extends* core frameworks—it doesn't replace them.
 
 ### Add Custom Skills
 
@@ -470,7 +470,7 @@ No coding. Just document your process in markdown. Shannon applies it.
 
 Shannon always prefers your company's standards:
 1. `.claude/CLAUDE.local.md` (your personal preferences)
-2. `content/` (your company's content pack)
+2. `input/` (your input pack)
 3. `.claude/defaults/` (Shannon's built-in frameworks)
 
 **Result:** Shannon speaks your company's language while applying universal PM best practices.
@@ -578,7 +578,7 @@ Shannon reads the name and description of each skill (not the full content) and 
 
 An **agent** is a collection of skills orchestrated to accomplish a larger workflow.
 
-- **Examples:** Meeting Analyzer (transcribe → extract decisions → route to initiatives), Growth Experiment Designer (research → hypothesis → test plan)
+- **Examples:** Meeting Analyzer (transcribe → extract decisions → route to Brains), Growth Experiment Designer (research → hypothesis → test plan)
 - **Location:** `.claude/agents/`
 - **How to use:** Reference the specific agent folder in your context
 - **When to use:** Complex multi-step processes where multiple frameworks need to work together
@@ -590,7 +590,7 @@ An **agent** is a collection of skills orchestrated to accomplish a larger workf
 | Draft an email | Skill |
 | Give feedback | Skill |
 | Position a product | Skill |
-| Analyze a meeting and update all relevant initiatives | Agent |
+| Analyze a meeting and update all relevant Brains | Agent |
 | Design an experiment with research, hypothesis, and test plan | Agent |
 | Synthesize user research across multiple sources | Agent |
 
@@ -628,13 +628,13 @@ When you add the skills folder to your context, Shannon reads the name and descr
 ### Files & Output
 
 **Q: Where do generated files get saved?**
-By default, files save to the `content/` folder. You can specify a different location in your prompt ("Save to Initiatives/my-project/") or move files manually after generation.
+By default, files save to the `output/` folder. You can specify a different location in your prompt ("Save to Brains/my-project/") or move files manually after generation.
 
 **Q: What happens if I click Undo?**
 The file is not saved and disappears. Use Undo when the output isn't what you wanted. Only click Keep when you're satisfied with the result.
 
 **Q: Do files automatically sync into Shannon's knowledge?**
-No. Files only become part of Shannon's context when you explicitly add them to the conversation. If you add files to the content folder, you must add them to your chat context to use them.
+No. Files only become part of Shannon's context when you explicitly add them to the conversation. If you add files to the input folder, you must add them to your chat context to use them.
 
 **Q: What file formats work best?**
 Markdown (.md) is best because it's plain text. PDFs and Word documents work but require Python installed. When possible, convert or extract content to markdown first.
@@ -659,7 +659,7 @@ Everything except `.claude/CLAUDE.local.md` (personal context is gitignored). Sh
 Use `.claude/skills/skill-creator` to create your new skill and document your process. Shannon discovers it automatically. [Guide in CONTRIBUTING.md](Docs/CONTRIBUTING.md)
 
 **Q: Is this just fancy prompt engineering?**
-No. Shannon is a systematic framework application system with quality gates, living initiative memory, auto-selection logic, and 350+ validated methodologies. Prompts give suggestions. Shannon applies proven processes.
+No. Shannon is a systematic framework application system with quality gates, living Brain memory, auto-selection logic, and 350+ validated methodologies. Prompts give suggestions. Shannon applies proven processes.
 
 ---
 
@@ -686,7 +686,7 @@ No. Shannon is a systematic framework application system with quality gates, liv
 - Executive Reviewer (strategic alignment)
 
 📖 **Living Documentation**
-- Initiative auto-tracking (decisions, timeline, blockers)
+- Brain auto-tracking (decisions, timeline, blockers)
 - Context persistence across conversations
 - Decision rationale capture
 

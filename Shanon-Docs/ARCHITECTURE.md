@@ -9,7 +9,7 @@ Technical deep-dive into Shannon's structure and design principles.
 Shannon is a file-based AI system for product management. It combines:
 1. AI assistant (Claude via Cursor)
 2. Methodology files (markdown-based skills and protocols)
-3. Context layering (personal, organizational, initiative-specific)
+3. Context layering (personal, organizational, Brain-specific)
 4. Zero-configuration discovery (filesystem is the registry)
 
 ---
@@ -43,13 +43,18 @@ shannon/
 │   │   ├── pdf-builder.md            # Markdown to PDF conversion
 │   │   └── ... 5 more agents
 │   │
-│   ├── reference/                    # Core protocols
-│   │   ├── quality-framework.md      # 5 validation gates
-│   │   ├── uncertainty-protocol.md   # When to ask questions
-│   │   ├── initiative-auto-update.md # Initiative context tracking
-│   │   ├── meeting-protocols.md      # Meeting analysis rules
-│   │   ├── content-contract.md       # Content system documentation
-│   │   └── structure-manifest.md     # System structure documentation
+│   ├── rules/                       # Auto-loaded modular rules (path-scoped)
+│   │   ├── input-resolution.md       # Content resolution protocol
+│   │   ├── quality-gates.md         # 5 validation gates
+│   │   └── ...                      # Additional rules
+│   │
+│   ├── hooks/                       # Self-healing hook scripts
+│   │   └── ...                      # SessionStart, Stop, PostToolUse, etc.
+│   │
+│   ├── reference/                   # Core protocols (on-demand)
+│   │   ├── brain-auto-update.md     # Brain context tracking
+│   │   ├── meeting-protocols.md     # Meeting analysis rules
+│   │   └── uncertainty-protocol.md  # When to ask questions
 │   │
 │   ├── output-styles/                # Writing voice definitions
 │   │   └── samarvir.md               # Example output style
@@ -63,7 +68,7 @@ shannon/
 │       └── templates/                # Default document templates
 │           └── meeting-notes.md
 │
-├── content/                          # Your content layer (optional)
+├── input/                          # Your content layer (optional)
 │   ├── themes/                       # Brand themes for outputs
 │   │   ├── pptx/                     # Presentation themes (.md)
 │   │   └── pdf/                      # PDF styles (.css)
@@ -75,14 +80,17 @@ shannon/
 │   ├── best-practices/               # Extended quality standards
 │   └── reference/                    # Additional protocols
 │
-├── Initiatives/                      # Your product initiatives
-│   └── [initiative-name]/
+├── Brains/                      # Your Brains
+│   └── [brain-name]/
 │       ├── CLAUDE.md                 # Auto-maintained context
 │       ├── prd.md                    # PRD document
 │       ├── research/                 # Research artifacts
 │       └── ... (any work artifacts)
 │
-├── Templates/                        # Symlink to content/templates/
+├── output/                      # All generated artifacts
+│   └── ...                      # PDFs, presentations, reports, etc.
+│
+├── Templates/                        # Symlink to input/templates/
 ├── .gitignore                        # Ignores CLAUDE.local.md
 └── README.md                         # This file
 ```
@@ -155,7 +163,7 @@ Every output passes through 5 gates before delivery:
 - Does this demonstrate Principal PM judgment?
 - Is this worthy of executive attention?
 
-See `.claude/reference/quality-framework.md` for full details.
+See `.claude/rules/quality-gates.md` for full details.
 
 ### 3. Content Resolution: Layered Override System
 
@@ -163,7 +171,7 @@ Shannon resolves content in priority order:
 
 ```
 1. CLAUDE.local.md          (highest priority - your preferences)
-2. content/[type]/           (content pack overlays)
+2. input/[type]/           (content pack overlays)
 3. .claude/defaults/[type]/  (built-in fallbacks)
 4. Ask user / skip feature   (graceful degradation)
 ```
@@ -173,17 +181,17 @@ Shannon resolves content in priority order:
 User requests: "Create a presentation about Q1 roadmap"
 
 1. Check `CLAUDE.local.md` → any theme preference specified? Use it.
-2. Check `content/themes/pptx/` → any .md theme files? Use first match.
+2. Check `input/themes/pptx/` → any .md theme files? Use first match.
 3. Check `.claude/defaults/themes/pptx/minimal.md` → use built-in.
 4. If nothing exists → ask user or use plaintext.
 
 **No configuration files needed.** The filesystem IS the registry.
 
-### 4. Initiative Context: Auto-Tracking
+### 4. Brain Context: Auto-Tracking
 
-When working in `Initiatives/[name]/`:
+When working in `Brains/[name]/`:
 
-1. Shannon reads `Initiatives/[name]/CLAUDE.md` for context
+1. Shannon reads `Brains/[name]/CLAUDE.md` for context
 2. Tracks decisions, documents, status changes during work
 3. Updates the `CLAUDE.md` file with significant events
 4. Maintains living documentation automatically
@@ -194,7 +202,7 @@ When working in `Initiatives/[name]/`:
 - Status changes and blockers
 - Open questions and resolutions
 
-See `.claude/reference/initiative-auto-update.md` for protocol.
+See `.claude/reference/brain-auto-update.md` for protocol.
 
 ### 5. Agents: Specialized Sub-Assistants
 
@@ -204,7 +212,7 @@ Agents are isolated contexts with specific permissions:
 |-------|---------|-------------|---------|
 | `meeting-summarizer` | Transcript analysis | Read-only | Meeting content detected |
 | `updating-todos` | LNO prioritization | Read + write | User asks about priorities |
-| `initiative-tracker` | Context updates | Read + write | Proactive in initiatives |
+| `brain-tracker` | Context updates | Read + write | Proactive in Brains |
 | `exec-reviewer` | Strategic feedback | Read-only | Request for exec perspective |
 | `ux-reviewer` | UX feedback | Read-only | Request for UX perspective |
 | `pdf-builder` | PDF generation | Read + write + terminal | PDF creation request |
@@ -238,7 +246,7 @@ Agents auto-activate based on trigger phrases in their YAML description.
 - Always inform user what's missing, never block
 
 **Example:**  
-"Using minimal theme since no brand theme installed. Add to `content/themes/pptx/` to customize."
+"Using minimal theme since no brand theme installed. Add to `input/themes/pptx/` to customize."
 
 ### 3. Privacy-First
 
@@ -258,8 +266,8 @@ Agents auto-activate based on trigger phrases in their YAML description.
 
 **Implementation:**
 - Skills in `.claude/skills/[name]/SKILL.md`
-- Templates in `content/templates/[name].md`
-- Themes in `content/themes/[type]/[name].[ext]`
+- Templates in `input/templates/[name].md`
+- Themes in `input/themes/[type]/[name].[ext]`
 - No need to "register" new content
 
 **Benefit:** Add files → Shannon discovers them automatically.
@@ -271,7 +279,7 @@ Agents auto-activate based on trigger phrases in their YAML description.
 **Implementation:**
 - Skills load on-demand via description matching
 - Protocols load when specific context triggers them
-- Initiative context loads when working in initiative folder
+- Brain context loads when working in Brain folder
 - Never load "just in case"
 
 **Benefit:** Efficient context usage, faster responses.
@@ -332,7 +340,7 @@ my-company-content-pack/
 
 ```bash
 git clone https://github.com/my-org/content-pack.git
-cp -r content-pack/* content/
+cp -r content-pack/* input/
 ```
 
 **No manifest required.** Shannon discovers files via conventions.
@@ -391,19 +399,19 @@ description: When to activate this skill and what it does.
 3. Shannon discovers it automatically
 4. Activates when description matches user intent
 
-See `.claude/reference/structure-manifest.md` for detailed spec.
+See system-health-check skill (`.claude/skills/system-health-check/`) for detailed spec.
 
 ### Adding Custom Content Types
 
 Content is extensible beyond built-in types:
 
-1. Create folder: `content/my-custom-type/`
-2. Add files: `content/my-custom-type/my-file.md`
+1. Create folder: `input/my-custom-type/`
+2. Add files: `input/my-custom-type/my-file.md`
 3. Reference from skill or protocol
 4. Shannon discovers it automatically
 
 **Example:**  
-Add `content/personas/` for user persona definitions. Reference from skills that need persona context.
+Add `input/personas/` for user persona definitions. Reference from skills that need persona context.
 
 ---
 
@@ -412,7 +420,7 @@ Add `content/personas/` for user persona definitions. Reference from skills that
 **Skill activation:** < 1 second (description scan + load)  
 **Context resolution:** Instant (filesystem lookup)  
 **Quality gates:** Negligible (framework application)  
-**Initiative updates:** < 2 seconds (file write)
+**Brain updates:** < 2 seconds (file write)
 
 **Context efficiency:**  
 - Lazy loading keeps token usage minimal
@@ -431,8 +439,8 @@ Add `content/personas/` for user persona definitions. Reference from skills that
 
 **Gitignore configuration:**
 - `CLAUDE.local.md` never committed
-- `content/org/` typically gitignored (contains PII)
-- Initiative folders can be private repos
+- `input/org/` typically gitignored (contains PII)
+- Brain folders can be private repos
 
 **Content pack security:**
 - Content packs are just files
@@ -449,12 +457,12 @@ Add `content/personas/` for user persona definitions. Reference from skills that
 - Explicitly mention framework: "Use CRAFT method to draft email"
 
 **"Content not found"**
-- Check file is in correct path (e.g., `content/themes/pptx/`)
+- Check file is in correct path (e.g., `input/themes/pptx/`)
 - Check filename extension matches convention
 - Shannon will inform you what's missing
 
 **"Quality gates failing"**
-- Review `.claude/reference/quality-framework.md`
+- Review `.claude/rules/quality-gates.md`
 - Check if output answers "Why does this matter?"
 - Verify trade-offs are explicit
 - Ensure success metrics are quantified
@@ -464,7 +472,7 @@ Add `content/personas/` for user persona definitions. Reference from skills that
 ## Further Reading
 
 - `.claude/CLAUDE.md` - Full system instructions
-- `.claude/reference/content-contract.md` - Content system details
-- `.claude/reference/structure-manifest.md` - Skill structure spec
-- `.claude/reference/quality-framework.md` - Quality gates explained
+- `.claude/rules/input-resolution.md` - Content system details
+- `.claude/skills/system-health-check/` - System diagnostic skill
+- `.claude/rules/quality-gates.md` - Quality gates explained
 - `CONTRIBUTING.md` - How to create skills and contribute

@@ -152,8 +152,8 @@ For product-specific context (product name, key terms, stakeholders), see `CLAUD
 
 When drafting emails:
 - **Stakeholders**: Reference `Reference/corporate-strategy/` for org context
-- **Initiatives**: Reference `Initiatives/*/CLAUDE.md` for project context
-- **Colleagues**: Reference `content/org/colleagues.json` for name verification
+- **Brains**: Reference `Brains/*/CLAUDE.md` for project context
+- **Colleagues**: Reference `input/org/colleagues.json` for name verification
 
 ## Anti-Patterns to Avoid
 
