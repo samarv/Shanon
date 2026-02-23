@@ -46,7 +46,7 @@ Use this structure for an email or DM to your "Personal Board of Directors."
 
 ## Examples
 
-### Example 1: Prioritizing Content/Product Topics
+### Example 1: Prioritizing input/Product Topics
 **Context:** You have 9 potential features to build or 9 topics for a presentation.
 **Application:** Email 10 peers. Ask: "Which 2 of these would you actually pay for/attend, and what is one you think I should stay far away from?"
 **Output:** You discover that a topic you thought was "safe" is actually considered "boring" by experts, and a niche topic has high emotional resonance.

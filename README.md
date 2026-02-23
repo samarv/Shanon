@@ -492,7 +492,7 @@ Shannon always prefers your company's standards:
 
 ### Phase 3: Team Rollout (Month 2)
 - Share your `.claude/` setup (not CLAUDE.local.md—that's personal)
-- Create shared `content/` pack with company templates
+- Create shared `input/` pack with company templates
 - Team members clone and customize
 - Collective PM practice improves
 
@@ -650,7 +650,7 @@ Always review and validate outputs before saving. Sample-check generated content
 ### Customization & Sharing
 
 **Q: What if my company uses different terminology?**
-Customize `content/` with your company's templates, voice, and standards. Shannon adapts to your organization's language.
+Customize `input/` with your company's templates, voice, and standards. Shannon adapts to your organization's language.
 
 **Q: What gets shared if I commit this to git?**
 Everything except `.claude/CLAUDE.local.md` (personal context is gitignored). Share core frameworks, keep personal details private.

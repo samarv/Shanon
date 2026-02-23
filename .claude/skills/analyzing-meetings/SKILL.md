@@ -13,7 +13,7 @@ description: |
 Analyze meeting input to prepare it for routing and summarization:
 1. **Classify input type** (transcript vs notes vs hybrid)
 2. **Attribute speakers** with confidence levels
-3. **Verify names** against `content/org/colleagues.json`
+3. **Verify names** against `input/org/colleagues.json`
 
 For product-specific context, see `CLAUDE.local.md`.
 
@@ -131,7 +131,7 @@ a) [Name 1]  b) [Name 2]  c) Someone else  d) Unknown
 
 ### Purpose
 
-Transcription services often misspell names. Use `content/org/colleagues.json` to verify.
+Transcription services often misspell names. Use `input/org/colleagues.json` to verify.
 
 ### When to Verify
 

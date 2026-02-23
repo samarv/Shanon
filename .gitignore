@@ -8,18 +8,6 @@
 input/*
 !input/README.md
 
-# Brain work products (user-specific)
-Brains/*
-!Brains/README.md
-!Brains/INDEX.md
-
-# Output folder
-output/
-
-# Legacy folders
-Operations/
-Output/
-cursor-PM-Content/
 
 # OS files
 .DS_Store

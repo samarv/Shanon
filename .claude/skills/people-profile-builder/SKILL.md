@@ -160,7 +160,7 @@ Profiles should evolve from behavioral patterns to predictive mental models over
 
 1. **Search for principle evidence**:
    ```bash
-   grep -r "\[WHY STATED\]" content/org/profiles/
+   grep -r "\[WHY STATED\]" input/org/profiles/
    ```
 
 2. **Cluster by theme**: Group related "why" statements across different interactions

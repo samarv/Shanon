@@ -14,7 +14,7 @@ Every company is an equation where you pour investment into one side and get ret
 
 ### 1. Identify the Foundational Equation
 Define the relationship between your primary costs and your revenue drivers.
-*   **Content/Inventory Cost:** Is the cost to produce or acquire the "value" fixed or variable? (e.g., Quibi's $2B bespoke content vs. YouTube's user-generated content).
+*   **input/Inventory Cost:** Is the cost to produce or acquire the "value" fixed or variable? (e.g., Quibi's $2B bespoke content vs. YouTube's user-generated content).
 *   **Acquisition Strategy:** Is the growth organic/word-of-mouth or dependent on paid acquisition (CAC)?
 *   **Retention Requirement:** What is the "break-even" retention rate required to recoup the cost of the initial investment?
 

@@ -38,4 +38,4 @@ Before delivering summary:
 
 ## Name Verification
 
-Use `content/org/colleagues.json` to verify and correct colleague names that may be misspelled in transcripts.
+Use `input/org/colleagues.json` to verify and correct colleague names that may be misspelled in transcripts.

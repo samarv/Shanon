@@ -6,7 +6,7 @@ Protocol for verifying and correcting colleague names in meeting transcripts.
 
 ## Purpose
 
-Transcription services often misspell or mishear names. Use `content/org/colleagues.json` to verify and correct names.
+Transcription services often misspell or mishear names. Use `input/org/colleagues.json` to verify and correct names.
 
 ---
 
@@ -95,7 +95,7 @@ Skip verification for:
 ## Integration with Speaker Attribution
 
 When attribution inference suggests a name:
-1. Check against `content/org/colleagues.json`
+1. Check against `input/org/colleagues.json`
 2. Verify role/team alignment
 3. If match found → Use correct spelling
 4. If uncertain → Include both inference and verification question

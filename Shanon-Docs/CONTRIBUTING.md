@@ -272,7 +272,7 @@ Official content pack for [Company Name].
 
 \```bash
 git clone [this-repo] shannon-content
-cp -r shannon-content/* [your-shannon]/input/
+cp -r shannon-input/* [your-shannon]/input/
 \```
 
 ## What's Included
