@@ -303,4 +303,4 @@ For product-specific context (product name, key terms, stakeholders), see `CLAUD
 When drafting Slack messages:
 - **Stakeholders**: Reference `Reference/corporate-strategy/` for org context
 - **Initiatives**: Reference `Initiatives/*/CLAUDE.md` for project context
-- **Colleagues**: Reference `Reference/colleagues.json` for name verification
+- **Colleagues**: Reference `content/org/colleagues.json` for name verification

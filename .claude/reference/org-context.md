@@ -2,7 +2,7 @@
 
 ## Colleagues Database
 
-**File**: `Reference/colleagues.json`
+**File**: `content/org/colleagues.json`
 
 This file contains organizational chart data. Use it to:
 - Identify correct spelling of colleague names
@@ -17,7 +17,7 @@ For user-specific organizational context (name, team, manager, reporting chain),
 
 ## When to Reference
 
-Automatically consult `Reference/colleagues.json` when:
+Automatically consult `content/org/colleagues.json` when:
 - Writing emails to/about colleagues (verify name spelling)
 - Discussing organizational context or team structures
 - Mentioning stakeholders in documents
@@ -27,7 +27,7 @@ Automatically consult `Reference/colleagues.json` when:
 ## Name Correction Protocol
 
 Before finalizing any document mentioning colleagues:
-1. Check `Reference/colleagues.json` for correct spelling
+1. Check `content/org/colleagues.json` for correct spelling
 2. Verify organizational context is accurate
 3. Use full names on first reference, then can use first names
 
